@@ -1,5 +1,5 @@
 # Microprocessamentos
-*Programado para Microprocessador ARM STM32 Núlceo-64*
+*Programado para Microprocessador ARM STM32 Núlceo-64*/n
 *Todos códigos acompanham o diagrama elétrico do Hardware*
 
 Olá, meu nome é Rafael Volkmer; sou aluno do terceiro ano da Fundação Liberato Salzano Vieira da Cunha (Novo-Hamburgo, RS, Brasil) e estou, em minha disciplina de microprossesamentos I, desenvolvendo códigos para o microcontrolasdor ARM STM32. Aqui, deixarei um repositório com todos os códigos que venho fazendo durante o ano e com tudo que ainda farei no ano seguinte. Todos os códigos são programados em linguagem C, e sempre prezo pela facilidade de entendimento e a estética deles, tornando-os o mais "clean code" possível. Espero que gostem do meu estilo de programação e do modo que estou desenvolvendo, mesmo ainda sendo um estudante.
