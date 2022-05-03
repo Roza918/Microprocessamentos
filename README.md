@@ -8,4 +8,5 @@ Olá, meu nome é Rafael Volkmer; sou aluno do terceiro ano da Fundação Libera
 *Programmed for ARM STM32 Core-64 Microprocessor*
 
 *All codes accompany the electrical diagram of the Hardware*
+
 Hello, my name is Rafael Volkmer; I am a third year student at Fundação Liberato Salzano Vieira da Cunha (Novo-Hamburgo, RS, Brazil) and, in my microprocessing I course, developing codes for the ARM STM32 microcontroller. Here, I'll leave a repository with all the code I've been doing during the year and with everything I'll do in the following year. All codes are programmed in C language, and I always appreciate their ease of understanding and aesthetics, making them as "clean code" as possible. I hope you like my programming style and the way I'm developing, even though I'm still a student.
