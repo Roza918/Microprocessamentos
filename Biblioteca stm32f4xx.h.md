@@ -2774,7 +2774,8 @@ typedef struct
 #define  ADC_CSR_STRT3                       ((uint32_t)0x00100000)        /*!<ADC3 Regular channel Start flag */
 #define  ADC_CSR_DOVR3                       ((uint32_t)0x00200000)        /*!<ADC3 DMA overrun  flag */
 ```
-/*******************  Bit definition for ADC_CCR register  ********************/
+> Bit definition for ADC_CCR register
+```
 #define  ADC_CCR_MULTI                       ((uint32_t)0x0000001F)        /*!<MULTI[4:0] bits (Multi-ADC mode selection) */  
 #define  ADC_CCR_MULTI_0                     ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  ADC_CCR_MULTI_1                     ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -2795,19 +2796,17 @@ typedef struct
 #define  ADC_CCR_ADCPRE_1                    ((uint32_t)0x00020000)        /*!<Bit 1 */
 #define  ADC_CCR_VBATE                       ((uint32_t)0x00400000)        /*!<VBAT Enable */
 #define  ADC_CCR_TSVREFE                     ((uint32_t)0x00800000)        /*!<Temperature Sensor and VREFINT Enable */
-
-##### Bit definition for ADC_CDR register
-
+```
+> Bit definition for ADC_CDR register
+```
 #define  ADC_CDR_DATA1                      ((uint32_t)0x0000FFFF)         /*!<1st data of a pair of regular conversions */
 #define  ADC_CDR_DATA2                      ((uint32_t)0xFFFF0000)         /*!<2nd data of a pair of regular conversions */
+```                                                                     
+## Controller Area Network                          
 
-/******************************************************************************/
-/*                                                                            */
-/*                         Controller Area Network                            */
-/*                                                                            */
-/******************************************************************************/
-/*!<CAN control and status registers */
-/*******************  Bit definition for CAN_MCR register  ********************/
+> Bit definition for CAN_MCR register
+> 
+```
 #define  CAN_MCR_INRQ                        ((uint16_t)0x0001)            /*!<Initialization Request */
 #define  CAN_MCR_SLEEP                       ((uint16_t)0x0002)            /*!<Sleep Mode Request */
 #define  CAN_MCR_TXFP                        ((uint16_t)0x0004)            /*!<Transmit FIFO Priority */
@@ -2817,8 +2816,9 @@ typedef struct
 #define  CAN_MCR_ABOM                        ((uint16_t)0x0040)            /*!<Automatic Bus-Off Management */
 #define  CAN_MCR_TTCM                        ((uint16_t)0x0080)            /*!<Time Triggered Communication Mode */
 #define  CAN_MCR_RESET                       ((uint16_t)0x8000)            /*!<bxCAN software master reset */
-
-/*******************  Bit definition for CAN_MSR register  ********************/
+```
+> Bit definition for CAN_MSR register
+```
 #define  CAN_MSR_INAK                        ((uint16_t)0x0001)            /*!<Initialization Acknowledge */
 #define  CAN_MSR_SLAK                        ((uint16_t)0x0002)            /*!<Sleep Acknowledge */
 #define  CAN_MSR_ERRI                        ((uint16_t)0x0004)            /*!<Error Interrupt */
@@ -2828,8 +2828,9 @@ typedef struct
 #define  CAN_MSR_RXM                         ((uint16_t)0x0200)            /*!<Receive Mode */
 #define  CAN_MSR_SAMP                        ((uint16_t)0x0400)            /*!<Last Sample Point */
 #define  CAN_MSR_RX                          ((uint16_t)0x0800)            /*!<CAN Rx Signal */
-
-/*******************  Bit definition for CAN_TSR register  ********************/
+```
+> Bit definition for CAN_TSR register
+```
 #define  CAN_TSR_RQCP0                       ((uint32_t)0x00000001)        /*!<Request Completed Mailbox0 */
 #define  CAN_TSR_TXOK0                       ((uint32_t)0x00000002)        /*!<Transmission OK of Mailbox0 */
 #define  CAN_TSR_ALST0                       ((uint32_t)0x00000004)        /*!<Arbitration Lost for Mailbox0 */
@@ -2856,20 +2857,23 @@ typedef struct
 #define  CAN_TSR_LOW0                        ((uint32_t)0x20000000)        /*!<Lowest Priority Flag for Mailbox 0 */
 #define  CAN_TSR_LOW1                        ((uint32_t)0x40000000)        /*!<Lowest Priority Flag for Mailbox 1 */
 #define  CAN_TSR_LOW2                        ((uint32_t)0x80000000)        /*!<Lowest Priority Flag for Mailbox 2 */
-
-/*******************  Bit definition for CAN_RF0R register  *******************/
+```
+> Bit definition for CAN_RF0R register
+```
 #define  CAN_RF0R_FMP0                       ((uint8_t)0x03)               /*!<FIFO 0 Message Pending */
 #define  CAN_RF0R_FULL0                      ((uint8_t)0x08)               /*!<FIFO 0 Full */
 #define  CAN_RF0R_FOVR0                      ((uint8_t)0x10)               /*!<FIFO 0 Overrun */
 #define  CAN_RF0R_RFOM0                      ((uint8_t)0x20)               /*!<Release FIFO 0 Output Mailbox */
-
-/*******************  Bit definition for CAN_RF1R register  *******************/
+```
+> Bit definition for CAN_RF1R register
+```
 #define  CAN_RF1R_FMP1                       ((uint8_t)0x03)               /*!<FIFO 1 Message Pending */
 #define  CAN_RF1R_FULL1                      ((uint8_t)0x08)               /*!<FIFO 1 Full */
 #define  CAN_RF1R_FOVR1                      ((uint8_t)0x10)               /*!<FIFO 1 Overrun */
 #define  CAN_RF1R_RFOM1                      ((uint8_t)0x20)               /*!<Release FIFO 1 Output Mailbox */
-
-/********************  Bit definition for CAN_IER register  *******************/
+```
+> Bit definition for CAN_IER register
+```
 #define  CAN_IER_TMEIE                       ((uint32_t)0x00000001)        /*!<Transmit Mailbox Empty Interrupt Enable */
 #define  CAN_IER_FMPIE0                      ((uint32_t)0x00000002)        /*!<FIFO Message Pending Interrupt Enable */
 #define  CAN_IER_FFIE0                       ((uint32_t)0x00000004)        /*!<FIFO Full Interrupt Enable */
@@ -2884,8 +2888,9 @@ typedef struct
 #define  CAN_IER_ERRIE                       ((uint32_t)0x00008000)        /*!<Error Interrupt Enable */
 #define  CAN_IER_WKUIE                       ((uint32_t)0x00010000)        /*!<Wakeup Interrupt Enable */
 #define  CAN_IER_SLKIE                       ((uint32_t)0x00020000)        /*!<Sleep Interrupt Enable */
-
-/********************  Bit definition for CAN_ESR register  *******************/
+```
+> Bit definition for CAN_ESR register
+```
 #define  CAN_ESR_EWGF                        ((uint32_t)0x00000001)        /*!<Error Warning Flag */
 #define  CAN_ESR_EPVF                        ((uint32_t)0x00000002)        /*!<Error Passive Flag */
 #define  CAN_ESR_BOFF                        ((uint32_t)0x00000004)        /*!<Bus-Off Flag */
@@ -2897,128 +2902,149 @@ typedef struct
 
 #define  CAN_ESR_TEC                         ((uint32_t)0x00FF0000)        /*!<Least significant byte of the 9-bit Transmit Error Counter */
 #define  CAN_ESR_REC                         ((uint32_t)0xFF000000)        /*!<Receive Error Counter */
-
-/*******************  Bit definition for CAN_BTR register  ********************/
+```
+> Bit definition for CAN_BTR register
+```
 #define  CAN_BTR_BRP                         ((uint32_t)0x000003FF)        /*!<Baud Rate Prescaler */
 #define  CAN_BTR_TS1                         ((uint32_t)0x000F0000)        /*!<Time Segment 1 */
 #define  CAN_BTR_TS2                         ((uint32_t)0x00700000)        /*!<Time Segment 2 */
 #define  CAN_BTR_SJW                         ((uint32_t)0x03000000)        /*!<Resynchronization Jump Width */
 #define  CAN_BTR_LBKM                        ((uint32_t)0x40000000)        /*!<Loop Back Mode (Debug) */
 #define  CAN_BTR_SILM                        ((uint32_t)0x80000000)        /*!<Silent Mode */
+```
+## Mailbox registers
 
-/*!<Mailbox registers */
-/******************  Bit definition for CAN_TI0R register  ********************/
+> Bit definition for CAN_TI0R register
+```
 #define  CAN_TI0R_TXRQ                       ((uint32_t)0x00000001)        /*!<Transmit Mailbox Request */
 #define  CAN_TI0R_RTR                        ((uint32_t)0x00000002)        /*!<Remote Transmission Request */
 #define  CAN_TI0R_IDE                        ((uint32_t)0x00000004)        /*!<Identifier Extension */
 #define  CAN_TI0R_EXID                       ((uint32_t)0x001FFFF8)        /*!<Extended Identifier */
 #define  CAN_TI0R_STID                       ((uint32_t)0xFFE00000)        /*!<Standard Identifier or Extended Identifier */
-
-/******************  Bit definition for CAN_TDT0R register  *******************/
+```
+> Bit definition for CAN_TDT0R register
+```
 #define  CAN_TDT0R_DLC                       ((uint32_t)0x0000000F)        /*!<Data Length Code */
 #define  CAN_TDT0R_TGT                       ((uint32_t)0x00000100)        /*!<Transmit Global Time */
 #define  CAN_TDT0R_TIME                      ((uint32_t)0xFFFF0000)        /*!<Message Time Stamp */
-
-/******************  Bit definition for CAN_TDL0R register  *******************/
+```
+> Bit definition for CAN_TDL0R register
+```
 #define  CAN_TDL0R_DATA0                     ((uint32_t)0x000000FF)        /*!<Data byte 0 */
 #define  CAN_TDL0R_DATA1                     ((uint32_t)0x0000FF00)        /*!<Data byte 1 */
 #define  CAN_TDL0R_DATA2                     ((uint32_t)0x00FF0000)        /*!<Data byte 2 */
 #define  CAN_TDL0R_DATA3                     ((uint32_t)0xFF000000)        /*!<Data byte 3 */
-
-/******************  Bit definition for CAN_TDH0R register  *******************/
+```
+> Bit definition for CAN_TDH0R register
+```
 #define  CAN_TDH0R_DATA4                     ((uint32_t)0x000000FF)        /*!<Data byte 4 */
 #define  CAN_TDH0R_DATA5                     ((uint32_t)0x0000FF00)        /*!<Data byte 5 */
 #define  CAN_TDH0R_DATA6                     ((uint32_t)0x00FF0000)        /*!<Data byte 6 */
 #define  CAN_TDH0R_DATA7                     ((uint32_t)0xFF000000)        /*!<Data byte 7 */
-
-/*******************  Bit definition for CAN_TI1R register  *******************/
+```
+> Bit definition for CAN_TI1R register
+```
 #define  CAN_TI1R_TXRQ                       ((uint32_t)0x00000001)        /*!<Transmit Mailbox Request */
 #define  CAN_TI1R_RTR                        ((uint32_t)0x00000002)        /*!<Remote Transmission Request */
 #define  CAN_TI1R_IDE                        ((uint32_t)0x00000004)        /*!<Identifier Extension */
 #define  CAN_TI1R_EXID                       ((uint32_t)0x001FFFF8)        /*!<Extended Identifier */
 #define  CAN_TI1R_STID                       ((uint32_t)0xFFE00000)        /*!<Standard Identifier or Extended Identifier */
-
-/*******************  Bit definition for CAN_TDT1R register  ******************/
+```
+> Bit definition for CAN_TDT1R register
+```
 #define  CAN_TDT1R_DLC                       ((uint32_t)0x0000000F)        /*!<Data Length Code */
 #define  CAN_TDT1R_TGT                       ((uint32_t)0x00000100)        /*!<Transmit Global Time */
 #define  CAN_TDT1R_TIME                      ((uint32_t)0xFFFF0000)        /*!<Message Time Stamp */
-
-/*******************  Bit definition for CAN_TDL1R register  ******************/
+```
+> Bit definition for CAN_TDL1R register
+```
 #define  CAN_TDL1R_DATA0                     ((uint32_t)0x000000FF)        /*!<Data byte 0 */
 #define  CAN_TDL1R_DATA1                     ((uint32_t)0x0000FF00)        /*!<Data byte 1 */
 #define  CAN_TDL1R_DATA2                     ((uint32_t)0x00FF0000)        /*!<Data byte 2 */
 #define  CAN_TDL1R_DATA3                     ((uint32_t)0xFF000000)        /*!<Data byte 3 */
-
-/*******************  Bit definition for CAN_TDH1R register  ******************/
+```
+> Bit definition for CAN_TDH1R register
+```
 #define  CAN_TDH1R_DATA4                     ((uint32_t)0x000000FF)        /*!<Data byte 4 */
 #define  CAN_TDH1R_DATA5                     ((uint32_t)0x0000FF00)        /*!<Data byte 5 */
 #define  CAN_TDH1R_DATA6                     ((uint32_t)0x00FF0000)        /*!<Data byte 6 */
 #define  CAN_TDH1R_DATA7                     ((uint32_t)0xFF000000)        /*!<Data byte 7 */
-
-/*******************  Bit definition for CAN_TI2R register  *******************/
+```
+> Bit definition for CAN_TI2R register
+```
 #define  CAN_TI2R_TXRQ                       ((uint32_t)0x00000001)        /*!<Transmit Mailbox Request */
 #define  CAN_TI2R_RTR                        ((uint32_t)0x00000002)        /*!<Remote Transmission Request */
 #define  CAN_TI2R_IDE                        ((uint32_t)0x00000004)        /*!<Identifier Extension */
 #define  CAN_TI2R_EXID                       ((uint32_t)0x001FFFF8)        /*!<Extended identifier */
 #define  CAN_TI2R_STID                       ((uint32_t)0xFFE00000)        /*!<Standard Identifier or Extended Identifier */
-
-/*******************  Bit definition for CAN_TDT2R register  ******************/  
+```
+> Bit definition for CAN_TDT2R register 
+```
 #define  CAN_TDT2R_DLC                       ((uint32_t)0x0000000F)        /*!<Data Length Code */
 #define  CAN_TDT2R_TGT                       ((uint32_t)0x00000100)        /*!<Transmit Global Time */
 #define  CAN_TDT2R_TIME                      ((uint32_t)0xFFFF0000)        /*!<Message Time Stamp */
-
-/*******************  Bit definition for CAN_TDL2R register  ******************/
+```
+> Bit definition for CAN_TDL2R register
+```
 #define  CAN_TDL2R_DATA0                     ((uint32_t)0x000000FF)        /*!<Data byte 0 */
 #define  CAN_TDL2R_DATA1                     ((uint32_t)0x0000FF00)        /*!<Data byte 1 */
 #define  CAN_TDL2R_DATA2                     ((uint32_t)0x00FF0000)        /*!<Data byte 2 */
 #define  CAN_TDL2R_DATA3                     ((uint32_t)0xFF000000)        /*!<Data byte 3 */
-
-/*******************  Bit definition for CAN_TDH2R register  ******************/
+```
+> Bit definition for CAN_TDH2R register
+```
 #define  CAN_TDH2R_DATA4                     ((uint32_t)0x000000FF)        /*!<Data byte 4 */
 #define  CAN_TDH2R_DATA5                     ((uint32_t)0x0000FF00)        /*!<Data byte 5 */
 #define  CAN_TDH2R_DATA6                     ((uint32_t)0x00FF0000)        /*!<Data byte 6 */
 #define  CAN_TDH2R_DATA7                     ((uint32_t)0xFF000000)        /*!<Data byte 7 */
-
-/*******************  Bit definition for CAN_RI0R register  *******************/
+```
+> Bit definition for CAN_RI0R register
+```
 #define  CAN_RI0R_RTR                        ((uint32_t)0x00000002)        /*!<Remote Transmission Request */
 #define  CAN_RI0R_IDE                        ((uint32_t)0x00000004)        /*!<Identifier Extension */
 #define  CAN_RI0R_EXID                       ((uint32_t)0x001FFFF8)        /*!<Extended Identifier */
 #define  CAN_RI0R_STID                       ((uint32_t)0xFFE00000)        /*!<Standard Identifier or Extended Identifier */
-
-/*******************  Bit definition for CAN_RDT0R register  ******************/
+```
+> Bit definition for CAN_RDT0R register
+```
 #define  CAN_RDT0R_DLC                       ((uint32_t)0x0000000F)        /*!<Data Length Code */
 #define  CAN_RDT0R_FMI                       ((uint32_t)0x0000FF00)        /*!<Filter Match Index */
 #define  CAN_RDT0R_TIME                      ((uint32_t)0xFFFF0000)        /*!<Message Time Stamp */
-
-/*******************  Bit definition for CAN_RDL0R register  ******************/
+```
+> Bit definition for CAN_RDL0R register
+```
 #define  CAN_RDL0R_DATA0                     ((uint32_t)0x000000FF)        /*!<Data byte 0 */
 #define  CAN_RDL0R_DATA1                     ((uint32_t)0x0000FF00)        /*!<Data byte 1 */
 #define  CAN_RDL0R_DATA2                     ((uint32_t)0x00FF0000)        /*!<Data byte 2 */
 #define  CAN_RDL0R_DATA3                     ((uint32_t)0xFF000000)        /*!<Data byte 3 */
-
-/*******************  Bit definition for CAN_RDH0R register  ******************/
+```
+> Bit definition for CAN_RDH0R register
+```
 #define  CAN_RDH0R_DATA4                     ((uint32_t)0x000000FF)        /*!<Data byte 4 */
 #define  CAN_RDH0R_DATA5                     ((uint32_t)0x0000FF00)        /*!<Data byte 5 */
 #define  CAN_RDH0R_DATA6                     ((uint32_t)0x00FF0000)        /*!<Data byte 6 */
 #define  CAN_RDH0R_DATA7                     ((uint32_t)0xFF000000)        /*!<Data byte 7 */
-
-/*******************  Bit definition for CAN_RI1R register  *******************/
+```
+> Bit definition for CAN_RI1R register
+```
 #define  CAN_RI1R_RTR                        ((uint32_t)0x00000002)        /*!<Remote Transmission Request */
 #define  CAN_RI1R_IDE                        ((uint32_t)0x00000004)        /*!<Identifier Extension */
 #define  CAN_RI1R_EXID                       ((uint32_t)0x001FFFF8)        /*!<Extended identifier */
 #define  CAN_RI1R_STID                       ((uint32_t)0xFFE00000)        /*!<Standard Identifier or Extended Identifier */
-
-/*******************  Bit definition for CAN_RDT1R register  ******************/
+```
+> Bit definition for CAN_RDT1R register
+```
 #define  CAN_RDT1R_DLC                       ((uint32_t)0x0000000F)        /*!<Data Length Code */
 #define  CAN_RDT1R_FMI                       ((uint32_t)0x0000FF00)        /*!<Filter Match Index */
 #define  CAN_RDT1R_TIME                      ((uint32_t)0xFFFF0000)        /*!<Message Time Stamp */
-
-/*******************  Bit definition for CAN_RDL1R register  ******************/
+```
+> Bit definition for CAN_RDL1R register/
+```
 #define  CAN_RDL1R_DATA0                     ((uint32_t)0x000000FF)        /*!<Data byte 0 */
 #define  CAN_RDL1R_DATA1                     ((uint32_t)0x0000FF00)        /*!<Data byte 1 */
 #define  CAN_RDL1R_DATA2                     ((uint32_t)0x00FF0000)        /*!<Data byte 2 */
 #define  CAN_RDL1R_DATA3                     ((uint32_t)0xFF000000)        /*!<Data byte 3 */
-
+```
 /*******************  Bit definition for CAN_RDH1R register  ******************/
 #define  CAN_RDH1R_DATA4                     ((uint32_t)0x000000FF)        /*!<Data byte 4 */
 #define  CAN_RDH1R_DATA5                     ((uint32_t)0x0000FF00)        /*!<Data byte 5 */
