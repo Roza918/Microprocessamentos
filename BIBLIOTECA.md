@@ -1,10 +1,25 @@
 # BIBLIOTECA stm32f4xx.h
 
 ###### Autor: MCD Application Team
-###### Edições Anteriores: @Brief (fez quase todos os comentários) @Keil (fez a versão V1.2.0RC2, que usei como base pra edição)
-###### Editado por: Rafael V. Volkmer (só formatei no GitHub e passei pra minha língua natal, não escrevi nada de novo)
+
+###### Edições Anteriores:
+
+###### @Keil
+>Fez a versão V1.2.0RC2, que usei como base pra edição.
+###### @Brief 
+>Fez quase todos os comentários.
+###### Data 20/02/2013
+
+
+―――――――――――――― ― ――
+
+###### Editado por: Rafael V. Volkmer
+
+>Só formatei no GitHub e passei pra minha língua natal, não escrevi nada de novo.
 
 ###### Data: 03/05/2022
+
+――――――――――――――――――――――――――――
 
 Arquivo de cabeçalho da camada de acesso periférico do dispositivo CMSIS Cortex-M4. Este arquivo contém todas as definições de registradores periféricos, definições de bits e mapeamento de memória para dispositivos STM32F4xx.
 O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos está usando no código-fonte C, geralmente em main.c. Este arquivo contém:
@@ -47,7 +62,7 @@ extern "C" {
 #endif /* __cplusplus */
 ```
 
-Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo.
+*Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo.*
 
 ```
 #if !defined (STM32F40XX) && !defined (STM32F427X) && !defined (STM32F429X) 
@@ -61,7 +76,7 @@ Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em 
 #endif
 ```
 
-Dica: Para evitar a modificação desse arquivo sempre que precisar alternar entre esses dispositivos, você pode definir o dispositivo no pré-processador do compilador da cadeia de ferramentas.
+*Dica: Para evitar a modificação desse arquivo sempre que precisar alternar entre esses dispositivos, você pode definir o dispositivo no pré-processador do compilador da cadeia de ferramentas.*
 
 ```
 #if !defined (STM32F40XX) && !defined (STM32F427X) && !defined (STM32F429X)
@@ -70,16 +85,16 @@ Dica: Para evitar a modificação desse arquivo sempre que precisar alternar ent
 
 #if !defined  (USE_STDPERIPH_DRIVER)
 ```
-Comente a linha abaixo se você não vai usar os drivers de periféricos. Nesse caso, esses drivers não serão incluídos e o código da aplicação será baseado no acesso direto aos registradores de periféricos
+*Comente a linha abaixo se você não vai usar os drivers de periféricos. Nesse caso, esses drivers não serão incluídos e o código da aplicação será baseado no acesso direto aos registradores de periféricos*
 
 ```
 /*#define USE_STDPERIPH_DRIVER */
 #endif /* USE_STDPERIPH_DRIVER */
 ```
 
-Na linha a seguir, ajuste o valor do oscilador externo de alta velocidade (HSE) usado em sua aplicação.
+*Na linha a seguir, ajuste o valor do oscilador externo de alta velocidade (HSE) usado em sua aplicação.*
    
-Dica: Para evitar modificar este arquivo sempre que precisar usar um HSE diferente, você pode definir o valor de HSE em seu pré-processador do compilador de cadeia de ferramentas.
+*Dica: Para evitar modificar este arquivo sempre que precisar usar um HSE diferente, você pode definir o valor de HSE em seu pré-processador do compilador de cadeia de ferramentas.*
 
 ```
 #if !defined  (HSE_VALUE) 
