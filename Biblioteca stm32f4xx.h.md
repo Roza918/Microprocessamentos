@@ -42,11 +42,7 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
   * Consulte a Licença para o idioma específico que rege as permissões e limitações sob a Licença.
 
 # Códigos
-
-##### CMSIS
-##### stm32f4xx
-
-――――――――――――――――――――――――――――
+##### CMSIS / stm32f4xx
 
 ``` 
 #ifndef __STM32F4xx_H
@@ -56,7 +52,7 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 extern "C" {
 #endif /* __cplusplus */
 ```
-## Library_configuration_section
+## Seção de Configuração da Biblioteca
 
 *Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo.*
 
@@ -123,7 +119,7 @@ extern "C" {
                                              |(__STM32F4XX_STDPERIPH_VERSION_SUB2 << 8)\
                                              |(__STM32F4XX_STDPERIPH_VERSION_RC))                                            
 ```
-# Configuration_section_for_CMSIS
+# Seção de Configuração para o CMSIS
 
 ## Configuração do Processador Cortex-M4 e Periféricos Core.
 
