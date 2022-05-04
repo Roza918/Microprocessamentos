@@ -28,7 +28,7 @@ int main(void)
        {
           	entradas=GPIOB->IDR & 0b010; //Mascara com PB1
 
-	            if (entradas==0b010)
+	            if (contador==0b010)
          
 		              GPIOC->ODR=0b001; // Liga led
 	            else
