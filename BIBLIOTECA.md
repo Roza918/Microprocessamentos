@@ -34,22 +34,20 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 ##### @addtogroup CMSIS
 
 ##### @addtogroup stm32f4xx
+##### @addtogroup Library_configuration_section
+
 ――――――――――――――――――――――――――――
-    
+
+``` 
 #ifndef __STM32F4xx_H
 #define __STM32F4xx_H
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" {
 #endif /* __cplusplus */
-  
-/** @addtogroup Library_configuration_section
-  * @{
-  */
-  
-/* Uncomment the line below according to the target STM32 device used in your
-   application 
-  */
+```
+Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo
+
 
 #if !defined (STM32F40XX) && !defined (STM32F427X) && !defined (STM32F429X) 
   /* #define STM32F40XX */   /*!< STM32F40xx/41xx Devices */
