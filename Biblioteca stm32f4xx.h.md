@@ -47,9 +47,7 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 # Códigos
 
 ##### @addtogroup CMSIS
-
 ##### @addtogroup stm32f4xx
-##### @addtogroup Library_configuration_section
 
 ――――――――――――――――――――――――――――
 
@@ -61,6 +59,7 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 extern "C" {
 #endif /* __cplusplus */
 ```
+##### @addtogroup Library_configuration_section
 
 *Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo.*
 
@@ -98,26 +97,26 @@ extern "C" {
 
 ```
 #if !defined  (HSE_VALUE) 
-  #define HSE_VALUE    ((uint32_t)25000000) /*!< Value of the External oscillator in Hz */
+#define HSE_VALUE    ((uint32_t)25000000) /*!< Value of the External oscillator in Hz */
   
 #endif /* HSE_VALUE */
 ```
 
-/**
- * @brief In the following line adjust the External High Speed oscillator (HSE) Startup 
-   Timeout value 
-   */
+*Na linha a seguir, ajuste o valor do Tempo limite de inicialização do oscilador externo de alta velocidade (HSE).*
+
+```
 #if !defined  (HSE_STARTUP_TIMEOUT) 
-  #define HSE_STARTUP_TIMEOUT    ((uint16_t)0x0600)   /*!< Time out for HSE start up */
+#define HSE_STARTUP_TIMEOUT    ((uint16_t)0x0600)   /*!< Time out for HSE start up */
 #endif /* HSE_STARTUP_TIMEOUT */   
 
 #if !defined  (HSI_VALUE)   
-  #define HSI_VALUE    ((uint32_t)16000000) /*!< Value of the Internal oscillator in Hz*/
-#endif /* HSI_VALUE */   
+#define HSI_VALUE    ((uint32_t)16000000) /*!< Value of the Internal oscillator in Hz*/
+#endif /* HSI_VALUE */
+```
 
-/**
- * @brief STM32F4XX Standard Peripherals Library version number V1.2.0CR2
-   */
+*Número da versão da biblioteca de periféricos padrão STM32F4XX V1.2.0CR2*
+
+```
 #define __STM32F4XX_STDPERIPH_VERSION_MAIN   (0x01) /*!< [31:24] main version */                                  
 #define __STM32F4XX_STDPERIPH_VERSION_SUB1   (0x02) /*!< [23:16] sub1 version */
 #define __STM32F4XX_STDPERIPH_VERSION_SUB2   (0x00) /*!< [15:8]  sub2 version */
@@ -125,40 +124,40 @@ extern "C" {
 #define __STM32F4XX_STDPERIPH_VERSION        ((__STM32F4XX_STDPERIPH_VERSION_MAIN << 24)\
                                              |(__STM32F4XX_STDPERIPH_VERSION_SUB1 << 16)\
                                              |(__STM32F4XX_STDPERIPH_VERSION_SUB2 << 8)\
-                                             |(__STM32F4XX_STDPERIPH_VERSION_RC))
-                                             
-/**
-  * @}
-  */
+                                             |(__STM32F4XX_STDPERIPH_VERSION_RC))                                            
+```
 
-/** @addtogroup Configuration_section_for_CMSIS
-  * @{
-  */
+####### @addtogroup Configuration_section_for_CMSIS
 
-/**
- * @brief Configuration of the Cortex-M4 Processor and Core Peripherals 
- */
+*Configuração do Processador Cortex-M4 e Periféricos Core.*
+
+ ```
 #define __CM4_REV                 0x0001  /*!< Core revision r0p1                            */
 #define __MPU_PRESENT             1       /*!< STM32F4XX provides an MPU                     */
 #define __NVIC_PRIO_BITS          4       /*!< STM32F4XX uses 4 Bits for the Priority Levels */
 #define __Vendor_SysTickConfig    0       /*!< Set to 1 if different SysTick Config is used  */
 #define __FPU_PRESENT             1       /*!< FPU present                                   */
+```
 
-/**
- * @brief STM32F4XX Interrupt Number Definition, according to the selected device 
- *        in @ref Library_configuration_section 
- */
+*STM32F4XX Definição do Número de Interrupção, de acordo com o dispositivo selecionado na @ref Library_configuration_section.*
+ 
+```
 typedef enum IRQn
 {
-/******  Cortex-M4 Processor Exceptions Numbers ****************************************************************/
-  NonMaskableInt_IRQn         = -14,    /*!< 2 Non Maskable Interrupt                                          */
-  MemoryManagement_IRQn       = -12,    /*!< 4 Cortex-M4 Memory Management Interrupt                           */
-  BusFault_IRQn               = -11,    /*!< 5 Cortex-M4 Bus Fault Interrupt                                   */
-  UsageFault_IRQn             = -10,    /*!< 6 Cortex-M4 Usage Fault Interrupt                                 */
-  SVCall_IRQn                 = -5,     /*!< 11 Cortex-M4 SV Call Interrupt                                    */
-  DebugMonitor_IRQn           = -4,     /*!< 12 Cortex-M4 Debug Monitor Interrupt                              */
-  PendSV_IRQn                 = -2,     /*!< 14 Cortex-M4 Pend SV Interrupt                                    */
-  SysTick_IRQn                = -1,     /*!< 15 Cortex-M4 System Tick Interrupt                                */
+```
+## Cortex-M4 Números de exceções do processador
+
+```
+NonMaskableInt_IRQn     = -14,     //!< 2 Non Maskable Interrupt
+MemoryManagement_IRQn   = -12,     //!< 4 Cortex-M4 Memory Management Interrupt
+BusFault_IRQn           = -11,    //!< 5 Cortex-M4 Bus Fault Interrupt                              
+UsageFault_IRQn         = -10,    //!< 6 Cortex-M4 Usage Fault Interrupt                             
+SVCall_IRQn             = -5,     //!< 11 Cortex-M4 SV Call Interrupt                              
+DebugMonitor_IRQn       = -4,     //!< 12 Cortex-M4 Debug Monitor Interrupt                       
+PendSV_IRQn             = -2,     //!< 14 Cortex-M4 Pend SV Interrupt                              
+SysTick_IRQn            = -1,     //!< 15 Cortex-M4 System Tick Interrupt
+```
+
 /******  STM32 specific Interrupt Numbers **********************************************************************/
   WWDG_IRQn                   = 0,      /*!< Window WatchDog Interrupt                                         */
   PVD_IRQn                    = 1,      /*!< PVD through EXTI Line detection Interrupt                         */
