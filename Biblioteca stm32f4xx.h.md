@@ -2,9 +2,8 @@
 
 ###### Autor: MCD Application Team
 
-###### Edição anterior
+###### Edição anterior: Keil
 
-###### @Keil
 >Fez a versão V1.2.0RC2, que usei como base pra edição.
 
 ###### Data 20/02/2013
