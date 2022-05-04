@@ -26,12 +26,12 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 
 **- Seção de configuração que permite selecionar:**
            
-           - O dispositivo usado no aplicativo de destino
-           - Para usar ou não os drivers do periférico no código da aplicação (ou seja, o código será baseado no acesso direto aos registradores do periférico ao invés da API dos drivers), esta opção é controlada por "#define USE_STDPERIPH_DRIVER"
-           - Para alterar alguns parâmetros específicos da aplicação, como a frequência do cristal HSE
-           - Estruturas de dados e mapeamento de endereços para todos os periféricos
-           - Declarações de registradores de periféricos e definição de bits
-           - Macros para acessar o hardware dos registradores dos periféricos
+   - O dispositivo usado no aplicativo de destino
+   - Para usar ou não os drivers do periférico no código da aplicação (ou seja, o código será baseado no acesso direto aos registradores do periférico ao invés da API dos drivers), esta opção é controlada por "#define USE_STDPERIPH_DRIVER"
+   - Para alterar alguns parâmetros específicos da aplicação, como a frequência do cristal HSE
+   - Estruturas de dados e mapeamento de endereços para todos os periféricos
+   - Declarações de registradores de periféricos e definição de bits
+   - Macros para acessar o hardware dos registradores dos periféricos
 
   * <h2><center>&copy; COPYRIGHT 2013 STMicroelectronics</center></h2>
 
