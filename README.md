@@ -8,6 +8,7 @@ Olá, meu nome é Rafael Volkmer; sou aluno do terceiro ano da Fundação Libera
 @RafaelVVolkmer | 03/05/2022 |
 
 
+――――――――――――――――――――――― ――― ――
 
 
 *Programmed for ARM STM32 Core-64 Microprocessor*
