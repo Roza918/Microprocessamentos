@@ -46,8 +46,8 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 
 # Códigos
 
-##### @addtogroup CMSIS
-##### @addtogroup stm32f4xx
+##### CMSIS
+##### stm32f4xx
 
 ――――――――――――――――――――――――――――
 
@@ -59,7 +59,9 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 extern "C" {
 #endif /* __cplusplus */
 ```
-##### @addtogroup Library_configuration_section
+――――――――――――――――――――――――――――
+##### Library_configuration_section
+――――――――――――――――――――――――――――
 
 *Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo.*
 
@@ -126,8 +128,9 @@ extern "C" {
                                              |(__STM32F4XX_STDPERIPH_VERSION_SUB2 << 8)\
                                              |(__STM32F4XX_STDPERIPH_VERSION_RC))                                            
 ```
-
-##### @addtogroup Configuration_section_for_CMSIS
+――――――――――――――――――――――――――――
+##### Configuration_section_for_CMSIS
+――――――――――――――――――――――――――――
 
 ## Configuração do Processador Cortex-M4 e Periféricos Core.
 
@@ -139,7 +142,7 @@ extern "C" {
 #define __FPU_PRESENT             1       /*!< FPU present                                   */
 ```
 
-*STM32F4XX Definição do Número de Interrupção, de acordo com o dispositivo selecionado na @ref Library_configuration_section.*
+*STM32F4XX Definição do Número de Interrupção, de acordo com o dispositivo selecionado na Library_configuration_section.*
  
 ```
 typedef enum IRQn
