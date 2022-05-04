@@ -129,7 +129,7 @@ extern "C" {
 
 ##### @addtogroup Configuration_section_for_CMSIS
 
-*Configuração do Processador Cortex-M4 e Periféricos Core.*
+## Configuração do Processador Cortex-M4 e Periféricos Core.
 
  ```
 #define __CM4_REV                 0x0001  /*!< Core revision r0p1                            */
@@ -158,7 +158,8 @@ PendSV_IRQn             = -2,     //!< 14 Cortex-M4 Pend SV Interrupt
 SysTick_IRQn            = -1,     //!< 15 Cortex-M4 System Tick Interrupt
 ```
 
-/******  STM32 specific Interrupt Numbers **********************************************************************/
+## STM32 números de interrupção específicos
+
   WWDG_IRQn                   = 0,      /*!< Window WatchDog Interrupt                                         */
   PVD_IRQn                    = 1,      /*!< PVD through EXTI Line detection Interrupt                         */
   TAMP_STAMP_IRQn             = 2,      /*!< Tamper and TimeStamp interrupts through the EXTI line             */
