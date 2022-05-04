@@ -49,9 +49,12 @@ int main(void)
   {
 
 	 contador=GPIOC->IDR & 0b00001111; //Mascara IDR com as entradas PC0, PC1, PC2, PC3
-
+	 
+		//Caso for catodo, mantenha esta linha:
 		GPIOB->ODR=DisplayHexa[Contador];
-    
+		
+		//Caso for anodo, comente a linha anterior e descomente esta linha:
+    		//GPIOB->ODR=~DisplayHexa[Contador];
   }
 
 }
