@@ -1,4 +1,5 @@
-//Usando 4 chaves para que, de acordo com o número binário feito através das ativações ou não delas, mostrar o digito equivalente, em hexadecimal, em um display de 7 segmentos.
+//Usando 4 chaves para que, de acordo com o número binário feito através das ativações ou não delas, mostrar o digito equivalente, 
+em hexadecimal, em um display de 7 segmentos.
 
 //Rafael.V.Volkmer (4324); Nº21.
 #include "stm32f4xx.h"
