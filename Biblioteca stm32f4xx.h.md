@@ -2,14 +2,12 @@
 
 ###### Autor: MCD Application Team
 
-###### Edições Anteriores:
+###### Edição anterior
 
 ###### @Keil
 >Fez a versão V1.2.0RC2, que usei como base pra edição.
-###### @Brief 
->Fez quase todos os comentários.
-###### Data 20/02/2013
 
+###### Data 20/02/2013
 
 ―――――――――――――― ― ――
 
