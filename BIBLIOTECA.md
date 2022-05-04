@@ -1,8 +1,8 @@
 # BIBLIOTECA stm32f4xx.h
 
 ###### Autor: MCD Application Team
-
-###### Editado por: Rafael V. Volkmer
+###### Edições Anteriores: @Brief (fez quase todos os comentários) @Keil (fez a versão V1.2.0RC2, que usei como base pra edição)
+###### Editado por: Rafael V. Volkmer (só formatei no GitHub e passei pra minha língua natal, não escrevi nada de novo)
 
 ###### Data: 03/05/2022
 
