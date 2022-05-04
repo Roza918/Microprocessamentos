@@ -46,45 +46,47 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 extern "C" {
 #endif /* __cplusplus */
 ```
-Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo
 
+Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo.
 
+```
 #if !defined (STM32F40XX) && !defined (STM32F427X) && !defined (STM32F429X) 
-  /* #define STM32F40XX */   /*!< STM32F40xx/41xx Devices */
-  /* #define STM32F427X */   /*!< STM32F427x/437x Devices */
-  /* #define STM32F429X */   /*!< STM32F429x/439x Devices */
+
+/* #define STM32F40XX */   /*!< STM32F40xx/41xx Devices */
+
+/* #define STM32F427X */   /*!< STM32F427x/437x Devices */
+  
+/* #define STM32F429X */   /*!< STM32F429x/439x Devices */
+  
 #endif
+```
 
+Dica: Para evitar a modificação desse arquivo sempre que precisar alternar entre esses dispositivos, você pode definir o dispositivo no pré-processador do compilador da cadeia de ferramentas.
 
-/*  Tip: To avoid modifying this file each time you need to switch between these
-        devices, you can define the device in your toolchain compiler preprocessor.
-  */
-
+```
 #if !defined (STM32F40XX) && !defined (STM32F427X) && !defined (STM32F429X)
- #error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
+#error "Please select first the target STM32F4xx device used in your application (in stm32f4xx.h file)"
 #endif
 
 #if !defined  (USE_STDPERIPH_DRIVER)
-/**
- * @brief Comment the line below if you will not use the peripherals drivers.
-   In this case, these drivers will not be included and the application code will 
-   be based on direct access to peripherals registers 
-   */
-  /*#define USE_STDPERIPH_DRIVER */
+```
+Comente a linha abaixo se você não vai usar os drivers de periféricos. Nesse caso, esses drivers não serão incluídos e o código da aplicação será baseado no acesso direto aos registradores de periféricos
+
+```
+/*#define USE_STDPERIPH_DRIVER */
 #endif /* USE_STDPERIPH_DRIVER */
+```
 
-/**
- * @brief In the following line adjust the value of External High Speed oscillator (HSE)
-   used in your application 
+Na linha a seguir, ajuste o valor do oscilador externo de alta velocidade (HSE) usado em sua aplicação.
    
-   Tip: To avoid modifying this file each time you need to use different HSE, you
-        can define the HSE value in your toolchain compiler preprocessor.
-  */           
+Dica: Para evitar modificar este arquivo sempre que precisar usar um HSE diferente, você pode definir o valor de HSE em seu pré-processador do compilador de cadeia de ferramentas.
 
+```
 #if !defined  (HSE_VALUE) 
   #define HSE_VALUE    ((uint32_t)25000000) /*!< Value of the External oscillator in Hz */
   
 #endif /* HSE_VALUE */
+```
 
 /**
  * @brief In the following line adjust the External High Speed oscillator (HSE) Startup 
