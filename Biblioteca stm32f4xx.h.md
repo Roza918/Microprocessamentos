@@ -127,7 +127,7 @@ extern "C" {
                                              |(__STM32F4XX_STDPERIPH_VERSION_RC))                                            
 ```
 
-####### @addtogroup Configuration_section_for_CMSIS
+##### @addtogroup Configuration_section_for_CMSIS
 
 *Configuração do Processador Cortex-M4 e Periféricos Core.*
 
