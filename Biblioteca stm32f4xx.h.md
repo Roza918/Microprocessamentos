@@ -56,9 +56,7 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
 extern "C" {
 #endif /* __cplusplus */
 ```
-――――――――――――――――――――――――――――
-##### Library_configuration_section
-――――――――――――――――――――――――――――
+## Library_configuration_section
 
 *Descomente a linha abaixo de acordo com o dispositivo STM32 de destino usado em seu aplicativo.*
 
@@ -125,9 +123,7 @@ extern "C" {
                                              |(__STM32F4XX_STDPERIPH_VERSION_SUB2 << 8)\
                                              |(__STM32F4XX_STDPERIPH_VERSION_RC))                                            
 ```
-――――――――――――――――――――――――――――
-##### Configuration_section_for_CMSIS
-――――――――――――――――――――――――――――
+# Configuration_section_for_CMSIS
 
 ## Configuração do Processador Cortex-M4 e Periféricos Core.
 
@@ -289,9 +285,8 @@ SysTick_IRQn            = -1,     //!< 15 Cortex-M4 System Tick Interrupt
 #include "system_stm32f4xx.h"
 #include <stdint.h>
 ```
-――――――――――――――――――――――――――――
-##### Exported_types
-――――――――――――――――――――――――――――
+
+# Exported_types
  
 ## STM32F10x Standard Peripheral Library old types (maintained for legacy purpose)
 ```
@@ -334,13 +329,10 @@ typedef enum {DISABLE = 0, ENABLE = !DISABLE} FunctionalState;
 
 typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
 ```
-――――――――――――――――――――――――――――
-##### Peripheral_registers_structures
-――――――――――――――――――――――――――――
 
-――――――――――――――――――――――――――――
-##### Analog to Digital Converter
-――――――――――――――――――――――――――――
+# Peripheral_registers_structures
+
+## Analog to Digital Converter
 
 ```
 typedef struct
@@ -2428,19 +2420,13 @@ typedef struct
 #define DBGMCU              ((DBGMCU_TypeDef *) DBGMCU_BASE)
 ```
 
-――――――――――――――――――――――――――――
-#####  Exported_constants
-――――――――――――――――――――――――――――
-
-――――――――――――――――――――――――――――
-#####  Peripheral_Registers_Bits_Definition
-――――――――――――――――――――――――――――
+###### Exported_constants
 
 
 # Peripheral Registers_Bits_Definition
 ## Analog to Digital Converter
 
-##### Bit definition for ADC_SR register
+> Bit definition for ADC_SR register
 ```
 #define  ADC_SR_AWD                          ((uint8_t)0x01)               /*!<Analog watchdog flag */
 #define  ADC_SR_EOC                          ((uint8_t)0x02)               /*!<End of conversion */
@@ -2449,7 +2435,7 @@ typedef struct
 #define  ADC_SR_STRT                         ((uint8_t)0x10)               /*!<Regular channel Start flag */
 #define  ADC_SR_OVR                          ((uint8_t)0x20)               /*!<Overrun flag */
 ```
-##### Bit definition for ADC_CR1 register
+> Bit definition for ADC_CR1 register
 ```
 #define  ADC_CR1_AWDCH                       ((uint32_t)0x0000001F)        /*!<AWDCH[4:0] bits (Analog watchdog channel select bits) */
 #define  ADC_CR1_AWDCH_0                     ((uint32_t)0x00000001)        /*!<Bit 0 */
@@ -2476,7 +2462,7 @@ typedef struct
 #define  ADC_CR1_RES_1                       ((uint32_t)0x02000000)        /*!<Bit 1 */
 #define  ADC_CR1_OVRIE                       ((uint32_t)0x04000000)         /*!<overrun interrupt enable */
   ```
-##### Bit definition for ADC_CR2 register
+> Bit definition for ADC_CR2 register
 ```
 #define  ADC_CR2_ADON                        ((uint32_t)0x00000001)        /*!<A/D Converter ON / OFF */
 #define  ADC_CR2_CONT                        ((uint32_t)0x00000002)        /*!<Continuous Conversion */
@@ -2503,7 +2489,7 @@ typedef struct
 #define  ADC_CR2_EXTEN_1                     ((uint32_t)0x20000000)        /*!<Bit 1 */
 #define  ADC_CR2_SWSTART                     ((uint32_t)0x40000000)        /*!<Start Conversion of regular channels */
 ```
-##### Bit definition for ADC_SMPR1 register
+> Bit definition for ADC_SMPR1 register
 ```
 #define  ADC_SMPR1_SMP10                     ((uint32_t)0x00000007)        /*!<SMP10[2:0] bits (Channel 10 Sample time selection) */
 #define  ADC_SMPR1_SMP10_0                   ((uint32_t)0x00000001)        /*!<Bit 0 */
@@ -2542,7 +2528,7 @@ typedef struct
 #define  ADC_SMPR1_SMP18_1                   ((uint32_t)0x02000000)        /*!<Bit 1 */
 #define  ADC_SMPR1_SMP18_2                   ((uint32_t)0x04000000)        /*!<Bit 2 */
 ```
-##### Bit definition for ADC_SMPR2 register
+> Bit definition for ADC_SMPR2 register
 ```
 #define  ADC_SMPR2_SMP0                      ((uint32_t)0x00000007)        /*!<SMP0[2:0] bits (Channel 0 Sample time selection) */
 #define  ADC_SMPR2_SMP0_0                    ((uint32_t)0x00000001)        /*!<Bit 0 */
@@ -2585,32 +2571,32 @@ typedef struct
 #define  ADC_SMPR2_SMP9_1                    ((uint32_t)0x10000000)        /*!<Bit 1 */
 #define  ADC_SMPR2_SMP9_2                    ((uint32_t)0x20000000)        /*!<Bit 2 */
 ```
-##### Bit definition for ADC_JOFR1 register
+> Bit definition for ADC_JOFR1 register
 ```
 #define  ADC_JOFR1_JOFFSET1                  ((uint16_t)0x0FFF)            /*!<Data offset for injected channel 1 */
 ```
-##### Bit definition for ADC_JOFR2 register
+> Bit definition for ADC_JOFR2 register
 ```
 #define  ADC_JOFR2_JOFFSET2
 ((uint16_t)0x0FFF)            /*!<Data offset for injected channel 2 */
 ```
-##### Bit definition for ADC_JOFR3 register
+> Bit definition for ADC_JOFR3 register
 ```
 #define  ADC_JOFR3_JOFFSET3                  ((uint16_t)0x0FFF)            /*!<Data offset for injected channel 3 */
 ```
-##### Bit definition for ADC_JOFR4 register
+> Bit definition for ADC_JOFR4 register
 ```
 #define  ADC_JOFR4_JOFFSET4                  ((uint16_t)0x0FFF)            /*!<Data offset for injected channel 4 */
 ```
-##### Bit definition for ADC_HTR register
+> Bit definition for ADC_HTR register
 ```
 #define  ADC_HTR_HT                          ((uint16_t)0x0FFF)            /*!<Analog watchdog high threshold */
 ```
-##### Bit definition for ADC_LTR register
+> Bit definition for ADC_LTR register
 ```
 #define  ADC_LTR_LT                          ((uint16_t)0x0FFF)            /*!<Analog watchdog low threshold */
 ```
-##### Bit definition for ADC_SQR1 register
+> Bit definition for ADC_SQR1 register
 ```
 #define  ADC_SQR1_SQ13                       ((uint32_t)0x0000001F)        /*!<SQ13[4:0] bits (13th conversion in regular sequence) */
 #define  ADC_SQR1_SQ13_0                     ((uint32_t)0x00000001)        /*!<Bit 0 */
@@ -2642,7 +2628,7 @@ typedef struct
 #define  ADC_SQR1_L_2                        ((uint32_t)0x00400000)        /*!<Bit 2 */
 #define  ADC_SQR1_L_3                        ((uint32_t)0x00800000)        /*!<Bit 3 */
 ```
-##### Bit definition for ADC_SQR2 register
+> Bit definition for ADC_SQR2 register
 ```
 #define  ADC_SQR2_SQ7                        ((uint32_t)0x0000001F)        /*!<SQ7[4:0] bits (7th conversion in regular sequence) */
 #define  ADC_SQR2_SQ7_0                      ((uint32_t)0x00000001)        /*!<Bit 0 */
@@ -2681,7 +2667,7 @@ typedef struct
 #define  ADC_SQR2_SQ12_3                     ((uint32_t)0x10000000)        /*!<Bit 3 */
 #define  ADC_SQR2_SQ12_4                     ((uint32_t)0x20000000)        /*!<Bit 4 */
 ```
-##### Bit definition for ADC_SQR3 register
+> Bit definition for ADC_SQR3 register
 ```
 #define  ADC_SQR3_SQ1                        ((uint32_t)0x0000001F)        /*!<SQ1[4:0] bits (1st conversion in regular sequence) */
 #define  ADC_SQR3_SQ1_0                      ((uint32_t)0x00000001)        /*!<Bit 0 */
@@ -2720,7 +2706,7 @@ typedef struct
 #define  ADC_SQR3_SQ6_3                      ((uint32_t)0x10000000)        /*!<Bit 3 */
 #define  ADC_SQR3_SQ6_4                      ((uint32_t)0x20000000)        /*!<Bit 4 */
 ```
-##### Bit definition for ADC_JSQR register
+> Bit definition for ADC_JSQR register
 ```
 #define  ADC_JSQR_JSQ1                       ((uint32_t)0x0000001F)        /*!<JSQ1[4:0] bits (1st conversion in injected sequence) */  
 #define  ADC_JSQR_JSQ1_0                     ((uint32_t)0x00000001)        /*!<Bit 0 */
@@ -2750,28 +2736,28 @@ typedef struct
 #define  ADC_JSQR_JL_0                       ((uint32_t)0x00100000)        /*!<Bit 0 */
 #define  ADC_JSQR_JL_1                       ((uint32_t)0x00200000)        /*!<Bit 1 */
 ```
-#####  Bit definition for ADC_JDR1 register
+>  Bit definition for ADC_JDR1 register
 ```
 #define  ADC_JDR1_JDATA                      ((uint16_t)0xFFFF)            /*!<Injected data */
 ```
-##### Bit definition for ADC_JDR2 register
+> Bit definition for ADC_JDR2 register
 ```
 #define  ADC_JDR2_JDATA                      ((uint16_t)0xFFFF)            /*!<Injected data */
 ```
-##### Bit definition for ADC_JDR3 register
+> Bit definition for ADC_JDR3 register
 ```
 #define  ADC_JDR3_JDATA                      ((uint16_t)0xFFFF)            /*!<Injected data */
 ```
-##### it definition for ADC_JDR4 register
+> it definition for ADC_JDR4 register
 ```
 #define  ADC_JDR4_JDATA                      ((uint16_t)0xFFFF)            /*!<Injected data */
 ```
-##### Bit definition for ADC_DR register
+> Bit definition for ADC_DR register
 ```
 #define  ADC_DR_DATA                         ((uint32_t)0x0000FFFF)        /*!<Regular data */
 #define  ADC_DR_ADC2DATA                     ((uint32_t)0xFFFF0000)        /*!<ADC2 data */
 ```
-##### Bit definition for ADC_CSR register
+> Bit definition for ADC_CSR register
 ```
 #define  ADC_CSR_AWD1                        ((uint32_t)0x00000001)        /*!<ADC1 Analog watchdog flag */
 #define  ADC_CSR_EOC1                        ((uint32_t)0x00000002)        /*!<ADC1 End of conversion */
