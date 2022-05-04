@@ -9,7 +9,7 @@
 Arquivo de cabeçalho da camada de acesso periférico do dispositivo CMSIS Cortex-M4. Este arquivo contém todas as definições de registradores periféricos, definições de bits e mapeamento de memória para dispositivos STM32F4xx.
 O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos está usando no código-fonte C, geralmente em main.c. Este arquivo contém:
 
-           **- Seção de configuração que permite selecionar:**
+           - Seção de configuração que permite selecionar:
            
            - O dispositivo usado no aplicativo de destino
            - Para usar ou não os drivers do periférico no código da aplicação (ou seja, o código será baseado no acesso direto aos registradores do periférico ao invés da API dos drivers), esta opção é controlada por "#define USE_STDPERIPH_DRIVER"
