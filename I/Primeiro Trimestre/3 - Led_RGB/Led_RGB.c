@@ -6,7 +6,7 @@ uint8_t contador;
 
 const uint8_t CorDoLed[7]=
 		{
-		  0b0000 //Apagado   - Void
+		  	0b0000 //Apagado   - Void
 			0b0001 //Azul      - Pc0
 			0b0010 //Verde     - Pc1
 			0b0011 //Ciano     - Pc0, Pc1
