@@ -9,7 +9,7 @@
 Arquivo de cabeçalho da camada de acesso periférico do dispositivo CMSIS Cortex-M4. Este arquivo contém todas as definições de registradores periféricos, definições de bits e mapeamento de memória para dispositivos STM32F4xx.
 O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos está usando no código-fonte C, geralmente em main.c. Este arquivo contém:
 
-           - Seção de configuração que permite selecionar:
+**- Seção de configuração que permite selecionar:**
            
            - O dispositivo usado no aplicativo de destino
            - Para usar ou não os drivers do periférico no código da aplicação (ou seja, o código será baseado no acesso direto aos registradores do periférico ao invés da API dos drivers), esta opção é controlada por "#define USE_STDPERIPH_DRIVER"
@@ -24,19 +24,17 @@ O arquivo é o arquivo de inclusão exclusivo que o programador de aplicativos e
   * Você não pode usar este arquivo exceto em conformidade com a Licença.
   * Você pode obter uma cópia da Licença em:
 
-  *        http://www.st.com/software_license_agreement_liberty_v2
+       [LICENÇA SOFTWARE SMT32F4xx.h](http://www.st.com/software_license_agreement_liberty_v2)
 
   * A menos que exigido pela lei aplicável ou acordado por escrito, o software distribuído sob a Licença é distribuído "COMO ESTÁ", SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, expressas ou implícitas.
   * Consulte a Licença para o idioma específico que rege as permissões e limitações sob a Licença.
 
+# Códigos
 
-/** @addtogroup CMSIS
-  * @{
-  */
+##### @addtogroup CMSIS
 
-/** @addtogroup stm32f4xx
-  * @{
-  */
+##### @addtogroup stm32f4xx
+――――――――――――――――――――――――――――
     
 #ifndef __STM32F4xx_H
 #define __STM32F4xx_H
