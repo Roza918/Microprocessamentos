@@ -4,13 +4,11 @@
 
 uint16_t contador;
 
-
 int main(void)
 {
 
       // Habilita clock dos registradores B e C
       RCC->AHBE1NR|=RCC_AHB1ENR_GPIOBEN | RCC_AHB1ENR_GPIOCEN;
-
 	    
       //Entrada PB1
       GPIOB->MODER&=~PIO_MODER_MODER1;
