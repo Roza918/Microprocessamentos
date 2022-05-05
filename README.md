@@ -15,4 +15,4 @@ Hello, my name is Rafael Volkmer; I am a third year student at Fundação Libera
 
 > @RafaelVVolkmer | 05/03/2022 |
 
-![ARM](https://circuitdigest.com/sites/default/files/field/image/STM32F-Nucleo-64-Development-Boards.jpg)
+![ARM](https://www.digikey.com/maker-media/e0081dd3-8486-44c4-be3f-00312ca6851a)
