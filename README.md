@@ -6,8 +6,6 @@ Olá, meu nome é Rafael Volkmer; sou aluno do terceiro ano da Fundação Libera
 
 > @RafaelVVolkmer | 03/05/2022 |
 
-――――――――――――――――――――――― ――― ――
-
 # Microprocessing
 ###### Programmed for ARM STM32 Core-64 Microprocessor.
 ###### All codes accompany the electrical diagram of the Hardware.
