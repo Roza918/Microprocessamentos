@@ -1,5 +1,4 @@
 # Microprocessamentos
-![ARM](https://circuitdigest.com/sites/default/files/field/image/STM32F-Nucleo-64-Development-Boards.jpg)
 ###### Programado para Microprocessador ARM STM32 Núlceo-64.
 ###### Todos códigos acompanham o diagrama elétrico do Hardware.
 
@@ -15,3 +14,5 @@ Olá, meu nome é Rafael Volkmer; sou aluno do terceiro ano da Fundação Libera
 Hello, my name is Rafael Volkmer; I am a third year student at Fundação Liberato Salzano Vieira da Cunha (Novo-Hamburgo, RS, Brazil) and, in my microprocessing course, developing codes for the ARM STM32 microcontroller. Here, I'll leave a repository with all the code I've been doing during the year and with everything I'll do in the following year. All codes are programmed in C language, and I always appreciate their ease of understanding and aesthetics, making them as "clean code" as possible. I hope you like my programming style and the way I'm developing, even though I'm still a student.
 
 > @RafaelVVolkmer | 05/03/2022 |
+
+![ARM](https://circuitdigest.com/sites/default/files/field/image/STM32F-Nucleo-64-Development-Boards.jpg)
