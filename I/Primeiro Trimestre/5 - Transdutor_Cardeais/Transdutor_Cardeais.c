@@ -56,45 +56,45 @@ int main(void)
   while (1)
   {
 
-	 contador=GPIOC->IDR & Mascara; //Mascara IDR com as entradas PC0, PC1, PC2, PC3
-	 contador = contador >>4;
+	 contador=GPIOA->IDR & Mascara; //Mascara IDR com as entradas PA4, PA5, PA6, PA7
+	 contador=contador >>4;
 
 			  switch(contador)
 			 {
 			  case PontosCardeais.Norte:
-				  GPIOB->ODR=Display.N | GPIOA->ODR=Display.Apaga;
+				  GPIOB->ODR=Display.N | GPIOC->ODR=Display.Apaga;
 				  	  	  	  break;
 
 			  case PontosCardeais.Sul:
-				  GPIOB->ODR=Display.S | GPIOA->ODR=Display.Apaga;
+				  GPIOB->ODR=Display.S | GPIOC->ODR=Display.Apaga;
 				  	  	  	  break;
 
 			  case PontosCardeais.Leste:
-				  GPIOB->ODR=Display.E | GPIOA->ODR=Display.Apaga;
+				  GPIOB->ODR=Display.E | GPIOC->ODR=Display.Apaga;
 			  				  break;
 
 			  case PontosCardeais.Oeste:
-				  GPIOB->ODR=Display.O | GPIOA->ODR=Display.Apaga;
+				  GPIOB->ODR=Display.O | GPIOC->ODR=Display.Apaga;
 			  				  break;
 
 			  case PontosCardeais.Nordeste:
-				  GPIOB->ODR=Display.N | GPIOA->ODR=Display.E;
+				  GPIOB->ODR=Display.N | GPIOC->ODR=Display.E;
 			  				  break;
 
 			  case PontosCardeais.Sudeste:
-				  GPIOB->ODR=Display.S | GPIOA->ODR=Display.E;
+				  GPIOB->ODR=Display.S | GPIOC->ODR=Display.E;
 			  				  break;
 
 			  case PontosCardeais.Noroeste:
-				  GPIOB->ODR=Display.N | GPIOA->ODR=Display.O;
+				  GPIOB->ODR=Display.N | GPIOC->ODR=Display.O;
 			  				  break;
 
 			  case PontosCardeais.Sudoeste:
-				  GPIOB->ODR=Display.S | GPIOA->ODR=Display.O;
+				  GPIOB->ODR=Display.S | GPIOC->ODR=Display.O;
 			  				  break;
 
 			  default:
-				  GPIOB->ODR=0b0;
+				  GPIOB->ODR=0b0 | GPIOC->ODR=0b0
 
 			 }
 
