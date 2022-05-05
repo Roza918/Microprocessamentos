@@ -2,29 +2,29 @@
 
 #include "stm32f4xx.h"
 
-uint16_t contador;
+uint8_t contador;
 
 const uint8_t Mascara = 0b11110000;
 
 struct SaidasDisplay
 {
-	const int Apaga = 0b00000000;
-	const int N = 0b00110111;
-	const int S = 0b01101101;
-	const int E = 0b00111000;
-	const int O = 0b00111111;
+	const uint8_t Apaga = 0b00000000;
+	const uint8_t N = 0b00110111;
+	const uint8_t S = 0b01101101;
+	const uint8_t E = 0b00111000;
+	const uint8_t O = 0b00111111;
 }Display;
 
 struct EntradaTransdutor
 {
-	const int Norte = 0b0000;       // 0 decimal
-	const int Nordeste = 0b0101;    // 5 decimal
-	const int Leste = 0b0110;       // 6 decimal
-	const int Sudeste = 0b1111;     // 15 decimal
-	const int Sul = 0b1100;         // 12 decimal
-	const int Sudoeste = 0b1001;    // 9 decimal
-	const int Oeste = 0b1010;       // 10 decimal
-	const int Noroeste = 0b0011;    // 3 decimal
+	const uint8_t Norte = 0b0000;       // 0 decimal
+	const uint8_t Nordeste = 0b0101;    // 5 decimal
+	const uint8_t Leste = 0b0110;       // 6 decimal
+	const uint8_t Sudeste = 0b1111;     // 15 decimal
+	const uint8_t Sul = 0b1100;         // 12 decimal
+	const uint8_t Sudoeste = 0b1001;    // 9 decimal
+	const uint8_t Oeste = 0b1010;       // 10 decimal
+	const uint8_t Noroeste = 0b0011;    // 3 decimal
 }PontosCardeais;
 
 int main(void)
