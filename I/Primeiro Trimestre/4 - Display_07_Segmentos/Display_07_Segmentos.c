@@ -4,7 +4,9 @@
 
 uint16_t contador;
 
-const uint_16_t DisplayHexa[16]=
+const uint8_t mascara=0b00001111;
+
+const uint16_t DisplayHexa[16]=
  {
      0b00111111, // 0
      0b00000110, // 1
@@ -48,10 +50,10 @@ int main(void)
   while (1)
   {
 
-	 contador=GPIOC->IDR & 0b00001111; //Mascara IDR com as entradas PC0, PC1, PC2, PC3
+	 contador=GPIOC->IDR & mascara; //Mascara IDR com as entradas PC0, PC1, PC2, PC3
 	 
 		//Caso for catodo, mantenha esta linha:
-		GPIOB->ODR=DisplayHexa[Contador];
+		GPIOB->ODR=DisplayHexa[contador];
 		
 		//Caso for anodo, comente a linha anterior e descomente esta linha:
     		//GPIOB->ODR=~DisplayHexa[Contador];
