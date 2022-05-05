@@ -46,10 +46,10 @@ int main(void)
 	//Zerando os pinos C | Entradas PC0, PC1, PC2, PC3
 	GPIOC->MODER&=~(GPIO_MODER_MODER0 | GPIO_MODER_MODER1 | GPIO_MODER_MODER2 | GPIO_MODER_MODER3);
 
-	// Zerando os os pinos C
+	// Zerando os os pinos PULL UP
 	GPIOC->PUPDR&=~(GPIO_PUPDR_PUPDR0 | GPIO_PUPDR_PUPDR1 | GPIO_PUPDR_PUPDR2 | GPIO_PUPDR_PUPDR3);
-	//Entradas - PC0, PC1, PC2, PC3 são PULL DOWN
-	GPIOC->PUPDR|=GPIO_PUPDR_PUPDR0_1 | GPIO_PUPDR_PUPDR1_1 | GPIO_PUPDR_PUPDR2_1 | GPIO_PUPDR_PUPDR3_1;
+	//Entradas - PC0, PC1, PC2, PC3 são PULL UP
+	GPIOC->PUPDR|=GPIO_PUPDR_PUPDR0_0 | GPIO_PUPDR_PUPDR1_0 | GPIO_PUPDR_PUPDR2_0 | GPIO_PUPDR_PUPDR3_0;
 
 
 
@@ -57,8 +57,7 @@ int main(void)
   {
 
 	 contador=GPIOC->IDR & Mascara; //Mascara IDR com as entradas PC0, PC1, PC2, PC3
-	 contador=GPIOA->IDR & Mascara; //Mascara IDR com as entradas PA0, PA1, PA2, PA3
-
+	 GPIOA->ODR >>4
 			  switch(contador)
 			 {
 			  case PontosCardeais.Norte:
