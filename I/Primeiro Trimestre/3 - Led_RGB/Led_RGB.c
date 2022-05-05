@@ -4,7 +4,7 @@
 
 uint8_t contador;
 
-const uint8_t CorDoLed[7]=
+const uint8_t CorDoLed[8]=
 		{
 		  	0b0000 //Apagado   - Void
 			0b0001 //Azul      - Pc0
