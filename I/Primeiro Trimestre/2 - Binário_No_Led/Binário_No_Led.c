@@ -6,13 +6,13 @@ const uint8_t Mascara = 0b011;
 
 uint8_t contador;
 
-const uint8_t BinarioLed[4]
+const uint8_t BinarioLed[4]=
 {
-      0b000,
-      0b001,
-      0b011,
-      0b111
-}
+      0b000,   // 0
+      0b001,   // 1
+      0b011,   // 2
+      0b111,   // 3
+};
 
 int main(void)
 {
