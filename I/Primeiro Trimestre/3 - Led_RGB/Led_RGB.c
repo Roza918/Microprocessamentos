@@ -1,10 +1,10 @@
 //Rafael.V.Volkmer (4324); Nº21. - 06/05/2022.
 
 #include "stm32f4xx.h"
-
-const uint8_t mascara = 0b0111;
 	
 uint8_t contador;
+
+const uint8_t mascara = 0b0111;
 
 const uint8_t CorDoLed[8]=
 		{
