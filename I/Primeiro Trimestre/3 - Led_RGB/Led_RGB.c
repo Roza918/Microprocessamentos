@@ -42,9 +42,9 @@ int main(void)
 		while (1)
   	  {
 
-			contador=GPIOC->IDR & mascara; //Mascara IDR com as entradas PC0, PC1, PC2
+		contador=GPIOC->IDR & mascara; //Mascara IDR com as entradas PC0, PC1, PC2
 
-			  GPIOB->ODR=CorDoLed[contador];			  	  	  	 
+		GPIOB->ODR=CorDoLed[contador];			  	  	  	 
 
   	  }
 
