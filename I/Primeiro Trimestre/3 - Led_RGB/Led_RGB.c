@@ -2,18 +2,20 @@
 
 #include "stm32f4xx.h"
 
+const uint8_t mascara = 0b0111;
+	
 uint8_t contador;
 
 const uint8_t CorDoLed[8]=
 		{
-		  	0b0000 //Apagado   - Void
-			0b0001 //Azul      - Pc0
-			0b0010 //Verde     - Pc1
-			0b0011 //Ciano     - Pc0, Pc1
-			0b0100 //Vermelho  - Pc2
-			0b0101 //Magenta   - Pc0, Pc2
-			0b0110 //Amarelo   - Pc1, Pc2
-			0b0111 //Branco    - Pc0, Pc1, Pc2
+		  	0b0000, //Apagado   - Void
+			0b0001, //Azul      - Pc0
+			0b0010, //Verde     - Pc1
+			0b0011, //Ciano     - Pc0, Pc1
+			0b0100, //Vermelho  - Pc2
+			0b0101, //Magenta   - Pc0, Pc2
+			0b0110, //Amarelo   - Pc1, Pc2
+			0b0111  //Branco    - Pc0, Pc1, Pc2
 		};
 
 int main(void)
@@ -40,7 +42,7 @@ int main(void)
 		while (1)
   	  {
 
-			contador=GPIOC->IDR & 0b0111; //Mascara IDR com as entradas PC0, PC1, PC2
+			contador=GPIOC->IDR & mascara; //Mascara IDR com as entradas PC0, PC1, PC2
 
 			  GPIOB->ODR=CorDoLed[contador];			  	  	  	 
 
