@@ -6,8 +6,8 @@
 > Configuração Básica
 > 
 ![REGISTRADORES](https://i.imgur.com/H3WdcPj.png)
-### IDR
-### ODR
+### IDR (INPUT DATA READ)
+### ODR (OUTPUT DATA READ)
 
 > Pull up e Pull down
 
