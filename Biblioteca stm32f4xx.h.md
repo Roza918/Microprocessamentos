@@ -3046,16 +3046,19 @@ typedef struct
 #define  CAN_RDL1R_DATA3                     ((uint32_t)0xFF000000)        /*!<Data byte 3 */
 ```
 /*******************  Bit definition for CAN_RDH1R register  ******************/
+```
 #define  CAN_RDH1R_DATA4                     ((uint32_t)0x000000FF)        /*!<Data byte 4 */
 #define  CAN_RDH1R_DATA5                     ((uint32_t)0x0000FF00)        /*!<Data byte 5 */
 #define  CAN_RDH1R_DATA6                     ((uint32_t)0x00FF0000)        /*!<Data byte 6 */
 #define  CAN_RDH1R_DATA7                     ((uint32_t)0xFF000000)        /*!<Data byte 7 */
-
+```
 /*!<CAN filter registers */
 /*******************  Bit definition for CAN_FMR register  ********************/
+```
 #define  CAN_FMR_FINIT                       ((uint8_t)0x01)               /*!<Filter Init Mode */
-
+```
 /*******************  Bit definition for CAN_FM1R register  *******************/
+```
 #define  CAN_FM1R_FBM                        ((uint16_t)0x3FFF)            /*!<Filter Mode */
 #define  CAN_FM1R_FBM0                       ((uint16_t)0x0001)            /*!<Filter Init Mode bit 0 */
 #define  CAN_FM1R_FBM1                       ((uint16_t)0x0002)            /*!<Filter Init Mode bit 1 */
@@ -3071,8 +3074,9 @@ typedef struct
 #define  CAN_FM1R_FBM11                      ((uint16_t)0x0800)            /*!<Filter Init Mode bit 11 */
 #define  CAN_FM1R_FBM12                      ((uint16_t)0x1000)            /*!<Filter Init Mode bit 12 */
 #define  CAN_FM1R_FBM13                      ((uint16_t)0x2000)            /*!<Filter Init Mode bit 13 */
-
+```
 /*******************  Bit definition for CAN_FS1R register  *******************/
+```
 #define  CAN_FS1R_FSC                        ((uint16_t)0x3FFF)            /*!<Filter Scale Configuration */
 #define  CAN_FS1R_FSC0                       ((uint16_t)0x0001)            /*!<Filter Scale Configuration bit 0 */
 #define  CAN_FS1R_FSC1                       ((uint16_t)0x0002)            /*!<Filter Scale Configuration bit 1 */
@@ -3088,8 +3092,9 @@ typedef struct
 #define  CAN_FS1R_FSC11                      ((uint16_t)0x0800)            /*!<Filter Scale Configuration bit 11 */
 #define  CAN_FS1R_FSC12                      ((uint16_t)0x1000)            /*!<Filter Scale Configuration bit 12 */
 #define  CAN_FS1R_FSC13                      ((uint16_t)0x2000)            /*!<Filter Scale Configuration bit 13 */
-
+```
 /******************  Bit definition for CAN_FFA1R register  *******************/
+```
 #define  CAN_FFA1R_FFA                       ((uint16_t)0x3FFF)            /*!<Filter FIFO Assignment */
 #define  CAN_FFA1R_FFA0                      ((uint16_t)0x0001)            /*!<Filter FIFO Assignment for Filter 0 */
 #define  CAN_FFA1R_FFA1                      ((uint16_t)0x0002)            /*!<Filter FIFO Assignment for Filter 1 */
@@ -3105,8 +3110,9 @@ typedef struct
 #define  CAN_FFA1R_FFA11                     ((uint16_t)0x0800)            /*!<Filter FIFO Assignment for Filter 11 */
 #define  CAN_FFA1R_FFA12                     ((uint16_t)0x1000)            /*!<Filter FIFO Assignment for Filter 12 */
 #define  CAN_FFA1R_FFA13                     ((uint16_t)0x2000)            /*!<Filter FIFO Assignment for Filter 13 */
-
+```
 /*******************  Bit definition for CAN_FA1R register  *******************/
+```
 #define  CAN_FA1R_FACT                       ((uint16_t)0x3FFF)            /*!<Filter Active */
 #define  CAN_FA1R_FACT0                      ((uint16_t)0x0001)            /*!<Filter 0 Active */
 #define  CAN_FA1R_FACT1                      ((uint16_t)0x0002)            /*!<Filter 1 Active */
@@ -3122,8 +3128,9 @@ typedef struct
 #define  CAN_FA1R_FACT11                     ((uint16_t)0x0800)            /*!<Filter 11 Active */
 #define  CAN_FA1R_FACT12                     ((uint16_t)0x1000)            /*!<Filter 12 Active */
 #define  CAN_FA1R_FACT13                     ((uint16_t)0x2000)            /*!<Filter 13 Active */
-
+```
 /*******************  Bit definition for CAN_F0R1 register  *******************/
+```
 #define  CAN_F0R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F0R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F0R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3156,8 +3163,9 @@ typedef struct
 #define  CAN_F0R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F0R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F0R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F1R1 register  *******************/
+```
 #define  CAN_F1R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F1R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F1R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3190,8 +3198,11 @@ typedef struct
 #define  CAN_F1R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F1R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F1R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
+```
 
 /*******************  Bit definition for CAN_F2R1 register  *******************/
+
+```
 #define  CAN_F2R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F2R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F2R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3224,8 +3235,9 @@ typedef struct
 #define  CAN_F2R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F2R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F2R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F3R1 register  *******************/
+```
 #define  CAN_F3R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F3R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F3R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3258,8 +3270,9 @@ typedef struct
 #define  CAN_F3R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F3R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F3R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F4R1 register  *******************/
+```
 #define  CAN_F4R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F4R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F4R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3292,8 +3305,9 @@ typedef struct
 #define  CAN_F4R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F4R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F4R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F5R1 register  *******************/
+```
 #define  CAN_F5R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F5R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F5R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3326,8 +3340,9 @@ typedef struct
 #define  CAN_F5R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F5R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F5R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F6R1 register  *******************/
+```
 #define  CAN_F6R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F6R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F6R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3360,8 +3375,9 @@ typedef struct
 #define  CAN_F6R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F6R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F6R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F7R1 register  *******************/
+```
 #define  CAN_F7R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F7R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F7R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3394,8 +3410,9 @@ typedef struct
 #define  CAN_F7R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F7R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F7R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F8R1 register  *******************/
+```
 #define  CAN_F8R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F8R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F8R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3428,8 +3445,9 @@ typedef struct
 #define  CAN_F8R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F8R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F8R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F9R1 register  *******************/
+```
 #define  CAN_F9R1_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F9R1_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F9R1_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3462,8 +3480,9 @@ typedef struct
 #define  CAN_F9R1_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F9R1_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F9R1_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F10R1 register  ******************/
+```
 #define  CAN_F10R1_FB0                       ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F10R1_FB1                       ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F10R1_FB2                       ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3496,8 +3515,9 @@ typedef struct
 #define  CAN_F10R1_FB29                      ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F10R1_FB30                      ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F10R1_FB31                      ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F11R1 register  ******************/
+```
 #define  CAN_F11R1_FB0                       ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F11R1_FB1                       ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F11R1_FB2                       ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3530,8 +3550,9 @@ typedef struct
 #define  CAN_F11R1_FB29                      ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F11R1_FB30                      ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F11R1_FB31                      ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F12R1 register  ******************/
+```
 #define  CAN_F12R1_FB0                       ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F12R1_FB1                       ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F12R1_FB2                       ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3564,8 +3585,9 @@ typedef struct
 #define  CAN_F12R1_FB29                      ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F12R1_FB30                      ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F12R1_FB31                      ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F13R1 register  ******************/
+```
 #define  CAN_F13R1_FB0                       ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F13R1_FB1                       ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F13R1_FB2                       ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3598,8 +3620,9 @@ typedef struct
 #define  CAN_F13R1_FB29                      ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F13R1_FB30                      ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F13R1_FB31                      ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F0R2 register  *******************/
+```
 #define  CAN_F0R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F0R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F0R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3632,8 +3655,9 @@ typedef struct
 #define  CAN_F0R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F0R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F0R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F1R2 register  *******************/
+```
 #define  CAN_F1R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F1R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F1R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3666,8 +3690,9 @@ typedef struct
 #define  CAN_F1R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F1R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F1R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F2R2 register  *******************/
+```
 #define  CAN_F2R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F2R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F2R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3700,8 +3725,9 @@ typedef struct
 #define  CAN_F2R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F2R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F2R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F3R2 register  *******************/
+```
 #define  CAN_F3R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F3R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F3R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3734,8 +3760,9 @@ typedef struct
 #define  CAN_F3R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F3R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F3R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F4R2 register  *******************/
+```
 #define  CAN_F4R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F4R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F4R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3768,8 +3795,9 @@ typedef struct
 #define  CAN_F4R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F4R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F4R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F5R2 register  *******************/
+```
 #define  CAN_F5R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F5R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F5R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3802,8 +3830,9 @@ typedef struct
 #define  CAN_F5R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F5R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F5R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F6R2 register  *******************/
+```
 #define  CAN_F6R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F6R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F6R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3836,8 +3865,9 @@ typedef struct
 #define  CAN_F6R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F6R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F6R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F7R2 register  *******************/
+```
 #define  CAN_F7R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F7R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F7R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3870,8 +3900,9 @@ typedef struct
 #define  CAN_F7R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F7R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F7R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F8R2 register  *******************/
+```
 #define  CAN_F8R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F8R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F8R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3904,8 +3935,9 @@ typedef struct
 #define  CAN_F8R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F8R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F8R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F9R2 register  *******************/
+```
 #define  CAN_F9R2_FB0                        ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F9R2_FB1                        ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F9R2_FB2                        ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3938,8 +3970,9 @@ typedef struct
 #define  CAN_F9R2_FB29                       ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F9R2_FB30                       ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F9R2_FB31                       ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F10R2 register  ******************/
+```
 #define  CAN_F10R2_FB0                       ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F10R2_FB1                       ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F10R2_FB2                       ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -3972,8 +4005,9 @@ typedef struct
 #define  CAN_F10R2_FB29                      ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F10R2_FB30                      ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F10R2_FB31                      ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F11R2 register  ******************/
+```
 #define  CAN_F11R2_FB0                       ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F11R2_FB1                       ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F11R2_FB2                       ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -4006,8 +4040,9 @@ typedef struct
 #define  CAN_F11R2_FB29                      ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F11R2_FB30                      ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F11R2_FB31                      ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F12R2 register  ******************/
+```
 #define  CAN_F12R2_FB0                       ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F12R2_FB1                       ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F12R2_FB2                       ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -4040,8 +4075,9 @@ typedef struct
 #define  CAN_F12R2_FB29                      ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F12R2_FB30                      ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F12R2_FB31                      ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /*******************  Bit definition for CAN_F13R2 register  ******************/
+```
 #define  CAN_F13R2_FB0                       ((uint32_t)0x00000001)        /*!<Filter bit 0 */
 #define  CAN_F13R2_FB1                       ((uint32_t)0x00000002)        /*!<Filter bit 1 */
 #define  CAN_F13R2_FB2                       ((uint32_t)0x00000004)        /*!<Filter bit 2 */
@@ -4074,29 +4110,33 @@ typedef struct
 #define  CAN_F13R2_FB29                      ((uint32_t)0x20000000)        /*!<Filter bit 29 */
 #define  CAN_F13R2_FB30                      ((uint32_t)0x40000000)        /*!<Filter bit 30 */
 #define  CAN_F13R2_FB31                      ((uint32_t)0x80000000)        /*!<Filter bit 31 */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                          CRC calculation unit                              */
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bit definition for CRC_DR register  *********************/
+```
 #define  CRC_DR_DR                           ((uint32_t)0xFFFFFFFF) /*!< Data register bits */
-
+```
 
 /*******************  Bit definition for CRC_IDR register  ********************/
+```
 #define  CRC_IDR_IDR                         ((uint8_t)0xFF)        /*!< General-purpose 8-bit data register bits */
-
+```
 
 /********************  Bit definition for CRC_CR register  ********************/
+```
 #define  CRC_CR_RESET                        ((uint8_t)0x01)        /*!< RESET bit */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                            Crypto Processor                                */
 /*                                                                            */
 /******************************************************************************/
 /******************* Bits definition for CRYP_CR register  ********************/
+```
 #define CRYP_CR_ALGODIR                      ((uint32_t)0x00000004)
 
 #define CRYP_CR_ALGOMODE                     ((uint32_t)0x00080038)
@@ -4125,32 +4165,42 @@ typedef struct
 #define CRYP_CR_GCM_CCMPH_0                  ((uint32_t)0x00010000)
 #define CRYP_CR_GCM_CCMPH_1                  ((uint32_t)0x00020000)
 #define CRYP_CR_ALGOMODE_3                   ((uint32_t)0x00080000) 
-
+```
 /****************** Bits definition for CRYP_SR register  *********************/
+```
 #define CRYP_SR_IFEM                         ((uint32_t)0x00000001)
 #define CRYP_SR_IFNF                         ((uint32_t)0x00000002)
 #define CRYP_SR_OFNE                         ((uint32_t)0x00000004)
 #define CRYP_SR_OFFU                         ((uint32_t)0x00000008)
 #define CRYP_SR_BUSY                         ((uint32_t)0x00000010)
+```
 /****************** Bits definition for CRYP_DMACR register  ******************/
+```
 #define CRYP_DMACR_DIEN                      ((uint32_t)0x00000001)
 #define CRYP_DMACR_DOEN                      ((uint32_t)0x00000002)
+```
 /*****************  Bits definition for CRYP_IMSCR register  ******************/
+```
 #define CRYP_IMSCR_INIM                      ((uint32_t)0x00000001)
 #define CRYP_IMSCR_OUTIM                     ((uint32_t)0x00000002)
+```
 /****************** Bits definition for CRYP_RISR register  *******************/
+```
 #define CRYP_RISR_OUTRIS                     ((uint32_t)0x00000001)
 #define CRYP_RISR_INRIS                      ((uint32_t)0x00000002)
+```
 /****************** Bits definition for CRYP_MISR register  *******************/
+```
 #define CRYP_MISR_INMIS                      ((uint32_t)0x00000001)
 #define CRYP_MISR_OUTMIS                     ((uint32_t)0x00000002)
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                      Digital to Analog Converter                           */
 /*                                                                            */
 /******************************************************************************/
 /********************  Bit definition for DAC_CR register  ********************/
+```
 #define  DAC_CR_EN1                          ((uint32_t)0x00000001)        /*!<DAC channel1 enable */
 #define  DAC_CR_BOFF1                        ((uint32_t)0x00000002)        /*!<DAC channel1 output buffer disable */
 #define  DAC_CR_TEN1                         ((uint32_t)0x00000004)        /*!<DAC channel1 Trigger enable */
@@ -4191,51 +4241,64 @@ typedef struct
 #define  DAC_CR_MAMP2_3                      ((uint32_t)0x08000000)        /*!<Bit 3 */
 
 #define  DAC_CR_DMAEN2                       ((uint32_t)0x10000000)        /*!<DAC channel2 DMA enabled */
-
+```
 /*****************  Bit definition for DAC_SWTRIGR register  ******************/
+```
 #define  DAC_SWTRIGR_SWTRIG1                 ((uint8_t)0x01)               /*!<DAC channel1 software trigger */
 #define  DAC_SWTRIGR_SWTRIG2                 ((uint8_t)0x02)               /*!<DAC channel2 software trigger */
-
+```
 /*****************  Bit definition for DAC_DHR12R1 register  ******************/
+```
 #define  DAC_DHR12R1_DACC1DHR                ((uint16_t)0x0FFF)            /*!<DAC channel1 12-bit Right aligned data */
-
+```
 /*****************  Bit definition for DAC_DHR12L1 register  ******************/
+```
 #define  DAC_DHR12L1_DACC1DHR                ((uint16_t)0xFFF0)            /*!<DAC channel1 12-bit Left aligned data */
-
+```
 /******************  Bit definition for DAC_DHR8R1 register  ******************/
+```
 #define  DAC_DHR8R1_DACC1DHR                 ((uint8_t)0xFF)               /*!<DAC channel1 8-bit Right aligned data */
-
+```
 /*****************  Bit definition for DAC_DHR12R2 register  ******************/
+```
 #define  DAC_DHR12R2_DACC2DHR                ((uint16_t)0x0FFF)            /*!<DAC channel2 12-bit Right aligned data */
-
+```
 /*****************  Bit definition for DAC_DHR12L2 register  ******************/
+```
 #define  DAC_DHR12L2_DACC2DHR                ((uint16_t)0xFFF0)            /*!<DAC channel2 12-bit Left aligned data */
-
+```
 /******************  Bit definition for DAC_DHR8R2 register  ******************/
+```
 #define  DAC_DHR8R2_DACC2DHR                 ((uint8_t)0xFF)               /*!<DAC channel2 8-bit Right aligned data */
-
+```
 /*****************  Bit definition for DAC_DHR12RD register  ******************/
+```
 #define  DAC_DHR12RD_DACC1DHR                ((uint32_t)0x00000FFF)        /*!<DAC channel1 12-bit Right aligned data */
 #define  DAC_DHR12RD_DACC2DHR                ((uint32_t)0x0FFF0000)        /*!<DAC channel2 12-bit Right aligned data */
-
+```
 /*****************  Bit definition for DAC_DHR12LD register  ******************/
+```
 #define  DAC_DHR12LD_DACC1DHR                ((uint32_t)0x0000FFF0)        /*!<DAC channel1 12-bit Left aligned data */
 #define  DAC_DHR12LD_DACC2DHR                ((uint32_t)0xFFF00000)        /*!<DAC channel2 12-bit Left aligned data */
-
+```
 /******************  Bit definition for DAC_DHR8RD register  ******************/
+```
 #define  DAC_DHR8RD_DACC1DHR                 ((uint16_t)0x00FF)            /*!<DAC channel1 8-bit Right aligned data */
 #define  DAC_DHR8RD_DACC2DHR                 ((uint16_t)0xFF00)            /*!<DAC channel2 8-bit Right aligned data */
-
+```
 /*******************  Bit definition for DAC_DOR1 register  *******************/
+```
 #define  DAC_DOR1_DACC1DOR                   ((uint16_t)0x0FFF)            /*!<DAC channel1 data output */
-
+```
 /*******************  Bit definition for DAC_DOR2 register  *******************/
+```
 #define  DAC_DOR2_DACC2DOR                   ((uint16_t)0x0FFF)            /*!<DAC channel2 data output */
-
+```
 /********************  Bit definition for DAC_SR register  ********************/
+```
 #define  DAC_SR_DMAUDR1                      ((uint32_t)0x00002000)        /*!<DAC channel1 DMA underrun flag */
 #define  DAC_SR_DMAUDR2                      ((uint32_t)0x20000000)        /*!<DAC channel2 DMA underrun flag */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                                 Debug MCU                                  */
@@ -4248,6 +4311,7 @@ typedef struct
 /*                                                                            */
 /******************************************************************************/
 /********************  Bits definition for DCMI_CR register  ******************/
+```
 #define DCMI_CR_CAPTURE                      ((uint32_t)0x00000001)
 #define DCMI_CR_CM                           ((uint32_t)0x00000002)
 #define DCMI_CR_CROP                         ((uint32_t)0x00000004)
@@ -4262,46 +4326,52 @@ typedef struct
 #define DCMI_CR_EDM_1                        ((uint32_t)0x00000800)
 #define DCMI_CR_CRE                          ((uint32_t)0x00001000)
 #define DCMI_CR_ENABLE                       ((uint32_t)0x00004000)
-
+```
 /********************  Bits definition for DCMI_SR register  ******************/
+```
 #define DCMI_SR_HSYNC                        ((uint32_t)0x00000001)
 #define DCMI_SR_VSYNC                        ((uint32_t)0x00000002)
 #define DCMI_SR_FNE                          ((uint32_t)0x00000004)
-
+```
 /********************  Bits definition for DCMI_RISR register  ****************/
+```
 #define DCMI_RISR_FRAME_RIS                  ((uint32_t)0x00000001)
 #define DCMI_RISR_OVF_RIS                    ((uint32_t)0x00000002)
 #define DCMI_RISR_ERR_RIS                    ((uint32_t)0x00000004)
 #define DCMI_RISR_VSYNC_RIS                  ((uint32_t)0x00000008)
 #define DCMI_RISR_LINE_RIS                   ((uint32_t)0x00000010)
-
+```
 /********************  Bits definition for DCMI_IER register  *****************/
+```
 #define DCMI_IER_FRAME_IE                    ((uint32_t)0x00000001)
 #define DCMI_IER_OVF_IE                      ((uint32_t)0x00000002)
 #define DCMI_IER_ERR_IE                      ((uint32_t)0x00000004)
 #define DCMI_IER_VSYNC_IE                    ((uint32_t)0x00000008)
 #define DCMI_IER_LINE_IE                     ((uint32_t)0x00000010)
-
+```
 /********************  Bits definition for DCMI_MISR register  ****************/
+```
 #define DCMI_MISR_FRAME_MIS                  ((uint32_t)0x00000001)
 #define DCMI_MISR_OVF_MIS                    ((uint32_t)0x00000002)
 #define DCMI_MISR_ERR_MIS                    ((uint32_t)0x00000004)
 #define DCMI_MISR_VSYNC_MIS                  ((uint32_t)0x00000008)
 #define DCMI_MISR_LINE_MIS                   ((uint32_t)0x00000010)
-
+```
 /********************  Bits definition for DCMI_ICR register  *****************/
+```
 #define DCMI_ICR_FRAME_ISC                   ((uint32_t)0x00000001)
 #define DCMI_ICR_OVF_ISC                     ((uint32_t)0x00000002)
 #define DCMI_ICR_ERR_ISC                     ((uint32_t)0x00000004)
 #define DCMI_ICR_VSYNC_ISC                   ((uint32_t)0x00000008)
 #define DCMI_ICR_LINE_ISC                    ((uint32_t)0x00000010)
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                             DMA Controller                                 */
 /*                                                                            */
 /******************************************************************************/
-/********************  Bits definition for DMA_SxCR register  *****************/ 
+/********************  Bits definition for DMA_SxCR register  *****************/
+```
 #define DMA_SxCR_CHSEL                       ((uint32_t)0x0E000000)
 #define DMA_SxCR_CHSEL_0                     ((uint32_t)0x02000000)
 #define DMA_SxCR_CHSEL_1                     ((uint32_t)0x04000000)
@@ -4337,8 +4407,9 @@ typedef struct
 #define DMA_SxCR_TEIE                        ((uint32_t)0x00000004)
 #define DMA_SxCR_DMEIE                       ((uint32_t)0x00000002)
 #define DMA_SxCR_EN                          ((uint32_t)0x00000001)
-
+```
 /********************  Bits definition for DMA_SxCNDTR register  **************/
+```
 #define DMA_SxNDT                            ((uint32_t)0x0000FFFF)
 #define DMA_SxNDT_0                          ((uint32_t)0x00000001)
 #define DMA_SxNDT_1                          ((uint32_t)0x00000002)
@@ -4356,8 +4427,9 @@ typedef struct
 #define DMA_SxNDT_13                         ((uint32_t)0x00002000)
 #define DMA_SxNDT_14                         ((uint32_t)0x00004000)
 #define DMA_SxNDT_15                         ((uint32_t)0x00008000)
-
+```
 /********************  Bits definition for DMA_SxFCR register  ****************/ 
+```
 #define DMA_SxFCR_FEIE                       ((uint32_t)0x00000080)
 #define DMA_SxFCR_FS                         ((uint32_t)0x00000038)
 #define DMA_SxFCR_FS_0                       ((uint32_t)0x00000008)
@@ -4367,8 +4439,9 @@ typedef struct
 #define DMA_SxFCR_FTH                        ((uint32_t)0x00000003)
 #define DMA_SxFCR_FTH_0                      ((uint32_t)0x00000001)
 #define DMA_SxFCR_FTH_1                      ((uint32_t)0x00000002)
-
-/********************  Bits definition for DMA_LISR register  *****************/ 
+```
+/********************  Bits definition for DMA_LISR register  *****************/
+```
 #define DMA_LISR_TCIF3                       ((uint32_t)0x08000000)
 #define DMA_LISR_HTIF3                       ((uint32_t)0x04000000)
 #define DMA_LISR_TEIF3                       ((uint32_t)0x02000000)
@@ -4389,8 +4462,9 @@ typedef struct
 #define DMA_LISR_TEIF0                       ((uint32_t)0x00000008)
 #define DMA_LISR_DMEIF0                      ((uint32_t)0x00000004)
 #define DMA_LISR_FEIF0                       ((uint32_t)0x00000001)
-
+```
 /********************  Bits definition for DMA_HISR register  *****************/ 
+```
 #define DMA_HISR_TCIF7                       ((uint32_t)0x08000000)
 #define DMA_HISR_HTIF7                       ((uint32_t)0x04000000)
 #define DMA_HISR_TEIF7                       ((uint32_t)0x02000000)
@@ -4411,8 +4485,9 @@ typedef struct
 #define DMA_HISR_TEIF4                       ((uint32_t)0x00000008)
 #define DMA_HISR_DMEIF4                      ((uint32_t)0x00000004)
 #define DMA_HISR_FEIF4                       ((uint32_t)0x00000001)
-
+```
 /********************  Bits definition for DMA_LIFCR register  ****************/ 
+```
 #define DMA_LIFCR_CTCIF3                     ((uint32_t)0x08000000)
 #define DMA_LIFCR_CHTIF3                     ((uint32_t)0x04000000)
 #define DMA_LIFCR_CTEIF3                     ((uint32_t)0x02000000)
@@ -4433,8 +4508,9 @@ typedef struct
 #define DMA_LIFCR_CTEIF0                     ((uint32_t)0x00000008)
 #define DMA_LIFCR_CDMEIF0                    ((uint32_t)0x00000004)
 #define DMA_LIFCR_CFEIF0                     ((uint32_t)0x00000001)
-
+```
 /********************  Bits definition for DMA_HIFCR  register  ****************/ 
+```
 #define DMA_HIFCR_CTCIF7                     ((uint32_t)0x08000000)
 #define DMA_HIFCR_CHTIF7                     ((uint32_t)0x04000000)
 #define DMA_HIFCR_CTEIF7                     ((uint32_t)0x02000000)
@@ -4457,6 +4533,7 @@ typedef struct
 #define DMA_HIFCR_CFEIF4                     ((uint32_t)0x00000001)
 
 #if defined (STM32F429X)
+```
 /******************************************************************************/
 /*                                                                            */
 /*                         AHB Master DMA2D Controller (DMA2D)                */
@@ -4464,6 +4541,7 @@ typedef struct
 /******************************************************************************/
 
 /********************  Bit definition for DMA2D_CR register  ******************/
+```
 
 #define DMA2D_CR_START                     ((uint32_t)0x00000001)               /*!< Start transfer */
 #define DMA2D_CR_SUSP                      ((uint32_t)0x00000002)               /*!< Suspend transfer */
@@ -4475,8 +4553,9 @@ typedef struct
 #define DMA2D_CR_CTCIE                     ((uint32_t)0x00001000)               /*!< CLUT Transfer Complete Interrupt Enable */
 #define DMA2D_CR_CEIE                      ((uint32_t)0x00002000)               /*!< Configuration Error Interrupt Enable */
 #define DMA2D_CR_MODE                      ((uint32_t)0x00030000)               /*!< DMA2D Mode */
-
+```
 /********************  Bit definition for DMA2D_ISR register  *****************/
+```
 
 #define DMA2D_ISR_TEIF                     ((uint32_t)0x00000001)               /*!< Transfer Error Interrupt Flag */
 #define DMA2D_ISR_TCIF                     ((uint32_t)0x00000002)               /*!< Transfer Complete Interrupt Flag */
@@ -4484,8 +4563,9 @@ typedef struct
 #define DMA2D_ISR_CAEIF                    ((uint32_t)0x00000008)               /*!< CLUT Access Error Interrupt Flag */
 #define DMA2D_ISR_CTCIF                    ((uint32_t)0x00000010)               /*!< CLUT Transfer Complete Interrupt Flag */
 #define DMA2D_ISR_CEIF                     ((uint32_t)0x00000020)               /*!< Configuration Error Interrupt Flag */
-
+```
 /********************  Bit definition for DMA2D_IFSR register  ****************/
+```
 
 #define DMA2D_IFSR_CTEIF                   ((uint32_t)0x00000001)               /*!< Clears Transfer Error Interrupt Flag */
 #define DMA2D_IFSR_CTCIF                   ((uint32_t)0x00000002)               /*!< Clears Transfer Complete Interrupt Flag */
@@ -4493,24 +4573,29 @@ typedef struct
 #define DMA2D_IFSR_CCAEIF                  ((uint32_t)0x00000008)               /*!< Clears CLUT Access Error Interrupt Flag */
 #define DMA2D_IFSR_CCTCIF                  ((uint32_t)0x00000010)               /*!< Clears CLUT Transfer Complete Interrupt Flag */
 #define DMA2D_IFSR_CCEIF                   ((uint32_t)0x00000020)               /*!< Clears Configuration Error Interrupt Flag */
-
+```
 /********************  Bit definition for DMA2D_FGMAR register  ***************/
+```
 
 #define DMA2D_FGMAR_MA                     ((uint32_t)0xFFFFFFFF)               /*!< Memory Address */
-
+```
 /********************  Bit definition for DMA2D_FGOR register  ****************/
+```
 
 #define DMA2D_FGOR_LO                      ((uint32_t)0x00003FFF)               /*!< Line Offset */
-
+```
 /********************  Bit definition for DMA2D_BGMAR register  ***************/
+```
 
 #define DMA2D_BGMAR_MA                     ((uint32_t)0xFFFFFFFF)               /*!< Memory Address */
-
+```
 /********************  Bit definition for DMA2D_BGOR register  ****************/
+```
 
 #define DMA2D_BGOR_LO                      ((uint32_t)0x00003FFF)               /*!< Line Offset */
-
+```
 /********************  Bit definition for DMA2D_FGPFCCR register  *************/
+```
 
 #define DMA2D_FGPFCCR_CM                   ((uint32_t)0x0000000F)               /*!< Color mode */
 #define DMA2D_FGPFCCR_CCM                  ((uint32_t)0x00000010)               /*!< CLUT Color mode */
@@ -4518,14 +4603,16 @@ typedef struct
 #define DMA2D_FGPFCCR_CS                   ((uint32_t)0x0000FF00)               /*!< CLUT size */
 #define DMA2D_FGPFCCR_AM                   ((uint32_t)0x00030000)               /*!< Alpha mode */
 #define DMA2D_FGPFCCR_ALPHA                ((uint32_t)0xFF000000)               /*!< Alpha value */
-
+```
 /********************  Bit definition for DMA2D_FGCOLR register  **************/
+```
 
 #define DMA2D_FGCOLR_BLUE                  ((uint32_t)0x000000FF)               /*!< Blue Value */
 #define DMA2D_FGCOLR_GREEN                 ((uint32_t)0x0000FF00)               /*!< Green Value */
 #define DMA2D_FGCOLR_RED                   ((uint32_t)0x00FF0000)               /*!< Red Value */   
-
+```
 /********************  Bit definition for DMA2D_BGPFCCR register  *************/
+```
 
 #define DMA2D_BGPFCCR_CM                   ((uint32_t)0x0000000F)               /*!< Color mode */
 #define DMA2D_BGPFCCR_CCM                  ((uint32_t)0x00000010)               /*!< CLUT Color mode */
@@ -4533,26 +4620,31 @@ typedef struct
 #define DMA2D_BGPFCCR_CS                   ((uint32_t)0x0000FF00)               /*!< CLUT size */
 #define DMA2D_BGPFCCR_AM                   ((uint32_t)0x00030000)               /*!< Alpha Mode */
 #define DMA2D_BGPFCCR_ALPHA                ((uint32_t)0xFF000000)               /*!< Alpha value */
-
+```
 /********************  Bit definition for DMA2D_BGCOLR register  **************/
+```
 
 #define DMA2D_BGCOLR_BLUE                  ((uint32_t)0x000000FF)               /*!< Blue Value */
 #define DMA2D_BGCOLR_GREEN                 ((uint32_t)0x0000FF00)               /*!< Green Value */
 #define DMA2D_BGCOLR_RED                   ((uint32_t)0x00FF0000)               /*!< Red Value */
-
+```
 /********************  Bit definition for DMA2D_FGCMAR register  **************/
+```
 
 #define DMA2D_FGCMAR_MA                    ((uint32_t)0xFFFFFFFF)               /*!< Memory Address */
-
+```
 /********************  Bit definition for DMA2D_BGCMAR register  **************/
+```
 
 #define DMA2D_BGCMAR_MA                    ((uint32_t)0xFFFFFFFF)               /*!< Memory Address */
-
+```
 /********************  Bit definition for DMA2D_OPFCCR register  **************/
+```
 
 #define DMA2D_OPFCCR_CM                    ((uint32_t)0x00000007)               /*!< Color mode */
-
+```
 /********************  Bit definition for DMA2D_OCOLR register  ***************/
+```
 
 /*!<Mode_ARGB8888/RGB888 */
 
@@ -4577,36 +4669,42 @@ typedef struct
 #define DMA2D_OCOLR_GREEN_4                ((uint32_t)0x000000F0)               /*!< GREEN Value  */
 #define DMA2D_OCOLR_RED_4                  ((uint32_t)0x00000F00)               /*!< Red Value */
 #define DMA2D_OCOLR_ALPHA_4                ((uint32_t)0x0000F000)               /*!< Alpha Channel Value */
-
+```
 /********************  Bit definition for DMA2D_OMAR register  ****************/
+```
 
 #define DMA2D_OMAR_MA                      ((uint32_t)0xFFFFFFFF)               /*!< Memory Address */
-
+```
 /********************  Bit definition for DMA2D_OOR register  *****************/
+```
 
 #define DMA2D_OOR_LO                       ((uint32_t)0x00003FFF)               /*!< Line Offset */
-
+```
 /********************  Bit definition for DMA2D_NLR register  *****************/
+```
 
 #define DMA2D_NLR_NL                       ((uint32_t)0x0000FFFF)               /*!< Number of Lines */
 #define DMA2D_NLR_PL                       ((uint32_t)0x3FFF0000)               /*!< Pixel per Lines */
-
+```
 /********************  Bit definition for DMA2D_LWR register  *****************/
+```
 
 #define DMA2D_LWR_LW                       ((uint32_t)0x0000FFFF)               /*!< Line Watermark */
-
+```
 /********************  Bit definition for DMA2D_AMTCR register  ***************/
+```
 
 #define DMA2D_AMTCR_EN                     ((uint32_t)0x00000001)               /*!< Enable */
 #define DMA2D_AMTCR_DT                     ((uint32_t)0x0000FF00)               /*!< Dead Time */
 
 
-
+```
 /********************  Bit definition for DMA2D_FGCLUT register  **************/
                                                                      
 /********************  Bit definition for DMA2D_BGCLUT register  **************/
+```
 #endif /* STM32F429X */
-
+```
 
 /******************************************************************************/
 /*                                                                            */
@@ -4614,6 +4712,7 @@ typedef struct
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bit definition for EXTI_IMR register  *******************/
+```
 #define  EXTI_IMR_MR0                        ((uint32_t)0x00000001)        /*!< Interrupt Mask on line 0 */
 #define  EXTI_IMR_MR1                        ((uint32_t)0x00000002)        /*!< Interrupt Mask on line 1 */
 #define  EXTI_IMR_MR2                        ((uint32_t)0x00000004)        /*!< Interrupt Mask on line 2 */
@@ -4634,8 +4733,9 @@ typedef struct
 #define  EXTI_IMR_MR17                       ((uint32_t)0x00020000)        /*!< Interrupt Mask on line 17 */
 #define  EXTI_IMR_MR18                       ((uint32_t)0x00040000)        /*!< Interrupt Mask on line 18 */
 #define  EXTI_IMR_MR19                       ((uint32_t)0x00080000)        /*!< Interrupt Mask on line 19 */
-
+```
 /*******************  Bit definition for EXTI_EMR register  *******************/
+```
 #define  EXTI_EMR_MR0                        ((uint32_t)0x00000001)        /*!< Event Mask on line 0 */
 #define  EXTI_EMR_MR1                        ((uint32_t)0x00000002)        /*!< Event Mask on line 1 */
 #define  EXTI_EMR_MR2                        ((uint32_t)0x00000004)        /*!< Event Mask on line 2 */
@@ -4656,8 +4756,9 @@ typedef struct
 #define  EXTI_EMR_MR17                       ((uint32_t)0x00020000)        /*!< Event Mask on line 17 */
 #define  EXTI_EMR_MR18                       ((uint32_t)0x00040000)        /*!< Event Mask on line 18 */
 #define  EXTI_EMR_MR19                       ((uint32_t)0x00080000)        /*!< Event Mask on line 19 */
-
+```
 /******************  Bit definition for EXTI_RTSR register  *******************/
+```
 #define  EXTI_RTSR_TR0                       ((uint32_t)0x00000001)        /*!< Rising trigger event configuration bit of line 0 */
 #define  EXTI_RTSR_TR1                       ((uint32_t)0x00000002)        /*!< Rising trigger event configuration bit of line 1 */
 #define  EXTI_RTSR_TR2                       ((uint32_t)0x00000004)        /*!< Rising trigger event configuration bit of line 2 */
@@ -4678,8 +4779,9 @@ typedef struct
 #define  EXTI_RTSR_TR17                      ((uint32_t)0x00020000)        /*!< Rising trigger event configuration bit of line 17 */
 #define  EXTI_RTSR_TR18                      ((uint32_t)0x00040000)        /*!< Rising trigger event configuration bit of line 18 */
 #define  EXTI_RTSR_TR19                      ((uint32_t)0x00080000)        /*!< Rising trigger event configuration bit of line 19 */
-
+```
 /******************  Bit definition for EXTI_FTSR register  *******************/
+```
 #define  EXTI_FTSR_TR0                       ((uint32_t)0x00000001)        /*!< Falling trigger event configuration bit of line 0 */
 #define  EXTI_FTSR_TR1                       ((uint32_t)0x00000002)        /*!< Falling trigger event configuration bit of line 1 */
 #define  EXTI_FTSR_TR2                       ((uint32_t)0x00000004)        /*!< Falling trigger event configuration bit of line 2 */
@@ -4700,8 +4802,9 @@ typedef struct
 #define  EXTI_FTSR_TR17                      ((uint32_t)0x00020000)        /*!< Falling trigger event configuration bit of line 17 */
 #define  EXTI_FTSR_TR18                      ((uint32_t)0x00040000)        /*!< Falling trigger event configuration bit of line 18 */
 #define  EXTI_FTSR_TR19                      ((uint32_t)0x00080000)        /*!< Falling trigger event configuration bit of line 19 */
-
+```
 /******************  Bit definition for EXTI_SWIER register  ******************/
+```
 #define  EXTI_SWIER_SWIER0                   ((uint32_t)0x00000001)        /*!< Software Interrupt on line 0 */
 #define  EXTI_SWIER_SWIER1                   ((uint32_t)0x00000002)        /*!< Software Interrupt on line 1 */
 #define  EXTI_SWIER_SWIER2                   ((uint32_t)0x00000004)        /*!< Software Interrupt on line 2 */
@@ -4722,8 +4825,9 @@ typedef struct
 #define  EXTI_SWIER_SWIER17                  ((uint32_t)0x00020000)        /*!< Software Interrupt on line 17 */
 #define  EXTI_SWIER_SWIER18                  ((uint32_t)0x00040000)        /*!< Software Interrupt on line 18 */
 #define  EXTI_SWIER_SWIER19                  ((uint32_t)0x00080000)        /*!< Software Interrupt on line 19 */
-
+```
 /*******************  Bit definition for EXTI_PR register  ********************/
+```
 #define  EXTI_PR_PR0                         ((uint32_t)0x00000001)        /*!< Pending bit for line 0 */
 #define  EXTI_PR_PR1                         ((uint32_t)0x00000002)        /*!< Pending bit for line 1 */
 #define  EXTI_PR_PR2                         ((uint32_t)0x00000004)        /*!< Pending bit for line 2 */
@@ -4744,13 +4848,14 @@ typedef struct
 #define  EXTI_PR_PR17                        ((uint32_t)0x00020000)        /*!< Pending bit for line 17 */
 #define  EXTI_PR_PR18                        ((uint32_t)0x00040000)        /*!< Pending bit for line 18 */
 #define  EXTI_PR_PR19                        ((uint32_t)0x00080000)        /*!< Pending bit for line 19 */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                                    FLASH                                   */
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bits definition for FLASH_ACR register  *****************/
+```
 #define FLASH_ACR_LATENCY                    ((uint32_t)0x0000000F)
 #define FLASH_ACR_LATENCY_0WS                ((uint32_t)0x00000000)
 #define FLASH_ACR_LATENCY_1WS                ((uint32_t)0x00000001)
@@ -4779,8 +4884,9 @@ typedef struct
 #define FLASH_ACR_DCRST                      ((uint32_t)0x00001000)
 #define FLASH_ACR_BYTE0_ADDRESS              ((uint32_t)0x40023C00)
 #define FLASH_ACR_BYTE2_ADDRESS              ((uint32_t)0x40023C03)
-
+```
 /*******************  Bits definition for FLASH_SR register  ******************/
+```
 #define FLASH_SR_EOP                         ((uint32_t)0x00000001)
 #define FLASH_SR_SOP                         ((uint32_t)0x00000002)
 #define FLASH_SR_WRPERR                      ((uint32_t)0x00000010)
@@ -4788,8 +4894,9 @@ typedef struct
 #define FLASH_SR_PGPERR                      ((uint32_t)0x00000040)
 #define FLASH_SR_PGSERR                      ((uint32_t)0x00000080)
 #define FLASH_SR_BSY                         ((uint32_t)0x00010000)
-
+```
 /*******************  Bits definition for FLASH_CR register  ******************/
+```
 #define FLASH_CR_PG                          ((uint32_t)0x00000001)
 #define FLASH_CR_SER                         ((uint32_t)0x00000002)
 #define FLASH_CR_MER                         ((uint32_t)0x00000004)
@@ -4807,8 +4914,9 @@ typedef struct
 #define FLASH_CR_STRT                        ((uint32_t)0x00010000)
 #define FLASH_CR_EOPIE                       ((uint32_t)0x01000000)
 #define FLASH_CR_LOCK                        ((uint32_t)0x80000000)
-
+```
 /*******************  Bits definition for FLASH_OPTCR register  ***************/
+```
 #define FLASH_OPTCR_OPTLOCK                 ((uint32_t)0x00000001)
 #define FLASH_OPTCR_OPTSTRT                 ((uint32_t)0x00000002)
 #define FLASH_OPTCR_BOR_LEV_0               ((uint32_t)0x00000004)
@@ -4849,8 +4957,9 @@ typedef struct
 #define FLASH_OPTCR_DB1M                    ((uint32_t)0x40000000) 
 #define FLASH_OPTCR_SPRMOD                  ((uint32_t)0x80000000) 
 #endif /* STM32F429X */
-                                             
+ ```                                            
 /******************  Bits definition for FLASH_OPTCR1 register  ***************/
+```
 #define FLASH_OPTCR1_nWRP                    ((uint32_t)0x0FFF0000)
 #define FLASH_OPTCR1_nWRP_0                  ((uint32_t)0x00010000)
 #define FLASH_OPTCR1_nWRP_1                  ((uint32_t)0x00020000)
@@ -4866,12 +4975,14 @@ typedef struct
 #define FLASH_OPTCR1_nWRP_11                 ((uint32_t)0x08000000)
 
 #if defined (STM32F40XX) || defined (STM32F427X)
+```
 /******************************************************************************/
 /*                                                                            */
 /*                       Flexible Static Memory Controller                    */
 /*                                                                            */
 /******************************************************************************/
 /******************  Bit definition for FSMC_BCR1 register  *******************/
+```
 #define  FSMC_BCR1_MBKEN                     ((uint32_t)0x00000001)        /*!<Memory bank enable bit                 */
 #define  FSMC_BCR1_MUXEN                     ((uint32_t)0x00000002)        /*!<Address/data multiplexing enable bit   */
 
@@ -4893,8 +5004,9 @@ typedef struct
 #define  FSMC_BCR1_EXTMOD                    ((uint32_t)0x00004000)        /*!<Extended mode enable                   */
 #define  FSMC_BCR1_ASYNCWAIT                 ((uint32_t)0x00008000)        /*!<Asynchronous wait                      */
 #define  FSMC_BCR1_CBURSTRW                  ((uint32_t)0x00080000)        /*!<Write burst enable                     */
-
+```
 /******************  Bit definition for FSMC_BCR2 register  *******************/
+```
 #define  FSMC_BCR2_MBKEN                     ((uint32_t)0x00000001)        /*!<Memory bank enable bit                */
 #define  FSMC_BCR2_MUXEN                     ((uint32_t)0x00000002)        /*!<Address/data multiplexing enable bit   */
 
@@ -4916,8 +5028,9 @@ typedef struct
 #define  FSMC_BCR2_EXTMOD                    ((uint32_t)0x00004000)        /*!<Extended mode enable                   */
 #define  FSMC_BCR2_ASYNCWAIT                 ((uint32_t)0x00008000)        /*!<Asynchronous wait                      */
 #define  FSMC_BCR2_CBURSTRW                  ((uint32_t)0x00080000)        /*!<Write burst enable                     */
-
+```
 /******************  Bit definition for FSMC_BCR3 register  *******************/
+```
 #define  FSMC_BCR3_MBKEN                     ((uint32_t)0x00000001)        /*!<Memory bank enable bit                 */
 #define  FSMC_BCR3_MUXEN                     ((uint32_t)0x00000002)        /*!<Address/data multiplexing enable bit   */
 
@@ -4939,8 +5052,9 @@ typedef struct
 #define  FSMC_BCR3_EXTMOD                    ((uint32_t)0x00004000)        /*!<Extended mode enable                   */
 #define  FSMC_BCR3_ASYNCWAIT                 ((uint32_t)0x00008000)        /*!<Asynchronous wait                      */
 #define  FSMC_BCR3_CBURSTRW                  ((uint32_t)0x00080000)        /*!<Write burst enable                     */
-
+```
 /******************  Bit definition for FSMC_BCR4 register  *******************/
+```
 #define  FSMC_BCR4_MBKEN                     ((uint32_t)0x00000001)        /*!<Memory bank enable bit */
 #define  FSMC_BCR4_MUXEN                     ((uint32_t)0x00000002)        /*!<Address/data multiplexing enable bit   */
 
@@ -4962,8 +5076,9 @@ typedef struct
 #define  FSMC_BCR4_EXTMOD                    ((uint32_t)0x00004000)        /*!<Extended mode enable                   */
 #define  FSMC_BCR4_ASYNCWAIT                 ((uint32_t)0x00008000)        /*!<Asynchronous wait                      */
 #define  FSMC_BCR4_CBURSTRW                  ((uint32_t)0x00080000)        /*!<Write burst enable                     */
-
+```
 /******************  Bit definition for FSMC_BTR1 register  ******************/
+```
 #define  FSMC_BTR1_ADDSET                    ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FSMC_BTR1_ADDSET_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_BTR1_ADDSET_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5003,8 +5118,9 @@ typedef struct
 #define  FSMC_BTR1_ACCMOD                    ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FSMC_BTR1_ACCMOD_0                  ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FSMC_BTR1_ACCMOD_1                  ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FSMC_BTR2 register  *******************/
+```
 #define  FSMC_BTR2_ADDSET                    ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FSMC_BTR2_ADDSET_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_BTR2_ADDSET_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5044,8 +5160,9 @@ typedef struct
 #define  FSMC_BTR2_ACCMOD                    ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FSMC_BTR2_ACCMOD_0                  ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FSMC_BTR2_ACCMOD_1                  ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /*******************  Bit definition for FSMC_BTR3 register  *******************/
+```
 #define  FSMC_BTR3_ADDSET                    ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FSMC_BTR3_ADDSET_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_BTR3_ADDSET_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5085,8 +5202,9 @@ typedef struct
 #define  FSMC_BTR3_ACCMOD                    ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FSMC_BTR3_ACCMOD_0                  ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FSMC_BTR3_ACCMOD_1                  ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FSMC_BTR4 register  *******************/
+```
 #define  FSMC_BTR4_ADDSET                    ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FSMC_BTR4_ADDSET_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_BTR4_ADDSET_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5126,8 +5244,9 @@ typedef struct
 #define  FSMC_BTR4_ACCMOD                    ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FSMC_BTR4_ACCMOD_0                  ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FSMC_BTR4_ACCMOD_1                  ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FSMC_BWTR1 register  ******************/
+```
 #define  FSMC_BWTR1_ADDSET                   ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FSMC_BWTR1_ADDSET_0                 ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_BWTR1_ADDSET_1                 ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5161,8 +5280,9 @@ typedef struct
 #define  FSMC_BWTR1_ACCMOD                   ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FSMC_BWTR1_ACCMOD_0                 ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FSMC_BWTR1_ACCMOD_1                 ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FSMC_BWTR2 register  ******************/
+```
 #define  FSMC_BWTR2_ADDSET                   ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FSMC_BWTR2_ADDSET_0                 ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_BWTR2_ADDSET_1                 ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5196,8 +5316,9 @@ typedef struct
 #define  FSMC_BWTR2_ACCMOD                   ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FSMC_BWTR2_ACCMOD_0                 ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FSMC_BWTR2_ACCMOD_1                 ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FSMC_BWTR3 register  ******************/
+```
 #define  FSMC_BWTR3_ADDSET                   ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FSMC_BWTR3_ADDSET_0                 ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_BWTR3_ADDSET_1                 ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5231,8 +5352,9 @@ typedef struct
 #define  FSMC_BWTR3_ACCMOD                   ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FSMC_BWTR3_ACCMOD_0                 ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FSMC_BWTR3_ACCMOD_1                 ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FSMC_BWTR4 register  ******************/
+```
 #define  FSMC_BWTR4_ADDSET                   ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FSMC_BWTR4_ADDSET_0                 ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_BWTR4_ADDSET_1                 ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5266,8 +5388,9 @@ typedef struct
 #define  FSMC_BWTR4_ACCMOD                   ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FSMC_BWTR4_ACCMOD_0                 ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FSMC_BWTR4_ACCMOD_1                 ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FSMC_PCR2 register  *******************/
+```
 #define  FSMC_PCR2_PWAITEN                   ((uint32_t)0x00000002)        /*!<Wait feature enable bit */
 #define  FSMC_PCR2_PBKEN                     ((uint32_t)0x00000004)        /*!<PC Card/NAND Flash memory bank enable bit */
 #define  FSMC_PCR2_PTYP                      ((uint32_t)0x00000008)        /*!<Memory type */
@@ -5294,8 +5417,9 @@ typedef struct
 #define  FSMC_PCR2_ECCPS_0                   ((uint32_t)0x00020000)        /*!<Bit 0 */
 #define  FSMC_PCR2_ECCPS_1                   ((uint32_t)0x00040000)        /*!<Bit 1 */
 #define  FSMC_PCR2_ECCPS_2                   ((uint32_t)0x00080000)        /*!<Bit 2 */
-
+```
 /******************  Bit definition for FSMC_PCR3 register  *******************/
+```
 #define  FSMC_PCR3_PWAITEN                   ((uint32_t)0x00000002)        /*!<Wait feature enable bit */
 #define  FSMC_PCR3_PBKEN                     ((uint32_t)0x00000004)        /*!<PC Card/NAND Flash memory bank enable bit */
 #define  FSMC_PCR3_PTYP                      ((uint32_t)0x00000008)        /*!<Memory type */
@@ -5322,8 +5446,9 @@ typedef struct
 #define  FSMC_PCR3_ECCPS_0                   ((uint32_t)0x00020000)        /*!<Bit 0 */
 #define  FSMC_PCR3_ECCPS_1                   ((uint32_t)0x00040000)        /*!<Bit 1 */
 #define  FSMC_PCR3_ECCPS_2                   ((uint32_t)0x00080000)        /*!<Bit 2 */
-
+```
 /******************  Bit definition for FSMC_PCR4 register  *******************/
+```
 #define  FSMC_PCR4_PWAITEN                   ((uint32_t)0x00000002)        /*!<Wait feature enable bit */
 #define  FSMC_PCR4_PBKEN                     ((uint32_t)0x00000004)        /*!<PC Card/NAND Flash memory bank enable bit */
 #define  FSMC_PCR4_PTYP                      ((uint32_t)0x00000008)        /*!<Memory type */
@@ -5350,8 +5475,9 @@ typedef struct
 #define  FSMC_PCR4_ECCPS_0                   ((uint32_t)0x00020000)        /*!<Bit 0 */
 #define  FSMC_PCR4_ECCPS_1                   ((uint32_t)0x00040000)        /*!<Bit 1 */
 #define  FSMC_PCR4_ECCPS_2                   ((uint32_t)0x00080000)        /*!<Bit 2 */
-
+```
 /*******************  Bit definition for FSMC_SR2 register  *******************/
+```
 #define  FSMC_SR2_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
 #define  FSMC_SR2_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
 #define  FSMC_SR2_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
@@ -5359,8 +5485,9 @@ typedef struct
 #define  FSMC_SR2_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
 #define  FSMC_SR2_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
 #define  FSMC_SR2_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty */
-
+```
 /*******************  Bit definition for FSMC_SR3 register  *******************/
+```
 #define  FSMC_SR3_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
 #define  FSMC_SR3_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
 #define  FSMC_SR3_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
@@ -5368,8 +5495,9 @@ typedef struct
 #define  FSMC_SR3_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
 #define  FSMC_SR3_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
 #define  FSMC_SR3_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty */
-
+```
 /*******************  Bit definition for FSMC_SR4 register  *******************/
+```
 #define  FSMC_SR4_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                 */
 #define  FSMC_SR4_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                       */
 #define  FSMC_SR4_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status                */
@@ -5377,8 +5505,9 @@ typedef struct
 #define  FSMC_SR4_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit         */
 #define  FSMC_SR4_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit  */
 #define  FSMC_SR4_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty */
-
+```
 /******************  Bit definition for FSMC_PMEM2 register  ******************/
+```
 #define  FSMC_PMEM2_MEMSET2                  ((uint32_t)0x000000FF)        /*!<MEMSET2[7:0] bits (Common memory 2 setup time) */
 #define  FSMC_PMEM2_MEMSET2_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_PMEM2_MEMSET2_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5418,8 +5547,9 @@ typedef struct
 #define  FSMC_PMEM2_MEMHIZ2_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FSMC_PMEM2_MEMHIZ2_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FSMC_PMEM2_MEMHIZ2_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FSMC_PMEM3 register  ******************/
+```
 #define  FSMC_PMEM3_MEMSET3                  ((uint32_t)0x000000FF)        /*!<MEMSET3[7:0] bits (Common memory 3 setup time) */
 #define  FSMC_PMEM3_MEMSET3_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_PMEM3_MEMSET3_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5459,8 +5589,9 @@ typedef struct
 #define  FSMC_PMEM3_MEMHIZ3_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FSMC_PMEM3_MEMHIZ3_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FSMC_PMEM3_MEMHIZ3_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FSMC_PMEM4 register  ******************/
+```
 #define  FSMC_PMEM4_MEMSET4                  ((uint32_t)0x000000FF)        /*!<MEMSET4[7:0] bits (Common memory 4 setup time) */
 #define  FSMC_PMEM4_MEMSET4_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_PMEM4_MEMSET4_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5500,8 +5631,9 @@ typedef struct
 #define  FSMC_PMEM4_MEMHIZ4_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FSMC_PMEM4_MEMHIZ4_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FSMC_PMEM4_MEMHIZ4_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FSMC_PATT2 register  ******************/
+```
 #define  FSMC_PATT2_ATTSET2                  ((uint32_t)0x000000FF)        /*!<ATTSET2[7:0] bits (Attribute memory 2 setup time) */
 #define  FSMC_PATT2_ATTSET2_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_PATT2_ATTSET2_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5541,8 +5673,9 @@ typedef struct
 #define  FSMC_PATT2_ATTHIZ2_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FSMC_PATT2_ATTHIZ2_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FSMC_PATT2_ATTHIZ2_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FSMC_PATT3 register  ******************/
+```
 #define  FSMC_PATT3_ATTSET3                  ((uint32_t)0x000000FF)        /*!<ATTSET3[7:0] bits (Attribute memory 3 setup time) */
 #define  FSMC_PATT3_ATTSET3_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_PATT3_ATTSET3_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5582,8 +5715,9 @@ typedef struct
 #define  FSMC_PATT3_ATTHIZ3_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FSMC_PATT3_ATTHIZ3_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FSMC_PATT3_ATTHIZ3_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FSMC_PATT4 register  ******************/
+```
 #define  FSMC_PATT4_ATTSET4                  ((uint32_t)0x000000FF)        /*!<ATTSET4[7:0] bits (Attribute memory 4 setup time) */
 #define  FSMC_PATT4_ATTSET4_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_PATT4_ATTSET4_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5623,8 +5757,9 @@ typedef struct
 #define  FSMC_PATT4_ATTHIZ4_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FSMC_PATT4_ATTHIZ4_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FSMC_PATT4_ATTHIZ4_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FSMC_PIO4 register  *******************/
+```
 #define  FSMC_PIO4_IOSET4                    ((uint32_t)0x000000FF)        /*!<IOSET4[7:0] bits (I/O 4 setup time) */
 #define  FSMC_PIO4_IOSET4_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FSMC_PIO4_IOSET4_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5664,21 +5799,25 @@ typedef struct
 #define  FSMC_PIO4_IOHIZ4_5                  ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FSMC_PIO4_IOHIZ4_6                  ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FSMC_PIO4_IOHIZ4_7                  ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FSMC_ECCR2 register  ******************/
+```
 #define  FSMC_ECCR2_ECC2                     ((uint32_t)0xFFFFFFFF)        /*!<ECC result */
-
+```
 /******************  Bit definition for FSMC_ECCR3 register  ******************/
+```
 #define  FSMC_ECCR3_ECC3                     ((uint32_t)0xFFFFFFFF)        /*!<ECC result */
 #endif /* STM32F40XX || STM32F427X */
 
 #if defined (STM32F429X)
+```
 /******************************************************************************/
 /*                                                                            */
 /*                          Flexible Memory Controller                        */
 /*                                                                            */
 /******************************************************************************/
 /******************  Bit definition for FMC_BCR1 register  *******************/
+```
 #define  FMC_BCR1_MBKEN                     ((uint32_t)0x00000001)        /*!<Memory bank enable bit                 */
 #define  FMC_BCR1_MUXEN                     ((uint32_t)0x00000002)        /*!<Address/data multiplexing enable bit   */
 
@@ -5701,8 +5840,9 @@ typedef struct
 #define  FMC_BCR1_ASYNCWAIT                 ((uint32_t)0x00008000)        /*!<Asynchronous wait          */
 #define  FMC_BCR1_CBURSTRW                  ((uint32_t)0x00080000)        /*!<Write burst enable         */
 #define  FMC_BCR1_CCLKEN                    ((uint32_t)0x00100000)        /*!<Continous clock enable     */
-
+```
 /******************  Bit definition for FMC_BCR2 register  *******************/
+```
 #define  FMC_BCR2_MBKEN                     ((uint32_t)0x00000001)        /*!<Memory bank enable bit                 */
 #define  FMC_BCR2_MUXEN                     ((uint32_t)0x00000002)        /*!<Address/data multiplexing enable bit   */
 
@@ -5724,8 +5864,9 @@ typedef struct
 #define  FMC_BCR2_EXTMOD                    ((uint32_t)0x00004000)        /*!<Extended mode enable       */
 #define  FMC_BCR2_ASYNCWAIT                 ((uint32_t)0x00008000)        /*!<Asynchronous wait          */
 #define  FMC_BCR2_CBURSTRW                  ((uint32_t)0x00080000)        /*!<Write burst enable         */
-
+```
 /******************  Bit definition for FMC_BCR3 register  *******************/
+```
 #define  FMC_BCR3_MBKEN                     ((uint32_t)0x00000001)        /*!<Memory bank enable bit                 */
 #define  FMC_BCR3_MUXEN                     ((uint32_t)0x00000002)        /*!<Address/data multiplexing enable bit   */
 
@@ -5747,8 +5888,9 @@ typedef struct
 #define  FMC_BCR3_EXTMOD                    ((uint32_t)0x00004000)        /*!<Extended mode enable       */
 #define  FMC_BCR3_ASYNCWAIT                 ((uint32_t)0x00008000)        /*!<Asynchronous wait          */
 #define  FMC_BCR3_CBURSTRW                  ((uint32_t)0x00080000)        /*!<Write burst enable         */
-
+```
 /******************  Bit definition for FMC_BCR4 register  *******************/
+```
 #define  FMC_BCR4_MBKEN                     ((uint32_t)0x00000001)        /*!<Memory bank enable bit                 */
 #define  FMC_BCR4_MUXEN                     ((uint32_t)0x00000002)        /*!<Address/data multiplexing enable bit   */
 
@@ -5770,8 +5912,9 @@ typedef struct
 #define  FMC_BCR4_EXTMOD                    ((uint32_t)0x00004000)        /*!<Extended mode enable       */
 #define  FMC_BCR4_ASYNCWAIT                 ((uint32_t)0x00008000)        /*!<Asynchronous wait          */
 #define  FMC_BCR4_CBURSTRW                  ((uint32_t)0x00080000)        /*!<Write burst enable         */
-
+```
 /******************  Bit definition for FMC_BTR1 register  ******************/
+```
 #define  FMC_BTR1_ADDSET                    ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FMC_BTR1_ADDSET_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_BTR1_ADDSET_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5815,8 +5958,9 @@ typedef struct
 #define  FMC_BTR1_ACCMOD                    ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FMC_BTR1_ACCMOD_0                  ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FMC_BTR1_ACCMOD_1                  ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_BTR2 register  *******************/
+```
 #define  FMC_BTR2_ADDSET                    ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FMC_BTR2_ADDSET_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_BTR2_ADDSET_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5860,8 +6004,9 @@ typedef struct
 #define  FMC_BTR2_ACCMOD                    ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FMC_BTR2_ACCMOD_0                  ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FMC_BTR2_ACCMOD_1                  ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /*******************  Bit definition for FMC_BTR3 register  *******************/
+```
 #define  FMC_BTR3_ADDSET                    ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FMC_BTR3_ADDSET_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_BTR3_ADDSET_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5905,8 +6050,9 @@ typedef struct
 #define  FMC_BTR3_ACCMOD                    ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FMC_BTR3_ACCMOD_0                  ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FMC_BTR3_ACCMOD_1                  ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_BTR4 register  *******************/
+```
 #define  FMC_BTR4_ADDSET                    ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FMC_BTR4_ADDSET_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_BTR4_ADDSET_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5950,8 +6096,9 @@ typedef struct
 #define  FMC_BTR4_ACCMOD                    ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FMC_BTR4_ACCMOD_0                  ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FMC_BTR4_ACCMOD_1                  ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_BWTR1 register  ******************/
+```
 #define  FMC_BWTR1_ADDSET                   ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FMC_BWTR1_ADDSET_0                 ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_BWTR1_ADDSET_1                 ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -5989,8 +6136,9 @@ typedef struct
 #define  FMC_BWTR1_ACCMOD                   ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FMC_BWTR1_ACCMOD_0                 ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FMC_BWTR1_ACCMOD_1                 ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_BWTR2 register  ******************/
+```
 #define  FMC_BWTR2_ADDSET                   ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FMC_BWTR2_ADDSET_0                 ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_BWTR2_ADDSET_1                 ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6028,8 +6176,9 @@ typedef struct
 #define  FMC_BWTR2_ACCMOD                   ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FMC_BWTR2_ACCMOD_0                 ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FMC_BWTR2_ACCMOD_1                 ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_BWTR3 register  ******************/
+```
 #define  FMC_BWTR3_ADDSET                   ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FMC_BWTR3_ADDSET_0                 ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_BWTR3_ADDSET_1                 ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6067,8 +6216,9 @@ typedef struct
 #define  FMC_BWTR3_ACCMOD                   ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FMC_BWTR3_ACCMOD_0                 ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FMC_BWTR3_ACCMOD_1                 ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_BWTR4 register  ******************/
+```
 #define  FMC_BWTR4_ADDSET                   ((uint32_t)0x0000000F)        /*!<ADDSET[3:0] bits (Address setup phase duration) */
 #define  FMC_BWTR4_ADDSET_0                 ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_BWTR4_ADDSET_1                 ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6106,8 +6256,9 @@ typedef struct
 #define  FMC_BWTR4_ACCMOD                   ((uint32_t)0x30000000)        /*!<ACCMOD[1:0] bits (Access mode) */
 #define  FMC_BWTR4_ACCMOD_0                 ((uint32_t)0x10000000)        /*!<Bit 0 */
 #define  FMC_BWTR4_ACCMOD_1                 ((uint32_t)0x20000000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_PCR2 register  *******************/
+```
 #define  FMC_PCR2_PWAITEN                   ((uint32_t)0x00000002)        /*!<Wait feature enable bit                   */
 #define  FMC_PCR2_PBKEN                     ((uint32_t)0x00000004)        /*!<PC Card/NAND Flash memory bank enable bit */
 #define  FMC_PCR2_PTYP                      ((uint32_t)0x00000008)        /*!<Memory type                               */
@@ -6134,8 +6285,9 @@ typedef struct
 #define  FMC_PCR2_ECCPS_0                   ((uint32_t)0x00020000)        /*!<Bit 0 */
 #define  FMC_PCR2_ECCPS_1                   ((uint32_t)0x00040000)        /*!<Bit 1 */
 #define  FMC_PCR2_ECCPS_2                   ((uint32_t)0x00080000)        /*!<Bit 2 */
-
+```
 /******************  Bit definition for FMC_PCR3 register  *******************/
+```
 #define  FMC_PCR3_PWAITEN                   ((uint32_t)0x00000002)        /*!<Wait feature enable bit                   */
 #define  FMC_PCR3_PBKEN                     ((uint32_t)0x00000004)        /*!<PC Card/NAND Flash memory bank enable bit */
 #define  FMC_PCR3_PTYP                      ((uint32_t)0x00000008)        /*!<Memory type                               */
@@ -6162,8 +6314,9 @@ typedef struct
 #define  FMC_PCR3_ECCPS_0                   ((uint32_t)0x00020000)        /*!<Bit 0 */
 #define  FMC_PCR3_ECCPS_1                   ((uint32_t)0x00040000)        /*!<Bit 1 */
 #define  FMC_PCR3_ECCPS_2                   ((uint32_t)0x00080000)        /*!<Bit 2 */
-
+```
 /******************  Bit definition for FMC_PCR4 register  *******************/
+```
 #define  FMC_PCR4_PWAITEN                   ((uint32_t)0x00000002)        /*!<Wait feature enable bit                   */
 #define  FMC_PCR4_PBKEN                     ((uint32_t)0x00000004)        /*!<PC Card/NAND Flash memory bank enable bit */
 #define  FMC_PCR4_PTYP                      ((uint32_t)0x00000008)        /*!<Memory type                               */
@@ -6190,8 +6343,9 @@ typedef struct
 #define  FMC_PCR4_ECCPS_0                   ((uint32_t)0x00020000)        /*!<Bit 0 */
 #define  FMC_PCR4_ECCPS_1                   ((uint32_t)0x00040000)        /*!<Bit 1 */
 #define  FMC_PCR4_ECCPS_2                   ((uint32_t)0x00080000)        /*!<Bit 2 */
-
+```
 /*******************  Bit definition for FMC_SR2 register  *******************/
+```
 #define  FMC_SR2_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
 #define  FMC_SR2_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
 #define  FMC_SR2_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
@@ -6199,8 +6353,9 @@ typedef struct
 #define  FMC_SR2_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
 #define  FMC_SR2_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
 #define  FMC_SR2_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty                                  */
-
+```
 /*******************  Bit definition for FMC_SR3 register  *******************/
+```
 #define  FMC_SR3_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
 #define  FMC_SR3_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
 #define  FMC_SR3_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
@@ -6208,8 +6363,9 @@ typedef struct
 #define  FMC_SR3_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
 #define  FMC_SR3_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
 #define  FMC_SR3_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty                                  */
-
+```
 /*******************  Bit definition for FMC_SR4 register  *******************/
+```
 #define  FMC_SR4_IRS                        ((uint8_t)0x01)               /*!<Interrupt Rising Edge status                */
 #define  FMC_SR4_ILS                        ((uint8_t)0x02)               /*!<Interrupt Level status                      */
 #define  FMC_SR4_IFS                        ((uint8_t)0x04)               /*!<Interrupt Falling Edge status               */
@@ -6217,8 +6373,9 @@ typedef struct
 #define  FMC_SR4_ILEN                       ((uint8_t)0x10)               /*!<Interrupt Level detection Enable bit        */
 #define  FMC_SR4_IFEN                       ((uint8_t)0x20)               /*!<Interrupt Falling Edge detection Enable bit */
 #define  FMC_SR4_FEMPT                      ((uint8_t)0x40)               /*!<FIFO empty                                  */
-
+```
 /******************  Bit definition for FMC_PMEM2 register  ******************/
+```
 #define  FMC_PMEM2_MEMSET2                  ((uint32_t)0x000000FF)        /*!<MEMSET2[7:0] bits (Common memory 2 setup time) */
 #define  FMC_PMEM2_MEMSET2_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_PMEM2_MEMSET2_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6258,8 +6415,9 @@ typedef struct
 #define  FMC_PMEM2_MEMHIZ2_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FMC_PMEM2_MEMHIZ2_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FMC_PMEM2_MEMHIZ2_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FMC_PMEM3 register  ******************/
+```
 #define  FMC_PMEM3_MEMSET3                  ((uint32_t)0x000000FF)        /*!<MEMSET3[7:0] bits (Common memory 3 setup time) */
 #define  FMC_PMEM3_MEMSET3_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_PMEM3_MEMSET3_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6299,8 +6457,9 @@ typedef struct
 #define  FMC_PMEM3_MEMHIZ3_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FMC_PMEM3_MEMHIZ3_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FMC_PMEM3_MEMHIZ3_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FMC_PMEM4 register  ******************/
+```
 #define  FMC_PMEM4_MEMSET4                  ((uint32_t)0x000000FF)        /*!<MEMSET4[7:0] bits (Common memory 4 setup time) */
 #define  FMC_PMEM4_MEMSET4_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_PMEM4_MEMSET4_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6340,8 +6499,9 @@ typedef struct
 #define  FMC_PMEM4_MEMHIZ4_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FMC_PMEM4_MEMHIZ4_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FMC_PMEM4_MEMHIZ4_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FMC_PATT2 register  ******************/
+```
 #define  FMC_PATT2_ATTSET2                  ((uint32_t)0x000000FF)        /*!<ATTSET2[7:0] bits (Attribute memory 2 setup time) */
 #define  FMC_PATT2_ATTSET2_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_PATT2_ATTSET2_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6381,8 +6541,9 @@ typedef struct
 #define  FMC_PATT2_ATTHIZ2_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FMC_PATT2_ATTHIZ2_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FMC_PATT2_ATTHIZ2_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FMC_PATT3 register  ******************/
+```
 #define  FMC_PATT3_ATTSET3                  ((uint32_t)0x000000FF)        /*!<ATTSET3[7:0] bits (Attribute memory 3 setup time) */
 #define  FMC_PATT3_ATTSET3_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_PATT3_ATTSET3_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6422,8 +6583,9 @@ typedef struct
 #define  FMC_PATT3_ATTHIZ3_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FMC_PATT3_ATTHIZ3_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FMC_PATT3_ATTHIZ3_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FMC_PATT4 register  ******************/
+```
 #define  FMC_PATT4_ATTSET4                  ((uint32_t)0x000000FF)        /*!<ATTSET4[7:0] bits (Attribute memory 4 setup time) */
 #define  FMC_PATT4_ATTSET4_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_PATT4_ATTSET4_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6463,8 +6625,9 @@ typedef struct
 #define  FMC_PATT4_ATTHIZ4_5                ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FMC_PATT4_ATTHIZ4_6                ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FMC_PATT4_ATTHIZ4_7                ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FMC_PIO4 register  *******************/
+```
 #define  FMC_PIO4_IOSET4                    ((uint32_t)0x000000FF)        /*!<IOSET4[7:0] bits (I/O 4 setup time) */
 #define  FMC_PIO4_IOSET4_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_PIO4_IOSET4_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6504,14 +6667,17 @@ typedef struct
 #define  FMC_PIO4_IOHIZ4_5                  ((uint32_t)0x20000000)        /*!<Bit 5 */
 #define  FMC_PIO4_IOHIZ4_6                  ((uint32_t)0x40000000)        /*!<Bit 6 */
 #define  FMC_PIO4_IOHIZ4_7                  ((uint32_t)0x80000000)        /*!<Bit 7 */
-
+```
 /******************  Bit definition for FMC_ECCR2 register  ******************/
+```
 #define  FMC_ECCR2_ECC2                     ((uint32_t)0xFFFFFFFF)        /*!<ECC result */
-
+```
 /******************  Bit definition for FMC_ECCR3 register  ******************/
+```
 #define  FMC_ECCR3_ECC3                     ((uint32_t)0xFFFFFFFF)        /*!<ECC result */
-
+```
 /******************  Bit definition for FMC_SDCR1 register  ******************/
+```
 #define  FMC_SDCR1_NC                       ((uint32_t)0x00000003)        /*!<NC[1:0] bits (Number of column bits) */
 #define  FMC_SDCR1_NC_0                     ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_SDCR1_NC_1                     ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6541,8 +6707,9 @@ typedef struct
 #define  FMC_SDCR1_RPIPE                    ((uint32_t)0x00006000)        /*!<Write protection */
 #define  FMC_SDCR1_RPIPE_0                  ((uint32_t)0x00002000)        /*!<Bit 0 */
 #define  FMC_SDCR1_RPIPE_1                  ((uint32_t)0x00004000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_SDCR2 register  ******************/
+```
 #define  FMC_SDCR2_NC                       ((uint32_t)0x00000003)        /*!<NC[1:0] bits (Number of column bits) */
 #define  FMC_SDCR2_NC_0                     ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_SDCR2_NC_1                     ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6572,8 +6739,9 @@ typedef struct
 #define  FMC_SDCR2_RPIPE                    ((uint32_t)0x00006000)        /*!<RPIPE[1:0](Read pipe) */
 #define  FMC_SDCR2_RPIPE_0                  ((uint32_t)0x00002000)        /*!<Bit 0 */
 #define  FMC_SDCR2_RPIPE_1                  ((uint32_t)0x00004000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for FMC_SDTR1 register  ******************/
+```
 #define  FMC_SDTR1_TMRD                     ((uint32_t)0x0000000F)        /*!<TMRD[3:0] bits (Load mode register to active) */
 #define  FMC_SDTR1_TMRD_0                   ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_SDTR1_TMRD_1                   ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6611,8 +6779,9 @@ typedef struct
 #define  FMC_SDTR1_TRCD_0                   ((uint32_t)0x01000000)        /*!<Bit 0 */
 #define  FMC_SDTR1_TRCD_1                   ((uint32_t)0x02000000)        /*!<Bit 1 */
 #define  FMC_SDTR1_TRCD_2                   ((uint32_t)0x04000000)        /*!<Bit 2 */
-
+```
 /******************  Bit definition for FMC_SDTR2 register  ******************/
+```
 #define  FMC_SDTR2_TMRD                     ((uint32_t)0x0000000F)        /*!<TMRD[3:0] bits (Load mode register to active) */
 #define  FMC_SDTR2_TMRD_0                   ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_SDTR2_TMRD_1                   ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6650,8 +6819,9 @@ typedef struct
 #define  FMC_SDTR2_TRCD_0                   ((uint32_t)0x01000000)        /*!<Bit 0 */
 #define  FMC_SDTR2_TRCD_1                   ((uint32_t)0x02000000)        /*!<Bit 1 */
 #define  FMC_SDTR2_TRCD_2                   ((uint32_t)0x04000000)        /*!<Bit 2 */
-
+```
 /******************  Bit definition for FMC_SDCMR register  ******************/
+```
 #define  FMC_SDCMR_MODE                     ((uint32_t)0x00000007)        /*!<MODE[2:0] bits (Command mode) */
 #define  FMC_SDCMR_MODE_0                   ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  FMC_SDCMR_MODE_1                   ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -6668,15 +6838,17 @@ typedef struct
 #define  FMC_SDCMR_NRFS_3                   ((uint32_t)0x00000100)        /*!<Bit 3 */
 
 #define  FMC_SDCMR_MRD                      ((uint32_t)0x003FFE00)        /*!<MRD[12:0] bits (Mode register definition) */
-
+```
 /******************  Bit definition for FMC_SDRTR register  ******************/
+```
 #define  FMC_SDRTR_CRE                      ((uint32_t)0x00000001)        /*!<Clear refresh error flag */
 
 #define  FMC_SDRTR_COUNT                    ((uint32_t)0x00003FFE)        /*!<COUNT[12:0] bits (Refresh timer count) */
 
 #define  FMC_SDRTR_REIE                     ((uint32_t)0x00004000)        /*!<RES interupt enable */
-
+```
 /******************  Bit definition for FMC_SDSR register  ******************/
+```
 #define  FMC_SDSR_RE                        ((uint32_t)0x00000001)        /*!<Refresh error flag */
 
 #define  FMC_SDSR_MODES1                    ((uint32_t)0x00000006)        /*!<MODES1[1:0]bits (Status mode for bank 1) */
@@ -6690,13 +6862,14 @@ typedef struct
 #define  FMC_SDSR_BUSY                      ((uint32_t)0x00000020)        /*!<Busy status */
 
 #endif /* STM32F429X */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                            General Purpose I/O                             */
 /*                                                                            */
 /******************************************************************************/
 /******************  Bits definition for GPIO_MODER register  *****************/
+```
 #define GPIO_MODER_MODER0                    ((uint32_t)0x00000003)
 #define GPIO_MODER_MODER0_0                  ((uint32_t)0x00000001)
 #define GPIO_MODER_MODER0_1                  ((uint32_t)0x00000002)
@@ -6760,8 +6933,9 @@ typedef struct
 #define GPIO_MODER_MODER15                   ((uint32_t)0xC0000000)
 #define GPIO_MODER_MODER15_0                 ((uint32_t)0x40000000)
 #define GPIO_MODER_MODER15_1                 ((uint32_t)0x80000000)
-
+```
 /******************  Bits definition for GPIO_OTYPER register  ****************/
+```
 #define GPIO_OTYPER_OT_0                     ((uint32_t)0x00000001)
 #define GPIO_OTYPER_OT_1                     ((uint32_t)0x00000002)
 #define GPIO_OTYPER_OT_2                     ((uint32_t)0x00000004)
@@ -6778,8 +6952,9 @@ typedef struct
 #define GPIO_OTYPER_OT_13                    ((uint32_t)0x00002000)
 #define GPIO_OTYPER_OT_14                    ((uint32_t)0x00004000)
 #define GPIO_OTYPER_OT_15                    ((uint32_t)0x00008000)
-
+```
 /******************  Bits definition for GPIO_OSPEEDR register  ***************/
+```
 #define GPIO_OSPEEDER_OSPEEDR0               ((uint32_t)0x00000003)
 #define GPIO_OSPEEDER_OSPEEDR0_0             ((uint32_t)0x00000001)
 #define GPIO_OSPEEDER_OSPEEDR0_1             ((uint32_t)0x00000002)
@@ -6843,8 +7018,9 @@ typedef struct
 #define GPIO_OSPEEDER_OSPEEDR15              ((uint32_t)0xC0000000)
 #define GPIO_OSPEEDER_OSPEEDR15_0            ((uint32_t)0x40000000)
 #define GPIO_OSPEEDER_OSPEEDR15_1            ((uint32_t)0x80000000)
-
+```
 /******************  Bits definition for GPIO_PUPDR register  *****************/
+```
 #define GPIO_PUPDR_PUPDR0                    ((uint32_t)0x00000003)
 #define GPIO_PUPDR_PUPDR0_0                  ((uint32_t)0x00000001)
 #define GPIO_PUPDR_PUPDR0_1                  ((uint32_t)0x00000002)
@@ -6908,8 +7084,9 @@ typedef struct
 #define GPIO_PUPDR_PUPDR15                   ((uint32_t)0xC0000000)
 #define GPIO_PUPDR_PUPDR15_0                 ((uint32_t)0x40000000)
 #define GPIO_PUPDR_PUPDR15_1                 ((uint32_t)0x80000000)
-
+```
 /******************  Bits definition for GPIO_IDR register  *******************/
+```
 #define GPIO_IDR_IDR_0                       ((uint32_t)0x00000001)
 #define GPIO_IDR_IDR_1                       ((uint32_t)0x00000002)
 #define GPIO_IDR_IDR_2                       ((uint32_t)0x00000004)
@@ -6926,7 +7103,9 @@ typedef struct
 #define GPIO_IDR_IDR_13                      ((uint32_t)0x00002000)
 #define GPIO_IDR_IDR_14                      ((uint32_t)0x00004000)
 #define GPIO_IDR_IDR_15                      ((uint32_t)0x00008000)
+```
 /* Old GPIO_IDR register bits definition, maintained for legacy purpose */
+```
 #define GPIO_OTYPER_IDR_0                    GPIO_IDR_IDR_0
 #define GPIO_OTYPER_IDR_1                    GPIO_IDR_IDR_1
 #define GPIO_OTYPER_IDR_2                    GPIO_IDR_IDR_2
@@ -6943,8 +7122,9 @@ typedef struct
 #define GPIO_OTYPER_IDR_13                   GPIO_IDR_IDR_13
 #define GPIO_OTYPER_IDR_14                   GPIO_IDR_IDR_14
 #define GPIO_OTYPER_IDR_15                   GPIO_IDR_IDR_15
-
+```
 /******************  Bits definition for GPIO_ODR register  *******************/
+```
 #define GPIO_ODR_ODR_0                       ((uint32_t)0x00000001)
 #define GPIO_ODR_ODR_1                       ((uint32_t)0x00000002)
 #define GPIO_ODR_ODR_2                       ((uint32_t)0x00000004)
@@ -6961,7 +7141,9 @@ typedef struct
 #define GPIO_ODR_ODR_13                      ((uint32_t)0x00002000)
 #define GPIO_ODR_ODR_14                      ((uint32_t)0x00004000)
 #define GPIO_ODR_ODR_15                      ((uint32_t)0x00008000)
+```
 /* Old GPIO_ODR register bits definition, maintained for legacy purpose */
+```
 #define GPIO_OTYPER_ODR_0                    GPIO_ODR_ODR_0
 #define GPIO_OTYPER_ODR_1                    GPIO_ODR_ODR_1
 #define GPIO_OTYPER_ODR_2                    GPIO_ODR_ODR_2
@@ -6978,8 +7160,9 @@ typedef struct
 #define GPIO_OTYPER_ODR_13                   GPIO_ODR_ODR_13
 #define GPIO_OTYPER_ODR_14                   GPIO_ODR_ODR_14
 #define GPIO_OTYPER_ODR_15                   GPIO_ODR_ODR_15
-
+```
 /******************  Bits definition for GPIO_BSRR register  ******************/
+```
 #define GPIO_BSRR_BS_0                       ((uint32_t)0x00000001)
 #define GPIO_BSRR_BS_1                       ((uint32_t)0x00000002)
 #define GPIO_BSRR_BS_2                       ((uint32_t)0x00000004)
@@ -7012,13 +7195,14 @@ typedef struct
 #define GPIO_BSRR_BR_13                      ((uint32_t)0x20000000)
 #define GPIO_BSRR_BR_14                      ((uint32_t)0x40000000)
 #define GPIO_BSRR_BR_15                      ((uint32_t)0x80000000)
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                                    HASH                                    */
 /*                                                                            */
 /******************************************************************************/
 /******************  Bits definition for HASH_CR register  ********************/
+```
 #define HASH_CR_INIT                         ((uint32_t)0x00000004)
 #define HASH_CR_DMAE                         ((uint32_t)0x00000008)
 #define HASH_CR_DATATYPE                     ((uint32_t)0x00000030)
@@ -7036,8 +7220,9 @@ typedef struct
 #define HASH_CR_DINNE                        ((uint32_t)0x00001000)
 #define HASH_CR_MDMAT                        ((uint32_t)0x00002000)
 #define HASH_CR_LKEY                         ((uint32_t)0x00010000)
-
+```
 /******************  Bits definition for HASH_STR register  *******************/
+```
 #define HASH_STR_NBW                         ((uint32_t)0x0000001F)
 #define HASH_STR_NBW_0                       ((uint32_t)0x00000001)
 #define HASH_STR_NBW_1                       ((uint32_t)0x00000002)
@@ -7045,23 +7230,26 @@ typedef struct
 #define HASH_STR_NBW_3                       ((uint32_t)0x00000008)
 #define HASH_STR_NBW_4                       ((uint32_t)0x00000010)
 #define HASH_STR_DCAL                        ((uint32_t)0x00000100)
-
+```
 /******************  Bits definition for HASH_IMR register  *******************/
+```
 #define HASH_IMR_DINIM                       ((uint32_t)0x00000001)
 #define HASH_IMR_DCIM                        ((uint32_t)0x00000002)
-
+```
 /******************  Bits definition for HASH_SR register  ********************/
+```
 #define HASH_SR_DINIS                        ((uint32_t)0x00000001)
 #define HASH_SR_DCIS                         ((uint32_t)0x00000002)
 #define HASH_SR_DMAS                         ((uint32_t)0x00000004)
 #define HASH_SR_BUSY                         ((uint32_t)0x00000008)
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                      Inter-integrated Circuit Interface                    */
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bit definition for I2C_CR1 register  ********************/
+```
 #define  I2C_CR1_PE                          ((uint16_t)0x0001)            /*!<Peripheral Enable                             */
 #define  I2C_CR1_SMBUS                       ((uint16_t)0x0002)            /*!<SMBus Mode                                    */
 #define  I2C_CR1_SMBTYPE                     ((uint16_t)0x0008)            /*!<SMBus Type                                    */
@@ -7076,8 +7264,9 @@ typedef struct
 #define  I2C_CR1_PEC                         ((uint16_t)0x1000)            /*!<Packet Error Checking                         */
 #define  I2C_CR1_ALERT                       ((uint16_t)0x2000)            /*!<SMBus Alert                                   */
 #define  I2C_CR1_SWRST                       ((uint16_t)0x8000)            /*!<Software Reset                                */
-
+```
 /*******************  Bit definition for I2C_CR2 register  ********************/
+```
 #define  I2C_CR2_FREQ                        ((uint16_t)0x003F)            /*!<FREQ[5:0] bits (Peripheral Clock Frequency)   */
 #define  I2C_CR2_FREQ_0                      ((uint16_t)0x0001)            /*!<Bit 0 */
 #define  I2C_CR2_FREQ_1                      ((uint16_t)0x0002)            /*!<Bit 1 */
@@ -7091,8 +7280,9 @@ typedef struct
 #define  I2C_CR2_ITBUFEN                     ((uint16_t)0x0400)            /*!<Buffer Interrupt Enable */
 #define  I2C_CR2_DMAEN                       ((uint16_t)0x0800)            /*!<DMA Requests Enable     */
 #define  I2C_CR2_LAST                        ((uint16_t)0x1000)            /*!<DMA Last Transfer       */
-
+```
 /*******************  Bit definition for I2C_OAR1 register  *******************/
+```
 #define  I2C_OAR1_ADD1_7                     ((uint16_t)0x00FE)            /*!<Interface Address */
 #define  I2C_OAR1_ADD8_9                     ((uint16_t)0x0300)            /*!<Interface Address */
 
@@ -7108,15 +7298,18 @@ typedef struct
 #define  I2C_OAR1_ADD9                       ((uint16_t)0x0200)            /*!<Bit 9 */
 
 #define  I2C_OAR1_ADDMODE                    ((uint16_t)0x8000)            /*!<Addressing Mode (Slave mode) */
-
+```
 /*******************  Bit definition for I2C_OAR2 register  *******************/
+```
 #define  I2C_OAR2_ENDUAL                     ((uint8_t)0x01)               /*!<Dual addressing mode enable */
 #define  I2C_OAR2_ADD2                       ((uint8_t)0xFE)               /*!<Interface address           */
-
+```
 /********************  Bit definition for I2C_DR register  ********************/
+```
 #define  I2C_DR_DR                           ((uint8_t)0xFF)               /*!<8-bit Data Register         */
-
+```
 /*******************  Bit definition for I2C_SR1 register  ********************/
+```
 #define  I2C_SR1_SB                          ((uint16_t)0x0001)            /*!<Start Bit (Master mode)                         */
 #define  I2C_SR1_ADDR                        ((uint16_t)0x0002)            /*!<Address sent (master mode)/matched (slave mode) */
 #define  I2C_SR1_BTF                         ((uint16_t)0x0004)            /*!<Byte Transfer Finished                          */
@@ -7131,8 +7324,9 @@ typedef struct
 #define  I2C_SR1_PECERR                      ((uint16_t)0x1000)            /*!<PEC Error in reception                          */
 #define  I2C_SR1_TIMEOUT                     ((uint16_t)0x4000)            /*!<Timeout or Tlow Error                           */
 #define  I2C_SR1_SMBALERT                    ((uint16_t)0x8000)            /*!<SMBus Alert                                     */
-
+```
 /*******************  Bit definition for I2C_SR2 register  ********************/
+```
 #define  I2C_SR2_MSL                         ((uint16_t)0x0001)            /*!<Master/Slave                              */
 #define  I2C_SR2_BUSY                        ((uint16_t)0x0002)            /*!<Bus Busy                                  */
 #define  I2C_SR2_TRA                         ((uint16_t)0x0004)            /*!<Transmitter/Receiver                      */
@@ -7141,41 +7335,49 @@ typedef struct
 #define  I2C_SR2_SMBHOST                     ((uint16_t)0x0040)            /*!<SMBus Host Header (Slave mode)            */
 #define  I2C_SR2_DUALF                       ((uint16_t)0x0080)            /*!<Dual Flag (Slave mode)                    */
 #define  I2C_SR2_PEC                         ((uint16_t)0xFF00)            /*!<Packet Error Checking Register            */
-
+```
 /*******************  Bit definition for I2C_CCR register  ********************/
+```
 #define  I2C_CCR_CCR                         ((uint16_t)0x0FFF)            /*!<Clock Control Register in Fast/Standard mode (Master mode) */
 #define  I2C_CCR_DUTY                        ((uint16_t)0x4000)            /*!<Fast Mode Duty Cycle                                       */
 #define  I2C_CCR_FS                          ((uint16_t)0x8000)            /*!<I2C Master Mode Selection                                  */
-
+```
 /******************  Bit definition for I2C_TRISE register  *******************/
+```
 #define  I2C_TRISE_TRISE                     ((uint8_t)0x3F)               /*!<Maximum Rise Time in Fast/Standard mode (Master mode) */
-
+```
 /******************  Bit definition for I2C_FLTR register  *******************/
+```
 #define  I2C_FLTR_DNF                     ((uint8_t)0x0F)                  /*!<Digital Noise Filter */
 #define  I2C_FLTR_ANOFF                   ((uint8_t)0x10)                  /*!<Analog Noise Filter OFF */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                           Independent WATCHDOG                             */
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bit definition for IWDG_KR register  ********************/
+```
 #define  IWDG_KR_KEY                         ((uint16_t)0xFFFF)            /*!<Key value (write only, read 0000h)  */
-
+```
 /*******************  Bit definition for IWDG_PR register  ********************/
+```
 #define  IWDG_PR_PR                          ((uint8_t)0x07)               /*!<PR[2:0] (Prescaler divider)         */
 #define  IWDG_PR_PR_0                        ((uint8_t)0x01)               /*!<Bit 0 */
 #define  IWDG_PR_PR_1                        ((uint8_t)0x02)               /*!<Bit 1 */
 #define  IWDG_PR_PR_2                        ((uint8_t)0x04)               /*!<Bit 2 */
-
+```
 /*******************  Bit definition for IWDG_RLR register  *******************/
+```
 #define  IWDG_RLR_RL                         ((uint16_t)0x0FFF)            /*!<Watchdog counter reload value        */
-
+```
 /*******************  Bit definition for IWDG_SR register  ********************/
+```
 #define  IWDG_SR_PVU                         ((uint8_t)0x01)               /*!<Watchdog prescaler value update      */
 #define  IWDG_SR_RVU                         ((uint8_t)0x02)               /*!<Watchdog counter reload value update */
 
 #if defined (STM32F429X)
+```
 /******************************************************************************/
 /*                                                                            */
 /*                      LCD-TFT Display Controller (LTDC)                     */
@@ -7183,27 +7385,28 @@ typedef struct
 /******************************************************************************/
 
 /********************  Bit definition for LTDC_SSCR register  *****************/
+```
 
 #define LTDC_SSCR_VSH                       ((uint32_t)0x000007FF)              /*!< Vertical Synchronization Height */
 #define LTDC_SSCR_HSW                       ((uint32_t)0x0FFF0000)              /*!< Horizontal Synchronization Width */
-
+```
 /********************  Bit definition for LTDC_BPCR register  *****************/
-
+```
 #define LTDC_BPCR_AVBP                      ((uint32_t)0x000007FF)              /*!< Accumulated Vertical Back Porch */
 #define LTDC_BPCR_AHBP                      ((uint32_t)0x0FFF0000)              /*!< Accumulated Horizontal Back Porch */
-
+```
 /********************  Bit definition for LTDC_AWCR register  *****************/
-
+```
 #define LTDC_AWCR_AAH                       ((uint32_t)0x000007FF)              /*!< Accumulated Active heigh */
 #define LTDC_AWCR_AAW                       ((uint32_t)0x0FFF0000)              /*!< Accumulated Active Width */
-
+```
 /********************  Bit definition for LTDC_TWCR register  *****************/
-
+```
 #define LTDC_TWCR_TOTALH                    ((uint32_t)0x000007FF)              /*!< Total Heigh */
 #define LTDC_TWCR_TOTALW                    ((uint32_t)0x0FFF0000)              /*!< Total Width */
-
+```
 /********************  Bit definition for LTDC_GCR register  ******************/
-
+```
 #define LTDC_GCR_LTDCEN                     ((uint32_t)0x00000001)              /*!< LCD-TFT controller enable bit */
 #define LTDC_GCR_DBW                        ((uint32_t)0x00000070)              /*!< Dither Blue Width */
 #define LTDC_GCR_DGW                        ((uint32_t)0x00000700)              /*!< Dither Green Width */
@@ -7213,124 +7416,125 @@ typedef struct
 #define LTDC_GCR_DEPOL                      ((uint32_t)0x20000000)              /*!< Data Enable Polarity */
 #define LTDC_GCR_VSPOL                      ((uint32_t)0x40000000)              /*!< Vertical Synchronization Polarity */
 #define LTDC_GCR_HSPOL                      ((uint32_t)0x80000000)              /*!< Horizontal Synchronization Polarity */
-
+```
 /********************  Bit definition for LTDC_SRCR register  *****************/
-
+```
 #define LTDC_SRCR_IMR                      ((uint32_t)0x00000001)               /*!< Immediate Reload */
 #define LTDC_SRCR_VBR                      ((uint32_t)0x00000002)               /*!< Vertical Blanking Reload */
-
+```
 /********************  Bit definition for LTDC_BCCR register  *****************/
-
+```
 #define LTDC_BCCR_BCBLUE                    ((uint32_t)0x000000FF)              /*!< Background Blue value */
 #define LTDC_BCCR_BCGREEN                   ((uint32_t)0x0000FF00)              /*!< Background Green value */
 #define LTDC_BCCR_BCRED                     ((uint32_t)0x00FF0000)              /*!< Background Red value */
-
+```
 /********************  Bit definition for LTDC_IER register  ******************/
-
+```
 #define LTDC_IER_LIE                        ((uint32_t)0x00000001)              /*!< Line Interrupt Enable */
 #define LTDC_IER_FUIE                       ((uint32_t)0x00000002)              /*!< FIFO Underrun Interrupt Enable */
 #define LTDC_IER_TERRIE                     ((uint32_t)0x00000004)              /*!< Transfer Error Interrupt Enable */
 #define LTDC_IER_RRIE                       ((uint32_t)0x00000008)              /*!< Register Reload interrupt enable */
-
+```
 /********************  Bit definition for LTDC_ISR register  ******************/
-
+```
 #define LTDC_ISR_LIF                        ((uint32_t)0x00000001)              /*!< Line Interrupt Flag */
 #define LTDC_ISR_FUIF                       ((uint32_t)0x00000002)              /*!< FIFO Underrun Interrupt Flag */
 #define LTDC_ISR_TERRIF                     ((uint32_t)0x00000004)              /*!< Transfer Error Interrupt Flag */
 #define LTDC_ISR_RRIF                       ((uint32_t)0x00000008)              /*!< Register Reload interrupt Flag */
-
+```
 /********************  Bit definition for LTDC_ICR register  ******************/
-
+```
 #define LTDC_ICR_CLIF                       ((uint32_t)0x00000001)              /*!< Clears the Line Interrupt Flag */
 #define LTDC_ICR_CFUIF                      ((uint32_t)0x00000002)              /*!< Clears the FIFO Underrun Interrupt Flag */
 #define LTDC_ICR_CTERRIF                    ((uint32_t)0x00000004)              /*!< Clears the Transfer Error Interrupt Flag */
 #define LTDC_ICR_CRRIF                      ((uint32_t)0x00000008)              /*!< Clears Register Reload interrupt Flag */
-
+```
 /********************  Bit definition for LTDC_LIPCR register  ****************/
-
+```
 #define LTDC_LIPCR_LIPOS                    ((uint32_t)0x000007FF)              /*!< Line Interrupt Position */
-
+```
 /********************  Bit definition for LTDC_CPSR register  *****************/
-
+```
 #define LTDC_CPSR_CYPOS                     ((uint32_t)0x0000FFFF)              /*!< Current Y Position */
 #define LTDC_CPSR_CXPOS                     ((uint32_t)0xFFFF0000)              /*!< Current X Position */
-
+```
 /********************  Bit definition for LTDC_CDSR register  *****************/
-
+```
 #define LTDC_CDSR_VDES                      ((uint32_t)0x00000001)              /*!< Vertical Data Enable Status */
 #define LTDC_CDSR_HDES                      ((uint32_t)0x00000002)              /*!< Horizontal Data Enable Status */
 #define LTDC_CDSR_VSYNCS                    ((uint32_t)0x00000004)              /*!< Vertical Synchronization Status */
 #define LTDC_CDSR_HSYNCS                    ((uint32_t)0x00000008)              /*!< Horizontal Synchronization Status */
-
+```
 /********************  Bit definition for LTDC_LxCR register  *****************/
-
+```
 #define LTDC_LxCR_LEN                       ((uint32_t)0x00000001)              /*!< Layer Enable */
 #define LTDC_LxCR_COLKEN                    ((uint32_t)0x00000002)              /*!< Color Keying Enable */
 #define LTDC_LxCR_CLUTEN                    ((uint32_t)0x00000010)              /*!< Color Lockup Table Enable */
-
+```
 /********************  Bit definition for LTDC_LxWHPCR register  **************/
-
+```
 #define LTDC_LxWHPCR_WHSTPOS                ((uint32_t)0x00000FFF)              /*!< Window Horizontal Start Position */
 #define LTDC_LxWHPCR_WHSPPOS                ((uint32_t)0xFFFF0000)              /*!< Window Horizontal Stop Position */
-
+```
 /********************  Bit definition for LTDC_LxWVPCR register  **************/
-
+```
 #define LTDC_LxWVPCR_WVSTPOS                ((uint32_t)0x00000FFF)              /*!< Window Vertical Start Position */
 #define LTDC_LxWVPCR_WVSPPOS                ((uint32_t)0xFFFF0000)              /*!< Window Vertical Stop Position */
-
+```
 /********************  Bit definition for LTDC_LxCKCR register  ***************/
-
+```
 #define LTDC_LxCKCR_CKBLUE                  ((uint32_t)0x000000FF)              /*!< Color Key Blue value */
 #define LTDC_LxCKCR_CKGREEN                 ((uint32_t)0x0000FF00)              /*!< Color Key Green value */
 #define LTDC_LxCKCR_CKRED                   ((uint32_t)0x00FF0000)              /*!< Color Key Red value */
-
+```
 /********************  Bit definition for LTDC_LxPFCR register  ***************/
-
+```
 #define LTDC_LxPFCR_PF                      ((uint32_t)0x00000007)              /*!< Pixel Format */
-
+```
 /********************  Bit definition for LTDC_LxCACR register  ***************/
-
+```
 #define LTDC_LxCACR_CONSTA                  ((uint32_t)0x000000FF)              /*!< Constant Alpha */
-
+```
 /********************  Bit definition for LTDC_LxDCCR register  ***************/
-
+```
 #define LTDC_LxDCCR_DCBLUE                  ((uint32_t)0x000000FF)              /*!< Default Color Blue */
 #define LTDC_LxDCCR_DCGREEN                 ((uint32_t)0x0000FF00)              /*!< Default Color Green */
 #define LTDC_LxDCCR_DCRED                   ((uint32_t)0x00FF0000)              /*!< Default Color Red */
 #define LTDC_LxDCCR_DCALPHA                 ((uint32_t)0xFF000000)              /*!< Default Color Alpha */
-                                
+ ```                               
 /********************  Bit definition for LTDC_LxBFCR register  ***************/
-
+```
 #define LTDC_LxBFCR_BF2                     ((uint32_t)0x00000007)              /*!< Blending Factor 2 */
 #define LTDC_LxBFCR_BF1                     ((uint32_t)0x00000700)              /*!< Blending Factor 1 */
-
+```
 /********************  Bit definition for LTDC_LxCFBAR register  **************/
-
+```
 #define LTDC_LxCFBAR_CFBADD                 ((uint32_t)0xFFFFFFFF)              /*!< Color Frame Buffer Start Address */
-
+```
 /********************  Bit definition for LTDC_LxCFBLR register  **************/
-
+```
 #define LTDC_LxCFBLR_CFBLL                  ((uint32_t)0x00001FFF)              /*!< Color Frame Buffer Line Length */
 #define LTDC_LxCFBLR_CFBP                   ((uint32_t)0x1FFF0000)              /*!< Color Frame Buffer Pitch in bytes */
-
+```
 /********************  Bit definition for LTDC_LxCFBLNR register  *************/
-
+```
 #define LTDC_LxCFBLNR_CFBLNBR               ((uint32_t)0x000007FF)              /*!< Frame Buffer Line Number */
-
+```
 /********************  Bit definition for LTDC_LxCLUTWR register  *************/
-
+```
 #define LTDC_LxCLUTWR_BLUE                  ((uint32_t)0x000000FF)              /*!< Blue value */
 #define LTDC_LxCLUTWR_GREEN                 ((uint32_t)0x0000FF00)              /*!< Green value */
 #define LTDC_LxCLUTWR_RED                   ((uint32_t)0x00FF0000)              /*!< Red value */
 #define LTDC_LxCLUTWR_CLUTADD               ((uint32_t)0xFF000000)              /*!< CLUT address */
 #endif /* STM32F429X */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                             Power Control                                  */
 /*                                                                            */
 /******************************************************************************/
 /********************  Bit definition for PWR_CR register  ********************/
+```
 #define  PWR_CR_LPDS                         ((uint32_t)0x00000001)     /*!< Low-Power Deepsleep                 */
 #define  PWR_CR_PDDS                         ((uint32_t)0x00000002)     /*!< Power Down Deepsleep                */
 #define  PWR_CR_CWUF                         ((uint32_t)0x00000004)     /*!< Clear Wakeup Flag                   */
@@ -7376,8 +7580,9 @@ typedef struct
 
 /* Legacy define */
 #define  PWR_CR_PMODE                        PWR_CR_VOS
-
+```
 /*******************  Bit definition for PWR_CSR register  ********************/
+```
 #define  PWR_CSR_WUF                         ((uint32_t)0x00000001)     /*!< Wakeup Flag                                      */
 #define  PWR_CSR_SBF                         ((uint32_t)0x00000002)     /*!< Standby Flag                                     */
 #define  PWR_CSR_PVDO                        ((uint32_t)0x00000004)     /*!< PVD Output                                       */
@@ -7393,13 +7598,14 @@ typedef struct
 #endif /* STM32F429X */
 /* Legacy define */
 #define  PWR_CSR_REGRDY                      PWR_CSR_VOSRDY
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                         Reset and Clock Control                            */
 /*                                                                            */
 /******************************************************************************/
 /********************  Bit definition for RCC_CR register  ********************/
+```
 #define  RCC_CR_HSION                        ((uint32_t)0x00000001)
 #define  RCC_CR_HSIRDY                       ((uint32_t)0x00000002)
 
@@ -7433,8 +7639,9 @@ typedef struct
 #define  RCC_CR_PLLSAION                     ((uint32_t)0x10000000)
 #define  RCC_CR_PLLSAIRDY                    ((uint32_t)0x20000000)
 #endif /* STM32F429X */
-
+```
 /********************  Bit definition for RCC_PLLCFGR register  ***************/
+```
 #define  RCC_PLLCFGR_PLLM                    ((uint32_t)0x0000003F)
 #define  RCC_PLLCFGR_PLLM_0                  ((uint32_t)0x00000001)
 #define  RCC_PLLCFGR_PLLM_1                  ((uint32_t)0x00000002)
@@ -7467,8 +7674,9 @@ typedef struct
 #define  RCC_PLLCFGR_PLLQ_1                  ((uint32_t)0x02000000)
 #define  RCC_PLLCFGR_PLLQ_2                  ((uint32_t)0x04000000)
 #define  RCC_PLLCFGR_PLLQ_3                  ((uint32_t)0x08000000)
-
+```
 /********************  Bit definition for RCC_CFGR register  ******************/
+```
 /*!< SW configuration */
 #define  RCC_CFGR_SW                         ((uint32_t)0x00000003)        /*!< SW[1:0] bits (System clock Switch) */
 #define  RCC_CFGR_SW_0                       ((uint32_t)0x00000001)        /*!< Bit 0 */
@@ -7556,8 +7764,9 @@ typedef struct
 #define  RCC_CFGR_MCO2                       ((uint32_t)0xC0000000)
 #define  RCC_CFGR_MCO2_0                     ((uint32_t)0x40000000)
 #define  RCC_CFGR_MCO2_1                     ((uint32_t)0x80000000)
-
+```
 /********************  Bit definition for RCC_CIR register  *******************/
+```
 #define  RCC_CIR_LSIRDYF                     ((uint32_t)0x00000001)
 #define  RCC_CIR_LSERDYF                     ((uint32_t)0x00000002)
 #define  RCC_CIR_HSIRDYF                     ((uint32_t)0x00000004)
@@ -7593,8 +7802,9 @@ typedef struct
 #endif /* STM32F429X */
 
 #define  RCC_CIR_CSSC                        ((uint32_t)0x00800000)
-
+```
 /********************  Bit definition for RCC_AHB1RSTR register  **************/
+```
 #define  RCC_AHB1RSTR_GPIOARST               ((uint32_t)0x00000001)
 #define  RCC_AHB1RSTR_GPIOBRST               ((uint32_t)0x00000002)
 #define  RCC_AHB1RSTR_GPIOCRST               ((uint32_t)0x00000004)
@@ -7620,8 +7830,9 @@ typedef struct
 
 #define  RCC_AHB1RSTR_ETHMACRST              ((uint32_t)0x02000000)
 #define  RCC_AHB1RSTR_OTGHRST                ((uint32_t)0x10000000)
-
+```
 /********************  Bit definition for RCC_AHB2RSTR register  **************/
+```
 #define  RCC_AHB2RSTR_DCMIRST                ((uint32_t)0x00000001)
 #define  RCC_AHB2RSTR_CRYPRST                ((uint32_t)0x00000010)
 #define  RCC_AHB2RSTR_HASHRST                ((uint32_t)0x00000020)
@@ -7629,8 +7840,9 @@ typedef struct
  #define  RCC_AHB2RSTR_HSAHRST                RCC_AHB2RSTR_HASHRST
 #define  RCC_AHB2RSTR_RNGRST                 ((uint32_t)0x00000040)
 #define  RCC_AHB2RSTR_OTGFSRST               ((uint32_t)0x00000080)
-
+```
 /********************  Bit definition for RCC_AHB3RSTR register  **************/
+```
 #if defined(STM32F40XX) || defined(STM32F427X)
 #define  RCC_AHB3RSTR_FSMCRST                ((uint32_t)0x00000001)
 #endif /* STM32F40XX || STM32F427X */
@@ -7638,7 +7850,9 @@ typedef struct
 #if defined (STM32F429X)
 #define  RCC_AHB3RSTR_FMCRST                ((uint32_t)0x00000001)
 #endif /* STM32F429X */
+```
 /********************  Bit definition for RCC_APB1RSTR register  **************/
+```
 #define  RCC_APB1RSTR_TIM2RST                ((uint32_t)0x00000001)
 #define  RCC_APB1RSTR_TIM3RST                ((uint32_t)0x00000002)
 #define  RCC_APB1RSTR_TIM4RST                ((uint32_t)0x00000004)
@@ -7664,8 +7878,9 @@ typedef struct
 #define  RCC_APB1RSTR_DACRST                 ((uint32_t)0x20000000)
 #define  RCC_APB1RSTR_UART7RST               ((uint32_t)0x40000000)
 #define  RCC_APB1RSTR_UART8RST               ((uint32_t)0x80000000)
-
+```
 /********************  Bit definition for RCC_APB2RSTR register  **************/
+```
 #define  RCC_APB2RSTR_TIM1RST                ((uint32_t)0x00000001)
 #define  RCC_APB2RSTR_TIM8RST                ((uint32_t)0x00000002)
 #define  RCC_APB2RSTR_USART1RST              ((uint32_t)0x00000010)
@@ -7688,8 +7903,9 @@ typedef struct
 
 /* Old SPI1RST bit definition, maintained for legacy purpose */
 #define  RCC_APB2RSTR_SPI1                   RCC_APB2RSTR_SPI1RST
-
+```
 /********************  Bit definition for RCC_AHB1ENR register  ***************/
+```
 #define  RCC_AHB1ENR_GPIOAEN                 ((uint32_t)0x00000001)
 #define  RCC_AHB1ENR_GPIOBEN                 ((uint32_t)0x00000002)
 #define  RCC_AHB1ENR_GPIOCEN                 ((uint32_t)0x00000004)
@@ -7721,15 +7937,17 @@ typedef struct
 #define  RCC_AHB1ENR_ETHMACPTPEN             ((uint32_t)0x10000000)
 #define  RCC_AHB1ENR_OTGHSEN                 ((uint32_t)0x20000000)
 #define  RCC_AHB1ENR_OTGHSULPIEN             ((uint32_t)0x40000000)
-
+```
 /********************  Bit definition for RCC_AHB2ENR register  ***************/
+```
 #define  RCC_AHB2ENR_DCMIEN                  ((uint32_t)0x00000001)
 #define  RCC_AHB2ENR_CRYPEN                  ((uint32_t)0x00000010)
 #define  RCC_AHB2ENR_HASHEN                  ((uint32_t)0x00000020)
 #define  RCC_AHB2ENR_RNGEN                   ((uint32_t)0x00000040)
 #define  RCC_AHB2ENR_OTGFSEN                 ((uint32_t)0x00000080)
-
+```
 /********************  Bit definition for RCC_AHB3ENR register  ***************/
+```
 
 #if defined(STM32F40XX) || defined(STM32F427X)
 #define  RCC_AHB3ENR_FSMCEN                  ((uint32_t)0x00000001)
@@ -7738,8 +7956,9 @@ typedef struct
 #if defined (STM32F429X)
 #define  RCC_AHB3ENR_FMCEN                  ((uint32_t)0x00000001)
 #endif /* STM32F429X */
-
+```
 /********************  Bit definition for RCC_APB1ENR register  ***************/
+```
 #define  RCC_APB1ENR_TIM2EN                  ((uint32_t)0x00000001)
 #define  RCC_APB1ENR_TIM3EN                  ((uint32_t)0x00000002)
 #define  RCC_APB1ENR_TIM4EN                  ((uint32_t)0x00000004)
@@ -7765,8 +7984,9 @@ typedef struct
 #define  RCC_APB1ENR_DACEN                   ((uint32_t)0x20000000)
 #define  RCC_APB1ENR_UART7EN                 ((uint32_t)0x40000000)
 #define  RCC_APB1ENR_UART8EN                 ((uint32_t)0x80000000)
-
+```
 /********************  Bit definition for RCC_APB2ENR register  ***************/
+```
 #define  RCC_APB2ENR_TIM1EN                  ((uint32_t)0x00000001)
 #define  RCC_APB2ENR_TIM8EN                  ((uint32_t)0x00000002)
 #define  RCC_APB2ENR_USART1EN                ((uint32_t)0x00000010)
@@ -7788,8 +8008,9 @@ typedef struct
 #define  RCC_APB2ENR_SAI1EN                  ((uint32_t)0x00400000)
 #define  RCC_APB2ENR_LTDCEN                  ((uint32_t)0x04000000)
 #endif /* STM32F429X */
-
+```
 /********************  Bit definition for RCC_AHB1LPENR register  *************/
+```
 #define  RCC_AHB1LPENR_GPIOALPEN             ((uint32_t)0x00000001)
 #define  RCC_AHB1LPENR_GPIOBLPEN             ((uint32_t)0x00000002)
 #define  RCC_AHB1LPENR_GPIOCLPEN             ((uint32_t)0x00000004)
@@ -7824,15 +8045,17 @@ typedef struct
 #define  RCC_AHB1LPENR_ETHMACPTPLPEN         ((uint32_t)0x10000000)
 #define  RCC_AHB1LPENR_OTGHSLPEN             ((uint32_t)0x20000000)
 #define  RCC_AHB1LPENR_OTGHSULPILPEN         ((uint32_t)0x40000000)
-
+```
 /********************  Bit definition for RCC_AHB2LPENR register  *************/
+```
 #define  RCC_AHB2LPENR_DCMILPEN              ((uint32_t)0x00000001)
 #define  RCC_AHB2LPENR_CRYPLPEN              ((uint32_t)0x00000010)
 #define  RCC_AHB2LPENR_HASHLPEN              ((uint32_t)0x00000020)
 #define  RCC_AHB2LPENR_RNGLPEN               ((uint32_t)0x00000040)
 #define  RCC_AHB2LPENR_OTGFSLPEN             ((uint32_t)0x00000080)
-
+```
 /********************  Bit definition for RCC_AHB3LPENR register  *************/
+```
 #if defined(STM32F40XX) || defined(STM32F427X)
 #define  RCC_AHB3LPENR_FSMCLPEN              ((uint32_t)0x00000001)
 #endif /* STM32F40XX || STM32F427X */
@@ -7840,8 +8063,9 @@ typedef struct
 #if defined (STM32F429X)
 #define  RCC_AHB3LPENR_FMCLPEN              ((uint32_t)0x00000001)
 #endif /* STM32F429X */
-
+```
 /********************  Bit definition for RCC_APB1LPENR register  *************/
+```
 #define  RCC_APB1LPENR_TIM2LPEN              ((uint32_t)0x00000001)
 #define  RCC_APB1LPENR_TIM3LPEN              ((uint32_t)0x00000002)
 #define  RCC_APB1LPENR_TIM4LPEN              ((uint32_t)0x00000004)
@@ -7867,8 +8091,9 @@ typedef struct
 #define  RCC_APB1LPENR_DACLPEN               ((uint32_t)0x20000000)
 #define  RCC_APB1LPENR_UART7LPEN             ((uint32_t)0x40000000)
 #define  RCC_APB1LPENR_UART8LPEN             ((uint32_t)0x80000000)
-
+```
 /********************  Bit definition for RCC_APB2LPENR register  *************/
+```
 #define  RCC_APB2LPENR_TIM1LPEN              ((uint32_t)0x00000001)
 #define  RCC_APB2LPENR_TIM8LPEN              ((uint32_t)0x00000002)
 #define  RCC_APB2LPENR_USART1LPEN            ((uint32_t)0x00000010)
@@ -7890,8 +8115,9 @@ typedef struct
 #define  RCC_APB2LPENR_SAI1LPEN              ((uint32_t)0x00400000)
 #define  RCC_APB2LPENR_LTDCLPEN              ((uint32_t)0x04000000)
 #endif /* STM32F429X */
-
+```
 /********************  Bit definition for RCC_BDCR register  ******************/
+```
 #define  RCC_BDCR_LSEON                      ((uint32_t)0x00000001)
 #define  RCC_BDCR_LSERDY                     ((uint32_t)0x00000002)
 #define  RCC_BDCR_LSEBYP                     ((uint32_t)0x00000004)
@@ -7902,8 +8128,9 @@ typedef struct
 
 #define  RCC_BDCR_RTCEN                      ((uint32_t)0x00008000)
 #define  RCC_BDCR_BDRST                      ((uint32_t)0x00010000)
-
+```
 /********************  Bit definition for RCC_CSR register  *******************/
+```
 #define  RCC_CSR_LSION                       ((uint32_t)0x00000001)
 #define  RCC_CSR_LSIRDY                      ((uint32_t)0x00000002)
 #define  RCC_CSR_RMVF                        ((uint32_t)0x01000000)
@@ -7914,14 +8141,16 @@ typedef struct
 #define  RCC_CSR_WDGRSTF                     ((uint32_t)0x20000000)
 #define  RCC_CSR_WWDGRSTF                    ((uint32_t)0x40000000)
 #define  RCC_CSR_LPWRRSTF                    ((uint32_t)0x80000000)
-
+```
 /********************  Bit definition for RCC_SSCGR register  *****************/
+```
 #define  RCC_SSCGR_MODPER                    ((uint32_t)0x00001FFF)
 #define  RCC_SSCGR_INCSTEP                   ((uint32_t)0x0FFFE000)
 #define  RCC_SSCGR_SPREADSEL                 ((uint32_t)0x40000000)
 #define  RCC_SSCGR_SSCGEN                    ((uint32_t)0x80000000)
-
+```
 /********************  Bit definition for RCC_PLLI2SCFGR register  ************/
+```
 #define  RCC_PLLI2SCFGR_PLLI2SN              ((uint32_t)0x00007FC0)
 
 #if defined (STM32F429X)
@@ -7931,12 +8160,15 @@ typedef struct
 #define  RCC_PLLI2SCFGR_PLLI2SR              ((uint32_t)0x70000000)
 
 #if defined (STM32F429X)
+```
 /********************  Bit definition for RCC_PLLSAICFGR register  ************/
+```
 #define  RCC_PLLSAICFGR_PLLI2SN              ((uint32_t)0x00007FC0)
 #define  RCC_PLLSAICFGR_PLLI2SQ              ((uint32_t)0x0F000000)
 #define  RCC_PLLSAICFGR_PLLI2SR              ((uint32_t)0x70000000)
-
+```
 /********************  Bit definition for RCC_DCKCFGR register  ***************/
+```
 #define  RCC_DCKCFGR_PLLI2SDIVQ              ((uint32_t)0x0000001F)
 #define  RCC_DCKCFGR_PLLSAIDIVQ              ((uint32_t)0x00001F00)
 #define  RCC_DCKCFGR_PLLSAIDIVR              ((uint32_t)0x00030000)
@@ -7944,7 +8176,7 @@ typedef struct
 #define  RCC_DCKCFGR_SAI1BSRC                ((uint32_t)0x00C00000)
 #endif /* STM32F429X */
 #define  RCC_DCKCFGR_TIMPRE                  ((uint32_t)0x01000000)
-
+```
 
 /******************************************************************************/
 /*                                                                            */
@@ -7952,22 +8184,25 @@ typedef struct
 /*                                                                            */
 /******************************************************************************/
 /********************  Bits definition for RNG_CR register  *******************/
+```
 #define RNG_CR_RNGEN                         ((uint32_t)0x00000004)
 #define RNG_CR_IE                            ((uint32_t)0x00000008)
-
+```
 /********************  Bits definition for RNG_SR register  *******************/
+```
 #define RNG_SR_DRDY                          ((uint32_t)0x00000001)
 #define RNG_SR_CECS                          ((uint32_t)0x00000002)
 #define RNG_SR_SECS                          ((uint32_t)0x00000004)
 #define RNG_SR_CEIS                          ((uint32_t)0x00000020)
 #define RNG_SR_SEIS                          ((uint32_t)0x00000040)
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                           Real-Time Clock (RTC)                            */
 /*                                                                            */
 /******************************************************************************/
 /********************  Bits definition for RTC_TR register  *******************/
+```
 #define RTC_TR_PM                            ((uint32_t)0x00400000)
 #define RTC_TR_HT                            ((uint32_t)0x00300000)
 #define RTC_TR_HT_0                          ((uint32_t)0x00100000)
@@ -7995,8 +8230,9 @@ typedef struct
 #define RTC_TR_SU_1                          ((uint32_t)0x00000002)
 #define RTC_TR_SU_2                          ((uint32_t)0x00000004)
 #define RTC_TR_SU_3                          ((uint32_t)0x00000008)
-
+```
 /********************  Bits definition for RTC_DR register  *******************/
+```
 #define RTC_DR_YT                            ((uint32_t)0x00F00000)
 #define RTC_DR_YT_0                          ((uint32_t)0x00100000)
 #define RTC_DR_YT_1                          ((uint32_t)0x00200000)
@@ -8025,8 +8261,9 @@ typedef struct
 #define RTC_DR_DU_1                          ((uint32_t)0x00000002)
 #define RTC_DR_DU_2                          ((uint32_t)0x00000004)
 #define RTC_DR_DU_3                          ((uint32_t)0x00000008)
-
+```
 /********************  Bits definition for RTC_CR register  *******************/
+```
 #define RTC_CR_COE                           ((uint32_t)0x00800000)
 #define RTC_CR_OSEL                          ((uint32_t)0x00600000)
 #define RTC_CR_OSEL_0                        ((uint32_t)0x00200000)
@@ -8053,8 +8290,9 @@ typedef struct
 #define RTC_CR_WUCKSEL_0                     ((uint32_t)0x00000001)
 #define RTC_CR_WUCKSEL_1                     ((uint32_t)0x00000002)
 #define RTC_CR_WUCKSEL_2                     ((uint32_t)0x00000004)
-
+```
 /********************  Bits definition for RTC_ISR register  ******************/
+```
 #define RTC_ISR_RECALPF                      ((uint32_t)0x00010000)
 #define RTC_ISR_TAMP1F                       ((uint32_t)0x00002000)
 #define RTC_ISR_TSOVF                        ((uint32_t)0x00001000)
@@ -8070,19 +8308,23 @@ typedef struct
 #define RTC_ISR_WUTWF                        ((uint32_t)0x00000004)
 #define RTC_ISR_ALRBWF                       ((uint32_t)0x00000002)
 #define RTC_ISR_ALRAWF                       ((uint32_t)0x00000001)
-
+```
 /********************  Bits definition for RTC_PRER register  *****************/
+```
 #define RTC_PRER_PREDIV_A                    ((uint32_t)0x007F0000)
 #define RTC_PRER_PREDIV_S                    ((uint32_t)0x00001FFF)
-
+```
 /********************  Bits definition for RTC_WUTR register  *****************/
+```
 #define RTC_WUTR_WUT                         ((uint32_t)0x0000FFFF)
-
+```
 /********************  Bits definition for RTC_CALIBR register  ***************/
+```
 #define RTC_CALIBR_DCS                       ((uint32_t)0x00000080)
 #define RTC_CALIBR_DC                        ((uint32_t)0x0000001F)
-
+```
 /********************  Bits definition for RTC_ALRMAR register  ***************/
+```
 #define RTC_ALRMAR_MSK4                      ((uint32_t)0x80000000)
 #define RTC_ALRMAR_WDSEL                     ((uint32_t)0x40000000)
 #define RTC_ALRMAR_DT                        ((uint32_t)0x30000000)
@@ -8123,8 +8365,9 @@ typedef struct
 #define RTC_ALRMAR_SU_1                      ((uint32_t)0x00000002)
 #define RTC_ALRMAR_SU_2                      ((uint32_t)0x00000004)
 #define RTC_ALRMAR_SU_3                      ((uint32_t)0x00000008)
-
+```
 /********************  Bits definition for RTC_ALRMBR register  ***************/
+```
 #define RTC_ALRMBR_MSK4                      ((uint32_t)0x80000000)
 #define RTC_ALRMBR_WDSEL                     ((uint32_t)0x40000000)
 #define RTC_ALRMBR_DT                        ((uint32_t)0x30000000)
@@ -8165,18 +8408,22 @@ typedef struct
 #define RTC_ALRMBR_SU_1                      ((uint32_t)0x00000002)
 #define RTC_ALRMBR_SU_2                      ((uint32_t)0x00000004)
 #define RTC_ALRMBR_SU_3                      ((uint32_t)0x00000008)
-
+```
 /********************  Bits definition for RTC_WPR register  ******************/
+```
 #define RTC_WPR_KEY                          ((uint32_t)0x000000FF)
-
+```
 /********************  Bits definition for RTC_SSR register  ******************/
+```
 #define RTC_SSR_SS                           ((uint32_t)0x0000FFFF)
-
+```
 /********************  Bits definition for RTC_SHIFTR register  ***************/
+```
 #define RTC_SHIFTR_SUBFS                     ((uint32_t)0x00007FFF)
 #define RTC_SHIFTR_ADD1S                     ((uint32_t)0x80000000)
-
+```
 /********************  Bits definition for RTC_TSTR register  *****************/
+```
 #define RTC_TSTR_PM                          ((uint32_t)0x00400000)
 #define RTC_TSTR_HT                          ((uint32_t)0x00300000)
 #define RTC_TSTR_HT_0                        ((uint32_t)0x00100000)
@@ -8204,8 +8451,9 @@ typedef struct
 #define RTC_TSTR_SU_1                        ((uint32_t)0x00000002)
 #define RTC_TSTR_SU_2                        ((uint32_t)0x00000004)
 #define RTC_TSTR_SU_3                        ((uint32_t)0x00000008)
-
+```
 /********************  Bits definition for RTC_TSDR register  *****************/
+```
 #define RTC_TSDR_WDU                         ((uint32_t)0x0000E000)
 #define RTC_TSDR_WDU_0                       ((uint32_t)0x00002000)
 #define RTC_TSDR_WDU_1                       ((uint32_t)0x00004000)
@@ -8224,11 +8472,13 @@ typedef struct
 #define RTC_TSDR_DU_1                        ((uint32_t)0x00000002)
 #define RTC_TSDR_DU_2                        ((uint32_t)0x00000004)
 #define RTC_TSDR_DU_3                        ((uint32_t)0x00000008)
-
+```
 /********************  Bits definition for RTC_TSSSR register  ****************/
+```
 #define RTC_TSSSR_SS                         ((uint32_t)0x0000FFFF)
-
+```
 /********************  Bits definition for RTC_CAL register  *****************/
+```
 #define RTC_CALR_CALP                        ((uint32_t)0x00008000)
 #define RTC_CALR_CALW8                       ((uint32_t)0x00004000)
 #define RTC_CALR_CALW16                      ((uint32_t)0x00002000)
@@ -8242,8 +8492,9 @@ typedef struct
 #define RTC_CALR_CALM_6                      ((uint32_t)0x00000040)
 #define RTC_CALR_CALM_7                      ((uint32_t)0x00000080)
 #define RTC_CALR_CALM_8                      ((uint32_t)0x00000100)
-
+```
 /********************  Bits definition for RTC_TAFCR register  ****************/
+```
 #define RTC_TAFCR_ALARMOUTTYPE               ((uint32_t)0x00040000)
 #define RTC_TAFCR_TSINSEL                    ((uint32_t)0x00020000)
 #define RTC_TAFCR_TAMPINSEL                  ((uint32_t)0x00010000)
@@ -8262,90 +8513,114 @@ typedef struct
 #define RTC_TAFCR_TAMPIE                     ((uint32_t)0x00000004)
 #define RTC_TAFCR_TAMP1TRG                   ((uint32_t)0x00000002)
 #define RTC_TAFCR_TAMP1E                     ((uint32_t)0x00000001)
-
-/********************  Bits definition for RTC_ALRMASSR register  *************/
+```
+/********************  Bits definition for RTC_ALRMASSR register  *************
+```
 #define RTC_ALRMASSR_MASKSS                  ((uint32_t)0x0F000000)
 #define RTC_ALRMASSR_MASKSS_0                ((uint32_t)0x01000000)
 #define RTC_ALRMASSR_MASKSS_1                ((uint32_t)0x02000000)
 #define RTC_ALRMASSR_MASKSS_2                ((uint32_t)0x04000000)
 #define RTC_ALRMASSR_MASKSS_3                ((uint32_t)0x08000000)
 #define RTC_ALRMASSR_SS                      ((uint32_t)0x00007FFF)
-
+```
 /********************  Bits definition for RTC_ALRMBSSR register  *************/
+```
 #define RTC_ALRMBSSR_MASKSS                  ((uint32_t)0x0F000000)
 #define RTC_ALRMBSSR_MASKSS_0                ((uint32_t)0x01000000)
 #define RTC_ALRMBSSR_MASKSS_1                ((uint32_t)0x02000000)
 #define RTC_ALRMBSSR_MASKSS_2                ((uint32_t)0x04000000)
 #define RTC_ALRMBSSR_MASKSS_3                ((uint32_t)0x08000000)
 #define RTC_ALRMBSSR_SS                      ((uint32_t)0x00007FFF)
-
+```
 /********************  Bits definition for RTC_BKP0R register  ****************/
+```
 #define RTC_BKP0R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP1R register  ****************/
+```
 #define RTC_BKP1R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP2R register  ****************/
+```
 #define RTC_BKP2R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP3R register  ****************/
+```
 #define RTC_BKP3R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP4R register  ****************/
+```
 #define RTC_BKP4R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP5R register  ****************/
+```
 #define RTC_BKP5R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP6R register  ****************/
+```
 #define RTC_BKP6R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP7R register  ****************/
+```
 #define RTC_BKP7R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP8R register  ****************/
+```
 #define RTC_BKP8R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP9R register  ****************/
+```
 #define RTC_BKP9R                            ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP10R register  ***************/
+```
 #define RTC_BKP10R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP11R register  ***************/
+```
 #define RTC_BKP11R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP12R register  ***************/
+```
 #define RTC_BKP12R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP13R register  ***************/
+```
 #define RTC_BKP13R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP14R register  ***************/
+```
 #define RTC_BKP14R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP15R register  ***************/
+```
 #define RTC_BKP15R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP16R register  ***************/
+```
 #define RTC_BKP16R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP17R register  ***************/
+```
 #define RTC_BKP17R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP18R register  ***************/
+```
 #define RTC_BKP18R                           ((uint32_t)0xFFFFFFFF)
-
+```
 /********************  Bits definition for RTC_BKP19R register  ***************/
+```
 #define RTC_BKP19R                           ((uint32_t)0xFFFFFFFF)
 
 #if defined (STM32F429X)
+```
 /******************************************************************************/
 /*                                                                            */
 /*                          Serial Audio Interface                            */
 /*                                                                            */
 /******************************************************************************/
 /********************  Bit definition for SAI_GCR register  *******************/
+```
 #define  SAI_GCR_SYNCIN                  ((uint32_t)0x00000003)        /*!<SYNCIN[1:0] bits (Synchronization Inputs)   */
 #define  SAI_GCR_SYNCIN_0                ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  SAI_GCR_SYNCIN_1                ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -8353,8 +8628,9 @@ typedef struct
 #define  SAI_GCR_SYNCOUT                 ((uint32_t)0x00000030)        /*!<SYNCOUT[1:0] bits (Synchronization Outputs) */
 #define  SAI_GCR_SYNCOUT_0               ((uint32_t)0x00000010)        /*!<Bit 0 */
 #define  SAI_GCR_SYNCOUT_1               ((uint32_t)0x00000020)        /*!<Bit 1 */
-
+```
 /*******************  Bit definition for SAI_xCR1 register  *******************/
+```
 #define  SAI_xCR1_MODE                    ((uint32_t)0x00000003)        /*!<MODE[1:0] bits (Audio Block Mode)           */
 #define  SAI_xCR1_MODE_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  SAI_xCR1_MODE_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -8386,8 +8662,9 @@ typedef struct
 #define  SAI_xCR1_MCKDIV_1                ((uint32_t)0x00100000)        /*!<Bit 1  */
 #define  SAI_xCR1_MCKDIV_2                ((uint32_t)0x00200000)        /*!<Bit 2  */
 #define  SAI_xCR1_MCKDIV_3                ((uint32_t)0x00400000)        /*!<Bit 3  */
-
+```
 /*******************  Bit definition for SAI_xCR2 register  *******************/
+```
 #define  SAI_xCR2_FTH                     ((uint32_t)0x00000003)        /*!<FTH[1:0](Fifo THreshold)  */
 #define  SAI_xCR2_FTH_0                   ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  SAI_xCR2_FTH_1                   ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -8410,8 +8687,9 @@ typedef struct
 #define  SAI_xCR2_COMP                    ((uint32_t)0x0000C000)        /*!<COMP[1:0] (Companding mode) */
 #define  SAI_xCR2_COMP_0                  ((uint32_t)0x00004000)        /*!<Bit 0 */
 #define  SAI_xCR2_COMP_1                  ((uint32_t)0x00008000)        /*!<Bit 1 */
-
+```
 /******************  Bit definition for SAI_xFRCR register  *******************/
+```
 #define  SAI_xFRCR_FRL                    ((uint32_t)0x000000FF)        /*!<FRL[1:0](Frame length)  */
 #define  SAI_xFRCR_FRL_0                  ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  SAI_xFRCR_FRL_1                  ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -8434,8 +8712,9 @@ typedef struct
 #define  SAI_xFRCR_FSDEF                  ((uint32_t)0x00010000)        /*!< Frame Synchronization Definition */
 #define  SAI_xFRCR_FSPO                   ((uint32_t)0x00020000)        /*!<Frame Synchronization POLarity    */
 #define  SAI_xFRCR_FSOFF                  ((uint32_t)0x00040000)        /*!<Frame Synchronization OFFset      */
-
+```
 /******************  Bit definition for SAI_xSLOTR register  *******************/
+```
 #define  SAI_xSLOTR_FBOFF                 ((uint32_t)0x0000001F)        /*!<FRL[4:0](First Bit Offset)  */
 #define  SAI_xSLOTR_FBOFF_0               ((uint32_t)0x00000001)        /*!<Bit 0 */
 #define  SAI_xSLOTR_FBOFF_1               ((uint32_t)0x00000002)        /*!<Bit 1 */
@@ -8454,8 +8733,9 @@ typedef struct
 #define  SAI_xSLOTR_NBSLOT_3              ((uint32_t)0x00000800)        /*!<Bit 3 */
 
 #define  SAI_xSLOTR_SLOTEN                ((uint32_t)0xFFFF0000)        /*!<SLOTEN[15:0] (Slot Enable)  */
-
+```
 /*******************  Bit definition for SAI_xIMR register  *******************/
+```
 #define  SAI_xIMR_OVRUDRIE                ((uint32_t)0x00000001)        /*!<Overrun underrun interrupt enable                              */
 #define  SAI_xIMR_MUTEDETIE               ((uint32_t)0x00000002)        /*!<Mute detection interrupt enable                                */
 #define  SAI_xIMR_WCKCFGIE                ((uint32_t)0x00000004)        /*!<Wrong Clock Configuration interrupt enable                     */
@@ -8463,8 +8743,9 @@ typedef struct
 #define  SAI_xIMR_CNRDYIE                 ((uint32_t)0x00000010)        /*!<Codec not ready interrupt enable                               */
 #define  SAI_xIMR_AFSDETIE                ((uint32_t)0x00000020)        /*!<Anticipated frame synchronization detection interrupt enable   */
 #define  SAI_xIMR_LFSDETIE                ((uint32_t)0x00000040)        /*!<Late frame synchronization detection interrupt enable          */
-
+```
 /********************  Bit definition for SAI_xSR register  *******************/
+```
 #define  SAI_xSR_OVRUDR                   ((uint32_t)0x00000001)         /*!<Overrun underrun                               */
 #define  SAI_xSR_MUTEDET                  ((uint32_t)0x00000002)         /*!<Mute detection                                 */
 #define  SAI_xSR_WCKCFG                   ((uint32_t)0x00000004)         /*!<Wrong Clock Configuration                      */
@@ -8477,8 +8758,9 @@ typedef struct
 #define  SAI_xSR_FLVL_0                   ((uint32_t)0x00010000)         /*!<Bit 0 */
 #define  SAI_xSR_FLVL_1                   ((uint32_t)0x00020000)         /*!<Bit 1 */
 #define  SAI_xSR_FLVL_2                   ((uint32_t)0x00030000)         /*!<Bit 2 */
-
+```
 /******************  Bit definition for SAI_xCLRFR register  ******************/
+```
 #define  SAI_xCLRFR_COVRUDR               ((uint32_t)0x00000001)        /*!<Clear Overrun underrun                               */
 #define  SAI_xCLRFR_CMUTEDET              ((uint32_t)0x00000002)        /*!<Clear Mute detection                                 */
 #define  SAI_xCLRFR_CWCKCFG               ((uint32_t)0x00000004)        /*!<Clear Wrong Clock Configuration                      */
@@ -8486,22 +8768,25 @@ typedef struct
 #define  SAI_xCLRFR_CCNRDY                ((uint32_t)0x00000010)        /*!<Clear Codec not ready                                */
 #define  SAI_xCLRFR_CAFSDET               ((uint32_t)0x00000020)        /*!<Clear Anticipated frame synchronization detection    */
 #define  SAI_xCLRFR_CLFSDET               ((uint32_t)0x00000040)        /*!<Clear Late frame synchronization detection           */
-
+```
 /******************  Bit definition for SAI_xDR register  ******************/
+```
 #define  SAI_xDR_DATA                     ((uint32_t)0xFFFFFFFF)        
 #endif /* STM32F429X */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                          SD host Interface                                 */
 /*                                                                            */
 /******************************************************************************/
 /******************  Bit definition for SDIO_POWER register  ******************/
+```
 #define  SDIO_POWER_PWRCTRL                  ((uint8_t)0x03)               /*!<PWRCTRL[1:0] bits (Power supply control bits) */
 #define  SDIO_POWER_PWRCTRL_0                ((uint8_t)0x01)               /*!<Bit 0 */
 #define  SDIO_POWER_PWRCTRL_1                ((uint8_t)0x02)               /*!<Bit 1 */
-
+```
 /******************  Bit definition for SDIO_CLKCR register  ******************/
+```
 #define  SDIO_CLKCR_CLKDIV                   ((uint16_t)0x00FF)            /*!<Clock divide factor             */
 #define  SDIO_CLKCR_CLKEN                    ((uint16_t)0x0100)            /*!<Clock enable bit                */
 #define  SDIO_CLKCR_PWRSAV                   ((uint16_t)0x0200)            /*!<Power saving configuration bit  */
@@ -8513,11 +8798,13 @@ typedef struct
 
 #define  SDIO_CLKCR_NEGEDGE                  ((uint16_t)0x2000)            /*!<SDIO_CK dephasing selection bit */
 #define  SDIO_CLKCR_HWFC_EN                  ((uint16_t)0x4000)            /*!<HW Flow Control enable          */
-
+```
 /*******************  Bit definition for SDIO_ARG register  *******************/
+```
 #define  SDIO_ARG_CMDARG                     ((uint32_t)0xFFFFFFFF)            /*!<Command argument */
-
+```
 /*******************  Bit definition for SDIO_CMD register  *******************/
+```
 #define  SDIO_CMD_CMDINDEX                   ((uint16_t)0x003F)            /*!<Command Index                               */
 
 #define  SDIO_CMD_WAITRESP                   ((uint16_t)0x00C0)            /*!<WAITRESP[1:0] bits (Wait for response bits) */
@@ -8531,32 +8818,41 @@ typedef struct
 #define  SDIO_CMD_ENCMDCOMPL                 ((uint16_t)0x1000)            /*!<Enable CMD completion                                          */
 #define  SDIO_CMD_NIEN                       ((uint16_t)0x2000)            /*!<Not Interrupt Enable */
 #define  SDIO_CMD_CEATACMD                   ((uint16_t)0x4000)            /*!<CE-ATA command       */
-
+```
 /*****************  Bit definition for SDIO_RESPCMD register  *****************/
+```
 #define  SDIO_RESPCMD_RESPCMD                ((uint8_t)0x3F)               /*!<Response command index */
-
+```
 /******************  Bit definition for SDIO_RESP0 register  ******************/
+```
 #define  SDIO_RESP0_CARDSTATUS0              ((uint32_t)0xFFFFFFFF)        /*!<Card Status */
-
+```
 /******************  Bit definition for SDIO_RESP1 register  ******************/
+```
 #define  SDIO_RESP1_CARDSTATUS1              ((uint32_t)0xFFFFFFFF)        /*!<Card Status */
-
+```
 /******************  Bit definition for SDIO_RESP2 register  ******************/
+```
 #define  SDIO_RESP2_CARDSTATUS2              ((uint32_t)0xFFFFFFFF)        /*!<Card Status */
-
+```
 /******************  Bit definition for SDIO_RESP3 register  ******************/
+```
 #define  SDIO_RESP3_CARDSTATUS3              ((uint32_t)0xFFFFFFFF)        /*!<Card Status */
-
+```
 /******************  Bit definition for SDIO_RESP4 register  ******************/
+```
 #define  SDIO_RESP4_CARDSTATUS4              ((uint32_t)0xFFFFFFFF)        /*!<Card Status */
-
+```
 /******************  Bit definition for SDIO_DTIMER register  *****************/
+```
 #define  SDIO_DTIMER_DATATIME                ((uint32_t)0xFFFFFFFF)        /*!<Data timeout period. */
-
+```
 /******************  Bit definition for SDIO_DLEN register  *******************/
+```
 #define  SDIO_DLEN_DATALENGTH                ((uint32_t)0x01FFFFFF)        /*!<Data length value    */
-
+```
 /******************  Bit definition for SDIO_DCTRL register  ******************/
+```
 #define  SDIO_DCTRL_DTEN                     ((uint16_t)0x0001)            /*!<Data transfer enabled bit         */
 #define  SDIO_DCTRL_DTDIR                    ((uint16_t)0x0002)            /*!<Data transfer direction selection */
 #define  SDIO_DCTRL_DTMODE                   ((uint16_t)0x0004)            /*!<Data transfer mode selection      */
@@ -8572,11 +8868,13 @@ typedef struct
 #define  SDIO_DCTRL_RWSTOP                   ((uint16_t)0x0200)            /*!<Read wait stop          */
 #define  SDIO_DCTRL_RWMOD                    ((uint16_t)0x0400)            /*!<Read wait mode          */
 #define  SDIO_DCTRL_SDIOEN                   ((uint16_t)0x0800)            /*!<SD I/O enable functions */
-
-/******************  Bit definition for SDIO_DCOUNT register  *****************/
+```
+/******************  Bit definition for SDIO_DCOUNT register  *****************
+```
 #define  SDIO_DCOUNT_DATACOUNT               ((uint32_t)0x01FFFFFF)        /*!<Data count value */
-
+```
 /******************  Bit definition for SDIO_STA register  ********************/
+```
 #define  SDIO_STA_CCRCFAIL                   ((uint32_t)0x00000001)        /*!<Command response received (CRC check failed)  */
 #define  SDIO_STA_DCRCFAIL                   ((uint32_t)0x00000002)        /*!<Data block sent/received (CRC check failed)   */
 #define  SDIO_STA_CTIMEOUT                   ((uint32_t)0x00000004)        /*!<Command response timeout                      */
@@ -8601,8 +8899,9 @@ typedef struct
 #define  SDIO_STA_RXDAVL                     ((uint32_t)0x00200000)        /*!<Data available in receive FIFO                */
 #define  SDIO_STA_SDIOIT                     ((uint32_t)0x00400000)        /*!<SDIO interrupt received                       */
 #define  SDIO_STA_CEATAEND                   ((uint32_t)0x00800000)        /*!<CE-ATA command completion signal received for CMD61 */
-
+```
 /*******************  Bit definition for SDIO_ICR register  *******************/
+```
 #define  SDIO_ICR_CCRCFAILC                  ((uint32_t)0x00000001)        /*!<CCRCFAIL flag clear bit */
 #define  SDIO_ICR_DCRCFAILC                  ((uint32_t)0x00000002)        /*!<DCRCFAIL flag clear bit */
 #define  SDIO_ICR_CTIMEOUTC                  ((uint32_t)0x00000004)        /*!<CTIMEOUT flag clear bit */
@@ -8616,8 +8915,9 @@ typedef struct
 #define  SDIO_ICR_DBCKENDC                   ((uint32_t)0x00000400)        /*!<DBCKEND flag clear bit  */
 #define  SDIO_ICR_SDIOITC                    ((uint32_t)0x00400000)        /*!<SDIOIT flag clear bit   */
 #define  SDIO_ICR_CEATAENDC                  ((uint32_t)0x00800000)        /*!<CEATAEND flag clear bit */
-
+```
 /******************  Bit definition for SDIO_MASK register  *******************/
+```
 #define  SDIO_MASK_CCRCFAILIE                ((uint32_t)0x00000001)        /*!<Command CRC Fail Interrupt Enable          */
 #define  SDIO_MASK_DCRCFAILIE                ((uint32_t)0x00000002)        /*!<Data CRC Fail Interrupt Enable             */
 #define  SDIO_MASK_CTIMEOUTIE                ((uint32_t)0x00000004)        /*!<Command TimeOut Interrupt Enable           */
@@ -8642,19 +8942,22 @@ typedef struct
 #define  SDIO_MASK_RXDAVLIE                  ((uint32_t)0x00200000)        /*!<Data available in Rx FIFO interrupt Enable */
 #define  SDIO_MASK_SDIOITIE                  ((uint32_t)0x00400000)        /*!<SDIO Mode Interrupt Received interrupt Enable */
 #define  SDIO_MASK_CEATAENDIE                ((uint32_t)0x00800000)        /*!<CE-ATA command completion signal received Interrupt Enable */
-
+```
 /*****************  Bit definition for SDIO_FIFOCNT register  *****************/
+```
 #define  SDIO_FIFOCNT_FIFOCOUNT              ((uint32_t)0x00FFFFFF)        /*!<Remaining number of words to be written to or read from the FIFO */
-
+```
 /******************  Bit definition for SDIO_FIFO register  *******************/
+```
 #define  SDIO_FIFO_FIFODATA                  ((uint32_t)0xFFFFFFFF)        /*!<Receive and transmit FIFO data */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                        Serial Peripheral Interface                         */
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bit definition for SPI_CR1 register  ********************/
+```
 #define  SPI_CR1_CPHA                        ((uint16_t)0x0001)            /*!<Clock Phase      */
 #define  SPI_CR1_CPOL                        ((uint16_t)0x0002)            /*!<Clock Polarity   */
 #define  SPI_CR1_MSTR                        ((uint16_t)0x0004)            /*!<Master Selection */
@@ -8674,16 +8977,18 @@ typedef struct
 #define  SPI_CR1_CRCEN                       ((uint16_t)0x2000)            /*!<Hardware CRC calculation enable     */
 #define  SPI_CR1_BIDIOE                      ((uint16_t)0x4000)            /*!<Output enable in bidirectional mode */
 #define  SPI_CR1_BIDIMODE                    ((uint16_t)0x8000)            /*!<Bidirectional data mode enable      */
-
+```
 /*******************  Bit definition for SPI_CR2 register  ********************/
+```
 #define  SPI_CR2_RXDMAEN                     ((uint8_t)0x01)               /*!<Rx Buffer DMA Enable                 */
 #define  SPI_CR2_TXDMAEN                     ((uint8_t)0x02)               /*!<Tx Buffer DMA Enable                 */
 #define  SPI_CR2_SSOE                        ((uint8_t)0x04)               /*!<SS Output Enable                     */
 #define  SPI_CR2_ERRIE                       ((uint8_t)0x20)               /*!<Error Interrupt Enable               */
 #define  SPI_CR2_RXNEIE                      ((uint8_t)0x40)               /*!<RX buffer Not Empty Interrupt Enable */
 #define  SPI_CR2_TXEIE                       ((uint8_t)0x80)               /*!<Tx buffer Empty Interrupt Enable     */
-
+```
 /********************  Bit definition for SPI_SR register  ********************/
+```
 #define  SPI_SR_RXNE                         ((uint8_t)0x01)               /*!<Receive buffer Not Empty */
 #define  SPI_SR_TXE                          ((uint8_t)0x02)               /*!<Transmit buffer Empty    */
 #define  SPI_SR_CHSIDE                       ((uint8_t)0x04)               /*!<Channel side             */
@@ -8692,20 +8997,25 @@ typedef struct
 #define  SPI_SR_MODF                         ((uint8_t)0x20)               /*!<Mode fault               */
 #define  SPI_SR_OVR                          ((uint8_t)0x40)               /*!<Overrun flag             */
 #define  SPI_SR_BSY                          ((uint8_t)0x80)               /*!<Busy flag                */
-
+```
 /********************  Bit definition for SPI_DR register  ********************/
+```
 #define  SPI_DR_DR                           ((uint16_t)0xFFFF)            /*!<Data Register           */
-
+```
 /*******************  Bit definition for SPI_CRCPR register  ******************/
+```
 #define  SPI_CRCPR_CRCPOLY                   ((uint16_t)0xFFFF)            /*!<CRC polynomial register */
-
+```
 /******************  Bit definition for SPI_RXCRCR register  ******************/
+```
 #define  SPI_RXCRCR_RXCRC                    ((uint16_t)0xFFFF)            /*!<Rx CRC Register         */
-
+```
 /******************  Bit definition for SPI_TXCRCR register  ******************/
+```
 #define  SPI_TXCRCR_TXCRC                    ((uint16_t)0xFFFF)            /*!<Tx CRC Register         */
-
+```
 /******************  Bit definition for SPI_I2SCFGR register  *****************/
+```
 #define  SPI_I2SCFGR_CHLEN                   ((uint16_t)0x0001)            /*!<Channel length (number of bits per audio channel) */
 
 #define  SPI_I2SCFGR_DATLEN                  ((uint16_t)0x0006)            /*!<DATLEN[1:0] bits (Data length to be transferred)  */
@@ -8726,26 +9036,29 @@ typedef struct
 
 #define  SPI_I2SCFGR_I2SE                    ((uint16_t)0x0400)            /*!<I2S Enable         */
 #define  SPI_I2SCFGR_I2SMOD                  ((uint16_t)0x0800)            /*!<I2S mode selection */
-
+```
 /******************  Bit definition for SPI_I2SPR register  *******************/
+```
 #define  SPI_I2SPR_I2SDIV                    ((uint16_t)0x00FF)            /*!<I2S Linear prescaler         */
 #define  SPI_I2SPR_ODD                       ((uint16_t)0x0100)            /*!<Odd factor for the prescaler */
 #define  SPI_I2SPR_MCKOE                     ((uint16_t)0x0200)            /*!<Master Clock Output Enable   */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                                 SYSCFG                                     */
 /*                                                                            */
 /******************************************************************************/
 /******************  Bit definition for SYSCFG_MEMRMP register  ***************/  
+```
 #define SYSCFG_MEMRMP_MEM_MODE          ((uint32_t)0x00000007) /*!< SYSCFG_Memory Remap Config */
 #define SYSCFG_MEMRMP_MEM_MODE_0        ((uint32_t)0x00000001)
 #define SYSCFG_MEMRMP_MEM_MODE_1        ((uint32_t)0x00000002)
 #define SYSCFG_MEMRMP_MEM_MODE_2        ((uint32_t)0x00000004)
 
 #define SYSCFG_MEMRMP_UFB_MODE          ((uint32_t)0x00000100) /*!< User Flash Bank mode */
-
+```
 /******************  Bit definition for SYSCFG_PMC register  ******************/
+```
 #define SYSCFG_PMC_ADCxDC2              ((uint32_t)0x00070000) /*!< Refer to AN4073 on how to use this bit  */
 #define SYSCFG_PMC_ADC1DC2              ((uint32_t)0x00010000) /*!< Refer to AN4073 on how to use this bit  */
 #define SYSCFG_PMC_ADC2DC2              ((uint32_t)0x00020000) /*!< Refer to AN4073 on how to use this bit  */
@@ -8754,15 +9067,18 @@ typedef struct
 #define SYSCFG_PMC_MII_RMII_SEL         ((uint32_t)0x00800000) /*!<Ethernet PHY interface selection */
 /* Old MII_RMII_SEL bit definition, maintained for legacy purpose */
 #define SYSCFG_PMC_MII_RMII             SYSCFG_PMC_MII_RMII_SEL
-
+```
 /*****************  Bit definition for SYSCFG_EXTICR1 register  ***************/
+```
 #define SYSCFG_EXTICR1_EXTI0            ((uint16_t)0x000F) /*!<EXTI 0 configuration */
 #define SYSCFG_EXTICR1_EXTI1            ((uint16_t)0x00F0) /*!<EXTI 1 configuration */
 #define SYSCFG_EXTICR1_EXTI2            ((uint16_t)0x0F00) /*!<EXTI 2 configuration */
 #define SYSCFG_EXTICR1_EXTI3            ((uint16_t)0xF000) /*!<EXTI 3 configuration */
+```
 /** 
   * @brief   EXTI0 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR1_EXTI0_PA         ((uint16_t)0x0000) /*!<PA[0] pin */
 #define SYSCFG_EXTICR1_EXTI0_PB         ((uint16_t)0x0001) /*!<PB[0] pin */
 #define SYSCFG_EXTICR1_EXTI0_PC         ((uint16_t)0x0002) /*!<PC[0] pin */
@@ -8777,10 +9093,11 @@ typedef struct
 #define SYSCFG_EXTICR1_EXTI0_PJ         ((uint16_t)0x0009) /*!<PJ[0] pin */
 #define SYSCFG_EXTICR1_EXTI0_PK         ((uint16_t)0x000A) /*!<PK[0] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI1 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR1_EXTI1_PA         ((uint16_t)0x0000) /*!<PA[1] pin */
 #define SYSCFG_EXTICR1_EXTI1_PB         ((uint16_t)0x0010) /*!<PB[1] pin */
 #define SYSCFG_EXTICR1_EXTI1_PC         ((uint16_t)0x0020) /*!<PC[1] pin */
@@ -8795,10 +9112,11 @@ typedef struct
 #define SYSCFG_EXTICR1_EXTI1_PJ         ((uint16_t)0x0090) /*!<PJ[1] pin */
 #define SYSCFG_EXTICR1_EXTI1_PK         ((uint16_t)0x00A0) /*!<PK[1] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI2 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR1_EXTI2_PA         ((uint16_t)0x0000) /*!<PA[2] pin */
 #define SYSCFG_EXTICR1_EXTI2_PB         ((uint16_t)0x0100) /*!<PB[2] pin */
 #define SYSCFG_EXTICR1_EXTI2_PC         ((uint16_t)0x0200) /*!<PC[2] pin */
@@ -8813,10 +9131,11 @@ typedef struct
 #define SYSCFG_EXTICR1_EXTI2_PJ         ((uint16_t)0x0900) /*!<PJ[2] pin */
 #define SYSCFG_EXTICR1_EXTI2_PK         ((uint16_t)0x0A00) /*!<PK[2] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI3 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR1_EXTI3_PA         ((uint16_t)0x0000) /*!<PA[3] pin */
 #define SYSCFG_EXTICR1_EXTI3_PB         ((uint16_t)0x1000) /*!<PB[3] pin */
 #define SYSCFG_EXTICR1_EXTI3_PC         ((uint16_t)0x2000) /*!<PC[3] pin */
@@ -8831,15 +9150,18 @@ typedef struct
 #define SYSCFG_EXTICR1_EXTI3_PJ         ((uint16_t)0x9000) /*!<PJ[3] pin */
 #define SYSCFG_EXTICR1_EXTI3_PK         ((uint16_t)0xA000) /*!<PK[3] pin */
 #endif /* STM32F429X */
-
+```
 /*****************  Bit definition for SYSCFG_EXTICR2 register  ***************/
+```
 #define SYSCFG_EXTICR2_EXTI4            ((uint16_t)0x000F) /*!<EXTI 4 configuration */
 #define SYSCFG_EXTICR2_EXTI5            ((uint16_t)0x00F0) /*!<EXTI 5 configuration */
 #define SYSCFG_EXTICR2_EXTI6            ((uint16_t)0x0F00) /*!<EXTI 6 configuration */
 #define SYSCFG_EXTICR2_EXTI7            ((uint16_t)0xF000) /*!<EXTI 7 configuration */
+```
 /** 
   * @brief   EXTI4 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR2_EXTI4_PA         ((uint16_t)0x0000) /*!<PA[4] pin */
 #define SYSCFG_EXTICR2_EXTI4_PB         ((uint16_t)0x0001) /*!<PB[4] pin */
 #define SYSCFG_EXTICR2_EXTI4_PC         ((uint16_t)0x0002) /*!<PC[4] pin */
@@ -8854,10 +9176,11 @@ typedef struct
 #define SYSCFG_EXTICR2_EXTI4_PJ         ((uint16_t)0x0009) /*!<PJ[4] pin */
 #define SYSCFG_EXTICR2_EXTI4_PK         ((uint16_t)0x000A) /*!<PK[4] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI5 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR2_EXTI5_PA         ((uint16_t)0x0000) /*!<PA[5] pin */
 #define SYSCFG_EXTICR2_EXTI5_PB         ((uint16_t)0x0010) /*!<PB[5] pin */
 #define SYSCFG_EXTICR2_EXTI5_PC         ((uint16_t)0x0020) /*!<PC[5] pin */
@@ -8872,10 +9195,11 @@ typedef struct
 #define SYSCFG_EXTICR2_EXTI5_PJ         ((uint16_t)0x0090) /*!<PJ[5] pin */
 #define SYSCFG_EXTICR2_EXTI5_PK         ((uint16_t)0x00A0) /*!<PK[5] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI6 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR2_EXTI6_PA         ((uint16_t)0x0000) /*!<PA[6] pin */
 #define SYSCFG_EXTICR2_EXTI6_PB         ((uint16_t)0x0100) /*!<PB[6] pin */
 #define SYSCFG_EXTICR2_EXTI6_PC         ((uint16_t)0x0200) /*!<PC[6] pin */
@@ -8890,10 +9214,11 @@ typedef struct
 #define SYSCFG_EXTICR2_EXTI6_PJ         ((uint16_t)0x0900) /*!<PJ[6] pin */
 #define SYSCFG_EXTICR2_EXTI6_PK         ((uint16_t)0x0A00) /*!<PK[6] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI7 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR2_EXTI7_PA         ((uint16_t)0x0000) /*!<PA[7] pin */
 #define SYSCFG_EXTICR2_EXTI7_PB         ((uint16_t)0x1000) /*!<PB[7] pin */
 #define SYSCFG_EXTICR2_EXTI7_PC         ((uint16_t)0x2000) /*!<PC[7] pin */
@@ -8908,16 +9233,18 @@ typedef struct
 #define SYSCFG_EXTICR2_EXTI7_PJ         ((uint16_t)0x9000) /*!<PJ[7] pin */
 #define SYSCFG_EXTICR2_EXTI7_PK         ((uint16_t)0xA000) /*!<PK[7] pin */
 #endif /* STM32F429X */
-
+```
 /*****************  Bit definition for SYSCFG_EXTICR3 register  ***************/
+```
 #define SYSCFG_EXTICR3_EXTI8            ((uint16_t)0x000F) /*!<EXTI 8 configuration */
 #define SYSCFG_EXTICR3_EXTI9            ((uint16_t)0x00F0) /*!<EXTI 9 configuration */
 #define SYSCFG_EXTICR3_EXTI10           ((uint16_t)0x0F00) /*!<EXTI 10 configuration */
 #define SYSCFG_EXTICR3_EXTI11           ((uint16_t)0xF000) /*!<EXTI 11 configuration */
-           
+```     
 /** 
   * @brief   EXTI8 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR3_EXTI8_PA         ((uint16_t)0x0000) /*!<PA[8] pin */
 #define SYSCFG_EXTICR3_EXTI8_PB         ((uint16_t)0x0001) /*!<PB[8] pin */
 #define SYSCFG_EXTICR3_EXTI8_PC         ((uint16_t)0x0002) /*!<PC[8] pin */
@@ -8931,10 +9258,11 @@ typedef struct
 #if defined (STM32F429X)
 #define SYSCFG_EXTICR3_EXTI8_PJ         ((uint16_t)0x0009) /*!<PJ[8] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI9 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR3_EXTI9_PA         ((uint16_t)0x0000) /*!<PA[9] pin */
 #define SYSCFG_EXTICR3_EXTI9_PB         ((uint16_t)0x0010) /*!<PB[9] pin */
 #define SYSCFG_EXTICR3_EXTI9_PC         ((uint16_t)0x0020) /*!<PC[9] pin */
@@ -8948,10 +9276,11 @@ typedef struct
 #if defined (STM32F429X)
 #define SYSCFG_EXTICR3_EXTI9_PJ         ((uint16_t)0x0090) /*!<PJ[9] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI10 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR3_EXTI10_PA        ((uint16_t)0x0000) /*!<PA[10] pin */
 #define SYSCFG_EXTICR3_EXTI10_PB        ((uint16_t)0x0100) /*!<PB[10] pin */
 #define SYSCFG_EXTICR3_EXTI10_PC        ((uint16_t)0x0200) /*!<PC[10] pin */
@@ -8965,10 +9294,11 @@ typedef struct
 #if defined (STM32F429X)
 #define SYSCFG_EXTICR3_EXTI10_PJ        ((uint16_t)0x0900) /*!<PJ[10] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI11 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR3_EXTI11_PA        ((uint16_t)0x0000) /*!<PA[11] pin */
 #define SYSCFG_EXTICR3_EXTI11_PB        ((uint16_t)0x1000) /*!<PB[11] pin */
 #define SYSCFG_EXTICR3_EXTI11_PC        ((uint16_t)0x2000) /*!<PC[11] pin */
@@ -8982,15 +9312,18 @@ typedef struct
 #if defined (STM32F429X)
 #define SYSCFG_EXTICR3_EXTI11_PJ        ((uint16_t)0x9000) /*!<PJ[11] pin */
 #endif /* STM32F429X */
-
+```
 /*****************  Bit definition for SYSCFG_EXTICR4 register  ***************/
+```
 #define SYSCFG_EXTICR4_EXTI12           ((uint16_t)0x000F) /*!<EXTI 12 configuration */
 #define SYSCFG_EXTICR4_EXTI13           ((uint16_t)0x00F0) /*!<EXTI 13 configuration */
 #define SYSCFG_EXTICR4_EXTI14           ((uint16_t)0x0F00) /*!<EXTI 14 configuration */
 #define SYSCFG_EXTICR4_EXTI15           ((uint16_t)0xF000) /*!<EXTI 15 configuration */
+```
 /** 
   * @brief   EXTI12 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR4_EXTI12_PA        ((uint16_t)0x0000) /*!<PA[12] pin */
 #define SYSCFG_EXTICR4_EXTI12_PB        ((uint16_t)0x0001) /*!<PB[12] pin */
 #define SYSCFG_EXTICR4_EXTI12_PC        ((uint16_t)0x0002) /*!<PC[12] pin */
@@ -9004,10 +9337,11 @@ typedef struct
 #define SYSCFG_EXTICR4_EXTI12_PI        ((uint16_t)0x0008) /*!<PI[12] pin */
 #define SYSCFG_EXTICR4_EXTI12_PJ        ((uint16_t)0x0009) /*!<PJ[12] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI13 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR4_EXTI13_PA        ((uint16_t)0x0000) /*!<PA[13] pin */
 #define SYSCFG_EXTICR4_EXTI13_PB        ((uint16_t)0x0010) /*!<PB[13] pin */
 #define SYSCFG_EXTICR4_EXTI13_PC        ((uint16_t)0x0020) /*!<PC[13] pin */
@@ -9021,10 +9355,11 @@ typedef struct
 #define SYSCFG_EXTICR4_EXTI13_PI        ((uint16_t)0x0008) /*!<PI[13] pin */
 #define SYSCFG_EXTICR4_EXTI13_PJ        ((uint16_t)0x0009) /*!<PJ[13] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI14 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR4_EXTI14_PA        ((uint16_t)0x0000) /*!<PA[14] pin */
 #define SYSCFG_EXTICR4_EXTI14_PB        ((uint16_t)0x0100) /*!<PB[14] pin */
 #define SYSCFG_EXTICR4_EXTI14_PC        ((uint16_t)0x0200) /*!<PC[14] pin */
@@ -9038,10 +9373,11 @@ typedef struct
 #define SYSCFG_EXTICR4_EXTI14_PI        ((uint16_t)0x0800) /*!<PI[14] pin */
 #define SYSCFG_EXTICR4_EXTI14_PJ        ((uint16_t)0x0900) /*!<PJ[14] pin */
 #endif /* STM32F429X */
-
+```
 /** 
   * @brief   EXTI15 configuration  
   */ 
+  ```
 #define SYSCFG_EXTICR4_EXTI15_PA        ((uint16_t)0x0000) /*!<PA[15] pin */
 #define SYSCFG_EXTICR4_EXTI15_PB        ((uint16_t)0x1000) /*!<PB[15] pin */
 #define SYSCFG_EXTICR4_EXTI15_PC        ((uint16_t)0x2000) /*!<PC[15] pin */
@@ -9055,17 +9391,19 @@ typedef struct
 #define SYSCFG_EXTICR4_EXTI15_PI        ((uint16_t)0x8000) /*!<PI[15] pin */
 #define SYSCFG_EXTICR4_EXTI15_PJ        ((uint16_t)0x9000) /*!<PJ[15] pin */
 #endif /* STM32F429X */
-
+```
 /******************  Bit definition for SYSCFG_CMPCR register  ****************/  
+```
 #define SYSCFG_CMPCR_CMP_PD             ((uint32_t)0x00000001) /*!<Compensation cell ready flag */
 #define SYSCFG_CMPCR_READY              ((uint32_t)0x00000100) /*!<Compensation cell power-down */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                                    TIM                                     */
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bit definition for TIM_CR1 register  ********************/
+```
 #define  TIM_CR1_CEN                         ((uint16_t)0x0001)            /*!<Counter enable        */
 #define  TIM_CR1_UDIS                        ((uint16_t)0x0002)            /*!<Update disable        */
 #define  TIM_CR1_URS                         ((uint16_t)0x0004)            /*!<Update request source */
@@ -9081,8 +9419,9 @@ typedef struct
 #define  TIM_CR1_CKD                         ((uint16_t)0x0300)            /*!<CKD[1:0] bits (clock division) */
 #define  TIM_CR1_CKD_0                       ((uint16_t)0x0100)            /*!<Bit 0 */
 #define  TIM_CR1_CKD_1                       ((uint16_t)0x0200)            /*!<Bit 1 */
-
+```
 /*******************  Bit definition for TIM_CR2 register  ********************/
+```
 #define  TIM_CR2_CCPC                        ((uint16_t)0x0001)            /*!<Capture/Compare Preloaded Control        */
 #define  TIM_CR2_CCUS                        ((uint16_t)0x0004)            /*!<Capture/Compare Control Update Selection */
 #define  TIM_CR2_CCDS                        ((uint16_t)0x0008)            /*!<Capture/Compare DMA Selection            */
@@ -9100,8 +9439,9 @@ typedef struct
 #define  TIM_CR2_OIS3                        ((uint16_t)0x1000)            /*!<Output Idle state 3 (OC3 output)  */
 #define  TIM_CR2_OIS3N                       ((uint16_t)0x2000)            /*!<Output Idle state 3 (OC3N output) */
 #define  TIM_CR2_OIS4                        ((uint16_t)0x4000)            /*!<Output Idle state 4 (OC4 output)  */
-
+```
 /*******************  Bit definition for TIM_SMCR register  *******************/
+```
 #define  TIM_SMCR_SMS                        ((uint16_t)0x0007)            /*!<SMS[2:0] bits (Slave mode selection)    */
 #define  TIM_SMCR_SMS_0                      ((uint16_t)0x0001)            /*!<Bit 0 */
 #define  TIM_SMCR_SMS_1                      ((uint16_t)0x0002)            /*!<Bit 1 */
@@ -9126,8 +9466,9 @@ typedef struct
 
 #define  TIM_SMCR_ECE                        ((uint16_t)0x4000)            /*!<External clock enable     */
 #define  TIM_SMCR_ETP                        ((uint16_t)0x8000)            /*!<External trigger polarity */
-
+```
 /*******************  Bit definition for TIM_DIER register  *******************/
+```
 #define  TIM_DIER_UIE                        ((uint16_t)0x0001)            /*!<Update interrupt enable */
 #define  TIM_DIER_CC1IE                      ((uint16_t)0x0002)            /*!<Capture/Compare 1 interrupt enable   */
 #define  TIM_DIER_CC2IE                      ((uint16_t)0x0004)            /*!<Capture/Compare 2 interrupt enable   */
@@ -9143,8 +9484,9 @@ typedef struct
 #define  TIM_DIER_CC4DE                      ((uint16_t)0x1000)            /*!<Capture/Compare 4 DMA request enable */
 #define  TIM_DIER_COMDE                      ((uint16_t)0x2000)            /*!<COM DMA request enable               */
 #define  TIM_DIER_TDE                        ((uint16_t)0x4000)            /*!<Trigger DMA request enable           */
-
+```
 /********************  Bit definition for TIM_SR register  ********************/
+```
 #define  TIM_SR_UIF                          ((uint16_t)0x0001)            /*!<Update interrupt Flag              */
 #define  TIM_SR_CC1IF                        ((uint16_t)0x0002)            /*!<Capture/Compare 1 interrupt Flag   */
 #define  TIM_SR_CC2IF                        ((uint16_t)0x0004)            /*!<Capture/Compare 2 interrupt Flag   */
@@ -9157,8 +9499,9 @@ typedef struct
 #define  TIM_SR_CC2OF                        ((uint16_t)0x0400)            /*!<Capture/Compare 2 Overcapture Flag */
 #define  TIM_SR_CC3OF                        ((uint16_t)0x0800)            /*!<Capture/Compare 3 Overcapture Flag */
 #define  TIM_SR_CC4OF                        ((uint16_t)0x1000)            /*!<Capture/Compare 4 Overcapture Flag */
-
+```
 /*******************  Bit definition for TIM_EGR register  ********************/
+```
 #define  TIM_EGR_UG                          ((uint8_t)0x01)               /*!<Update Generation                         */
 #define  TIM_EGR_CC1G                        ((uint8_t)0x02)               /*!<Capture/Compare 1 Generation              */
 #define  TIM_EGR_CC2G                        ((uint8_t)0x04)               /*!<Capture/Compare 2 Generation              */
@@ -9167,8 +9510,9 @@ typedef struct
 #define  TIM_EGR_COMG                        ((uint8_t)0x20)               /*!<Capture/Compare Control Update Generation */
 #define  TIM_EGR_TG                          ((uint8_t)0x40)               /*!<Trigger Generation                        */
 #define  TIM_EGR_BG                          ((uint8_t)0x80)               /*!<Break Generation                          */
-
+```
 /******************  Bit definition for TIM_CCMR1 register  *******************/
+```
 #define  TIM_CCMR1_CC1S                      ((uint16_t)0x0003)            /*!<CC1S[1:0] bits (Capture/Compare 1 Selection) */
 #define  TIM_CCMR1_CC1S_0                    ((uint16_t)0x0001)            /*!<Bit 0 */
 #define  TIM_CCMR1_CC1S_1                    ((uint16_t)0x0002)            /*!<Bit 1 */
@@ -9196,8 +9540,9 @@ typedef struct
 #define  TIM_CCMR1_OC2M_2                    ((uint16_t)0x4000)            /*!<Bit 2 */
 
 #define  TIM_CCMR1_OC2CE                     ((uint16_t)0x8000)            /*!<Output Compare 2 Clear Enable */
-
+```
 /*----------------------------------------------------------------------------*/
+```
 
 #define  TIM_CCMR1_IC1PSC                    ((uint16_t)0x000C)            /*!<IC1PSC[1:0] bits (Input Capture 1 Prescaler) */
 #define  TIM_CCMR1_IC1PSC_0                  ((uint16_t)0x0004)            /*!<Bit 0 */
@@ -9218,8 +9563,9 @@ typedef struct
 #define  TIM_CCMR1_IC2F_1                    ((uint16_t)0x2000)            /*!<Bit 1 */
 #define  TIM_CCMR1_IC2F_2                    ((uint16_t)0x4000)            /*!<Bit 2 */
 #define  TIM_CCMR1_IC2F_3                    ((uint16_t)0x8000)            /*!<Bit 3 */
-
+```
 /******************  Bit definition for TIM_CCMR2 register  *******************/
+```
 #define  TIM_CCMR2_CC3S                      ((uint16_t)0x0003)            /*!<CC3S[1:0] bits (Capture/Compare 3 Selection)  */
 #define  TIM_CCMR2_CC3S_0                    ((uint16_t)0x0001)            /*!<Bit 0 */
 #define  TIM_CCMR2_CC3S_1                    ((uint16_t)0x0002)            /*!<Bit 1 */
@@ -9247,8 +9593,9 @@ typedef struct
 #define  TIM_CCMR2_OC4M_2                    ((uint16_t)0x4000)            /*!<Bit 2 */
 
 #define  TIM_CCMR2_OC4CE                     ((uint16_t)0x8000)            /*!<Output Compare 4 Clear Enable */
-
+```
 /*----------------------------------------------------------------------------*/
+```
 
 #define  TIM_CCMR2_IC3PSC                    ((uint16_t)0x000C)            /*!<IC3PSC[1:0] bits (Input Capture 3 Prescaler) */
 #define  TIM_CCMR2_IC3PSC_0                  ((uint16_t)0x0004)            /*!<Bit 0 */
@@ -9269,8 +9616,9 @@ typedef struct
 #define  TIM_CCMR2_IC4F_1                    ((uint16_t)0x2000)            /*!<Bit 1 */
 #define  TIM_CCMR2_IC4F_2                    ((uint16_t)0x4000)            /*!<Bit 2 */
 #define  TIM_CCMR2_IC4F_3                    ((uint16_t)0x8000)            /*!<Bit 3 */
-
+```
 /*******************  Bit definition for TIM_CCER register  *******************/
+```
 #define  TIM_CCER_CC1E                       ((uint16_t)0x0001)            /*!<Capture/Compare 1 output enable                 */
 #define  TIM_CCER_CC1P                       ((uint16_t)0x0002)            /*!<Capture/Compare 1 output Polarity               */
 #define  TIM_CCER_CC1NE                      ((uint16_t)0x0004)            /*!<Capture/Compare 1 Complementary output enable   */
@@ -9286,32 +9634,41 @@ typedef struct
 #define  TIM_CCER_CC4E                       ((uint16_t)0x1000)            /*!<Capture/Compare 4 output enable                 */
 #define  TIM_CCER_CC4P                       ((uint16_t)0x2000)            /*!<Capture/Compare 4 output Polarity               */
 #define  TIM_CCER_CC4NP                      ((uint16_t)0x8000)            /*!<Capture/Compare 4 Complementary output Polarity */
-
+```
 /*******************  Bit definition for TIM_CNT register  ********************/
+```
 #define  TIM_CNT_CNT                         ((uint16_t)0xFFFF)            /*!<Counter Value            */
-
+```
 /*******************  Bit definition for TIM_PSC register  ********************/
+```
 #define  TIM_PSC_PSC                         ((uint16_t)0xFFFF)            /*!<Prescaler Value          */
-
+```
 /*******************  Bit definition for TIM_ARR register  ********************/
+```
 #define  TIM_ARR_ARR                         ((uint16_t)0xFFFF)            /*!<actual auto-reload Value */
-
+```
 /*******************  Bit definition for TIM_RCR register  ********************/
+```
 #define  TIM_RCR_REP                         ((uint8_t)0xFF)               /*!<Repetition Counter Value */
-
+```
 /*******************  Bit definition for TIM_CCR1 register  *******************/
+```
 #define  TIM_CCR1_CCR1                       ((uint16_t)0xFFFF)            /*!<Capture/Compare 1 Value  */
-
+```
 /*******************  Bit definition for TIM_CCR2 register  *******************/
+```
 #define  TIM_CCR2_CCR2                       ((uint16_t)0xFFFF)            /*!<Capture/Compare 2 Value  */
-
+```
 /*******************  Bit definition for TIM_CCR3 register  *******************/
+```
 #define  TIM_CCR3_CCR3                       ((uint16_t)0xFFFF)            /*!<Capture/Compare 3 Value  */
-
+```
 /*******************  Bit definition for TIM_CCR4 register  *******************/
+```
 #define  TIM_CCR4_CCR4                       ((uint16_t)0xFFFF)            /*!<Capture/Compare 4 Value  */
-
+```
 /*******************  Bit definition for TIM_BDTR register  *******************/
+```
 #define  TIM_BDTR_DTG                        ((uint16_t)0x00FF)            /*!<DTG[0:7] bits (Dead-Time Generator set-up) */
 #define  TIM_BDTR_DTG_0                      ((uint16_t)0x0001)            /*!<Bit 0 */
 #define  TIM_BDTR_DTG_1                      ((uint16_t)0x0002)            /*!<Bit 1 */
@@ -9332,8 +9689,9 @@ typedef struct
 #define  TIM_BDTR_BKP                        ((uint16_t)0x2000)            /*!<Break Polarity                    */
 #define  TIM_BDTR_AOE                        ((uint16_t)0x4000)            /*!<Automatic Output enable           */
 #define  TIM_BDTR_MOE                        ((uint16_t)0x8000)            /*!<Main Output enable                */
-
+```
 /*******************  Bit definition for TIM_DCR register  ********************/
+```
 #define  TIM_DCR_DBA                         ((uint16_t)0x001F)            /*!<DBA[4:0] bits (DMA Base Address) */
 #define  TIM_DCR_DBA_0                       ((uint16_t)0x0001)            /*!<Bit 0 */
 #define  TIM_DCR_DBA_1                       ((uint16_t)0x0002)            /*!<Bit 1 */
@@ -9347,11 +9705,13 @@ typedef struct
 #define  TIM_DCR_DBL_2                       ((uint16_t)0x0400)            /*!<Bit 2 */
 #define  TIM_DCR_DBL_3                       ((uint16_t)0x0800)            /*!<Bit 3 */
 #define  TIM_DCR_DBL_4                       ((uint16_t)0x1000)            /*!<Bit 4 */
-
+```
 /*******************  Bit definition for TIM_DMAR register  *******************/
+```
 #define  TIM_DMAR_DMAB                       ((uint16_t)0xFFFF)            /*!<DMA register for burst accesses                    */
-
+```
 /*******************  Bit definition for TIM_OR register  *********************/
+```
 #define TIM_OR_TI4_RMP                       ((uint16_t)0x00C0)            /*!<TI4_RMP[1:0] bits (TIM5 Input 4 remap)             */
 #define TIM_OR_TI4_RMP_0                     ((uint16_t)0x0040)            /*!<Bit 0 */
 #define TIM_OR_TI4_RMP_1                     ((uint16_t)0x0080)            /*!<Bit 1 */
@@ -9359,13 +9719,14 @@ typedef struct
 #define TIM_OR_ITR1_RMP_0                    ((uint16_t)0x0400)            /*!<Bit 0 */
 #define TIM_OR_ITR1_RMP_1                    ((uint16_t)0x0800)            /*!<Bit 1 */
 
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*         Universal Synchronous Asynchronous Receiver Transmitter            */
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bit definition for USART_SR register  *******************/
+```
 #define  USART_SR_PE                         ((uint16_t)0x0001)            /*!<Parity Error                 */
 #define  USART_SR_FE                         ((uint16_t)0x0002)            /*!<Framing Error                */
 #define  USART_SR_NE                         ((uint16_t)0x0004)            /*!<Noise Error Flag             */
@@ -9376,15 +9737,18 @@ typedef struct
 #define  USART_SR_TXE                        ((uint16_t)0x0080)            /*!<Transmit Data Register Empty */
 #define  USART_SR_LBD                        ((uint16_t)0x0100)            /*!<LIN Break Detection Flag     */
 #define  USART_SR_CTS                        ((uint16_t)0x0200)            /*!<CTS Flag                     */
-
+```
 /*******************  Bit definition for USART_DR register  *******************/
+```
 #define  USART_DR_DR                         ((uint16_t)0x01FF)            /*!<Data value */
-
+```
 /******************  Bit definition for USART_BRR register  *******************/
+```
 #define  USART_BRR_DIV_Fraction              ((uint16_t)0x000F)            /*!<Fraction of USARTDIV */
 #define  USART_BRR_DIV_Mantissa              ((uint16_t)0xFFF0)            /*!<Mantissa of USARTDIV */
-
+```
 /******************  Bit definition for USART_CR1 register  *******************/
+```
 #define  USART_CR1_SBK                       ((uint16_t)0x0001)            /*!<Send Break                             */
 #define  USART_CR1_RWU                       ((uint16_t)0x0002)            /*!<Receiver wakeup                        */
 #define  USART_CR1_RE                        ((uint16_t)0x0004)            /*!<Receiver Enable                        */
@@ -9400,8 +9764,9 @@ typedef struct
 #define  USART_CR1_M                         ((uint16_t)0x1000)            /*!<Word length                            */
 #define  USART_CR1_UE                        ((uint16_t)0x2000)            /*!<USART Enable                           */
 #define  USART_CR1_OVER8                     ((uint16_t)0x8000)            /*!<USART Oversampling by 8 enable         */
-
+```
 /******************  Bit definition for USART_CR2 register  *******************/
+```
 #define  USART_CR2_ADD                       ((uint16_t)0x000F)            /*!<Address of the USART node            */
 #define  USART_CR2_LBDL                      ((uint16_t)0x0020)            /*!<LIN Break Detection Length           */
 #define  USART_CR2_LBDIE                     ((uint16_t)0x0040)            /*!<LIN Break Detection Interrupt Enable */
@@ -9415,8 +9780,9 @@ typedef struct
 #define  USART_CR2_STOP_1                    ((uint16_t)0x2000)            /*!<Bit 1 */
 
 #define  USART_CR2_LINEN                     ((uint16_t)0x4000)            /*!<LIN mode enable */
-
+```
 /******************  Bit definition for USART_CR3 register  *******************/
+```
 #define  USART_CR3_EIE                       ((uint16_t)0x0001)            /*!<Error Interrupt Enable      */
 #define  USART_CR3_IREN                      ((uint16_t)0x0002)            /*!<IrDA mode Enable            */
 #define  USART_CR3_IRLP                      ((uint16_t)0x0004)            /*!<IrDA Low-Power              */
@@ -9429,8 +9795,9 @@ typedef struct
 #define  USART_CR3_CTSE                      ((uint16_t)0x0200)            /*!<CTS Enable                  */
 #define  USART_CR3_CTSIE                     ((uint16_t)0x0400)            /*!<CTS Interrupt Enable        */
 #define  USART_CR3_ONEBIT                    ((uint16_t)0x0800)            /*!<USART One bit method enable */
-
+```
 /******************  Bit definition for USART_GTPR register  ******************/
+```
 #define  USART_GTPR_PSC                      ((uint16_t)0x00FF)            /*!<PSC[7:0] bits (Prescaler value) */
 #define  USART_GTPR_PSC_0                    ((uint16_t)0x0001)            /*!<Bit 0 */
 #define  USART_GTPR_PSC_1                    ((uint16_t)0x0002)            /*!<Bit 1 */
@@ -9442,13 +9809,14 @@ typedef struct
 #define  USART_GTPR_PSC_7                    ((uint16_t)0x0080)            /*!<Bit 7 */
 
 #define  USART_GTPR_GT                       ((uint16_t)0xFF00)            /*!<Guard time value */
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                            Window WATCHDOG                                 */
 /*                                                                            */
 /******************************************************************************/
 /*******************  Bit definition for WWDG_CR register  ********************/
+```
 #define  WWDG_CR_T                           ((uint8_t)0x7F)               /*!<T[6:0] bits (7-Bit counter (MSB to LSB)) */
 #define  WWDG_CR_T0                          ((uint8_t)0x01)               /*!<Bit 0 */
 #define  WWDG_CR_T1                          ((uint8_t)0x02)               /*!<Bit 1 */
@@ -9459,8 +9827,9 @@ typedef struct
 #define  WWDG_CR_T6                          ((uint8_t)0x40)               /*!<Bit 6 */
 
 #define  WWDG_CR_WDGA                        ((uint8_t)0x80)               /*!<Activation bit */
-
+```
 /*******************  Bit definition for WWDG_CFR register  *******************/
+```
 #define  WWDG_CFR_W                          ((uint16_t)0x007F)            /*!<W[6:0] bits (7-bit window value) */
 #define  WWDG_CFR_W0                         ((uint16_t)0x0001)            /*!<Bit 0 */
 #define  WWDG_CFR_W1                         ((uint16_t)0x0002)            /*!<Bit 1 */
@@ -9475,10 +9844,11 @@ typedef struct
 #define  WWDG_CFR_WDGTB1                     ((uint16_t)0x0100)            /*!<Bit 1 */
 
 #define  WWDG_CFR_EWI                        ((uint16_t)0x0200)            /*!<Early Wakeup Interrupt */
-
+```
 /*******************  Bit definition for WWDG_SR register  ********************/
+```
 #define  WWDG_SR_EWIF                        ((uint8_t)0x01)               /*!<Early Wakeup Interrupt Flag */
-
+```
 
 /******************************************************************************/
 /*                                                                            */
@@ -9486,10 +9856,12 @@ typedef struct
 /*                                                                            */
 /******************************************************************************/
 /********************  Bit definition for DBGMCU_IDCODE register  *************/
+```
 #define  DBGMCU_IDCODE_DEV_ID                ((uint32_t)0x00000FFF)
 #define  DBGMCU_IDCODE_REV_ID                ((uint32_t)0xFFFF0000)
-
+```
 /********************  Bit definition for DBGMCU_CR register  *****************/
+```
 #define  DBGMCU_CR_DBG_SLEEP                 ((uint32_t)0x00000001)
 #define  DBGMCU_CR_DBG_STOP                  ((uint32_t)0x00000002)
 #define  DBGMCU_CR_DBG_STANDBY               ((uint32_t)0x00000004)
@@ -9498,8 +9870,9 @@ typedef struct
 #define  DBGMCU_CR_TRACE_MODE                ((uint32_t)0x000000C0)
 #define  DBGMCU_CR_TRACE_MODE_0              ((uint32_t)0x00000040)/*!<Bit 0 */
 #define  DBGMCU_CR_TRACE_MODE_1              ((uint32_t)0x00000080)/*!<Bit 1 */
-
+```
 /********************  Bit definition for DBGMCU_APB1_FZ register  ************/
+```
 #define  DBGMCU_APB1_FZ_DBG_TIM2_STOP            ((uint32_t)0x00000001)
 #define  DBGMCU_APB1_FZ_DBG_TIM3_STOP            ((uint32_t)0x00000002)
 #define  DBGMCU_APB1_FZ_DBG_TIM4_STOP            ((uint32_t)0x00000004)
@@ -9517,22 +9890,25 @@ typedef struct
 #define  DBGMCU_APB1_FZ_DBG_I2C3_SMBUS_TIMEOUT   ((uint32_t)0x00800000)
 #define  DBGMCU_APB1_FZ_DBG_CAN1_STOP            ((uint32_t)0x02000000)
 #define  DBGMCU_APB1_FZ_DBG_CAN2_STOP            ((uint32_t)0x04000000)
+```
 /* Old IWDGSTOP bit definition, maintained for legacy purpose */
 #define  DBGMCU_APB1_FZ_DBG_IWDEG_STOP           DBGMCU_APB1_FZ_DBG_IWDG_STOP
 
 /********************  Bit definition for DBGMCU_APB2_FZ register  ************/
+```
 #define  DBGMCU_APB1_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
 #define  DBGMCU_APB1_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
 #define  DBGMCU_APB1_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
 #define  DBGMCU_APB1_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
 #define  DBGMCU_APB1_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
-
+```
 /******************************************************************************/
 /*                                                                            */
 /*                Ethernet MAC Registers bits definitions                     */
 /*                                                                            */
 /******************************************************************************/
 /* Bit definition for Ethernet MAC Control Register register */
+```
 #define ETH_MACCR_WD      ((uint32_t)0x00800000)  /* Watchdog disable */
 #define ETH_MACCR_JD      ((uint32_t)0x00400000)  /* Jabber disable */
 #define ETH_MACCR_IFG     ((uint32_t)0x000E0000)  /* Inter-frame gap */
@@ -9561,8 +9937,9 @@ typedef struct
 #define ETH_MACCR_DC      ((uint32_t)0x00000010)  /* Defferal check */
 #define ETH_MACCR_TE      ((uint32_t)0x00000008)  /* Transmitter enable */
 #define ETH_MACCR_RE      ((uint32_t)0x00000004)  /* Receiver enable */
-
+```
 /* Bit definition for Ethernet MAC Frame Filter Register */
+```
 #define ETH_MACFFR_RA     ((uint32_t)0x80000000)  /* Receive all */ 
 #define ETH_MACFFR_HPF    ((uint32_t)0x00000400)  /* Hash or perfect filter */ 
 #define ETH_MACFFR_SAF    ((uint32_t)0x00000200)  /* Source address filter enable */ 
@@ -9577,14 +9954,17 @@ typedef struct
 #define ETH_MACFFR_HM     ((uint32_t)0x00000004)  /* Hash multicast */ 
 #define ETH_MACFFR_HU     ((uint32_t)0x00000002)  /* Hash unicast */
 #define ETH_MACFFR_PM     ((uint32_t)0x00000001)  /* Promiscuous mode */
-
+```
 /* Bit definition for Ethernet MAC Hash Table High Register */
+```
 #define ETH_MACHTHR_HTH   ((uint32_t)0xFFFFFFFF)  /* Hash table high */
-
+```
 /* Bit definition for Ethernet MAC Hash Table Low Register */
+```
 #define ETH_MACHTLR_HTL   ((uint32_t)0xFFFFFFFF)  /* Hash table low */
-
+```
 /* Bit definition for Ethernet MAC MII Address Register */
+```
 #define ETH_MACMIIAR_PA   ((uint32_t)0x0000F800)  /* Physical layer address */ 
 #define ETH_MACMIIAR_MR   ((uint32_t)0x000007C0)  /* MII register in the selected PHY */ 
 #define ETH_MACMIIAR_CR   ((uint32_t)0x0000001C)  /* CR clock range: 6 cases */ 
@@ -9595,11 +9975,13 @@ typedef struct
   #define ETH_MACMIIAR_CR_Div102  ((uint32_t)0x00000010)  /* HCLK:150-168 MHz; MDC clock= HCLK/102 */  
 #define ETH_MACMIIAR_MW   ((uint32_t)0x00000002)  /* MII write */ 
 #define ETH_MACMIIAR_MB   ((uint32_t)0x00000001)  /* MII busy */ 
-  
+  ```
 /* Bit definition for Ethernet MAC MII Data Register */
+```
 #define ETH_MACMIIDR_MD   ((uint32_t)0x0000FFFF)  /* MII data: read/write data from/to PHY */
-
+```
 /* Bit definition for Ethernet MAC Flow Control Register */
+```
 #define ETH_MACFCR_PT     ((uint32_t)0xFFFF0000)  /* Pause time */
 #define ETH_MACFCR_ZQPD   ((uint32_t)0x00000080)  /* Zero-quanta pause disable */
 #define ETH_MACFCR_PLT    ((uint32_t)0x00000030)  /* Pause low threshold: 4 cases */
@@ -9611,15 +9993,19 @@ typedef struct
 #define ETH_MACFCR_RFCE   ((uint32_t)0x00000004)  /* Receive flow control enable */
 #define ETH_MACFCR_TFCE   ((uint32_t)0x00000002)  /* Transmit flow control enable */
 #define ETH_MACFCR_FCBBPA ((uint32_t)0x00000001)  /* Flow control busy/backpressure activate */
-
+```
 /* Bit definition for Ethernet MAC VLAN Tag Register */
+```
 #define ETH_MACVLANTR_VLANTC ((uint32_t)0x00010000)  /* 12-bit VLAN tag comparison */
 #define ETH_MACVLANTR_VLANTI ((uint32_t)0x0000FFFF)  /* VLAN tag identifier (for receive frames) */
-
+```
 /* Bit definition for Ethernet MAC Remote Wake-UpFrame Filter Register */ 
+```
 #define ETH_MACRWUFFR_D   ((uint32_t)0xFFFFFFFF)  /* Wake-up frame filter register data */
+```
 /* Eight sequential Writes to this address (offset 0x28) will write all Wake-UpFrame Filter Registers.
    Eight sequential Reads from this address (offset 0x28) will read all Wake-UpFrame Filter Registers. */
+   ```
 /* Wake-UpFrame Filter Reg0 : Filter 0 Byte Mask
    Wake-UpFrame Filter Reg1 : Filter 1 Byte Mask
    Wake-UpFrame Filter Reg2 : Filter 2 Byte Mask
@@ -9629,8 +10015,9 @@ typedef struct
    Wake-UpFrame Filter Re5 : Filter3 Offset - Filter2 Offset - Filter1 Offset - Filter0 Offset
    Wake-UpFrame Filter Re6 : Filter1 CRC16 - Filter0 CRC16
    Wake-UpFrame Filter Re7 : Filter3 CRC16 - Filter2 CRC16 */
-
+```
 /* Bit definition for Ethernet MAC PMT Control and Status Register */ 
+```
 #define ETH_MACPMTCSR_WFFRPR ((uint32_t)0x80000000)  /* Wake-Up Frame Filter Register Pointer Reset */
 #define ETH_MACPMTCSR_GU     ((uint32_t)0x00000200)  /* Global Unicast */
 #define ETH_MACPMTCSR_WFR    ((uint32_t)0x00000040)  /* Wake-Up Frame Received */
@@ -9638,25 +10025,30 @@ typedef struct
 #define ETH_MACPMTCSR_WFE    ((uint32_t)0x00000004)  /* Wake-Up Frame Enable */
 #define ETH_MACPMTCSR_MPE    ((uint32_t)0x00000002)  /* Magic Packet Enable */
 #define ETH_MACPMTCSR_PD     ((uint32_t)0x00000001)  /* Power Down */
-
+```
 /* Bit definition for Ethernet MAC Status Register */
+```
 #define ETH_MACSR_TSTS      ((uint32_t)0x00000200)  /* Time stamp trigger status */
 #define ETH_MACSR_MMCTS     ((uint32_t)0x00000040)  /* MMC transmit status */
 #define ETH_MACSR_MMMCRS    ((uint32_t)0x00000020)  /* MMC receive status */
 #define ETH_MACSR_MMCS      ((uint32_t)0x00000010)  /* MMC status */
 #define ETH_MACSR_PMTS      ((uint32_t)0x00000008)  /* PMT status */
-
+```
 /* Bit definition for Ethernet MAC Interrupt Mask Register */
+```
 #define ETH_MACIMR_TSTIM     ((uint32_t)0x00000200)  /* Time stamp trigger interrupt mask */
 #define ETH_MACIMR_PMTIM     ((uint32_t)0x00000008)  /* PMT interrupt mask */
-
+```
 /* Bit definition for Ethernet MAC Address0 High Register */
+```
 #define ETH_MACA0HR_MACA0H   ((uint32_t)0x0000FFFF)  /* MAC address0 high */
-
+```
 /* Bit definition for Ethernet MAC Address0 Low Register */
+```
 #define ETH_MACA0LR_MACA0L   ((uint32_t)0xFFFFFFFF)  /* MAC address0 low */
-
+```
 /* Bit definition for Ethernet MAC Address1 High Register */
+```
 #define ETH_MACA1HR_AE       ((uint32_t)0x80000000)  /* Address enable */
 #define ETH_MACA1HR_SA       ((uint32_t)0x40000000)  /* Source address */
 #define ETH_MACA1HR_MBC      ((uint32_t)0x3F000000)  /* Mask byte control: bits to mask for comparison of the MAC Address bytes */
@@ -9667,11 +10059,13 @@ typedef struct
   #define ETH_MACA1HR_MBC_LBits15_8    ((uint32_t)0x02000000)  /* Mask MAC Address low reg bits [15:8] */
   #define ETH_MACA1HR_MBC_LBits7_0     ((uint32_t)0x01000000)  /* Mask MAC Address low reg bits [7:0] */ 
 #define ETH_MACA1HR_MACA1H   ((uint32_t)0x0000FFFF)  /* MAC address1 high */
-
+```
 /* Bit definition for Ethernet MAC Address1 Low Register */
+```
 #define ETH_MACA1LR_MACA1L   ((uint32_t)0xFFFFFFFF)  /* MAC address1 low */
-
+```
 /* Bit definition for Ethernet MAC Address2 High Register */
+```
 #define ETH_MACA2HR_AE       ((uint32_t)0x80000000)  /* Address enable */
 #define ETH_MACA2HR_SA       ((uint32_t)0x40000000)  /* Source address */
 #define ETH_MACA2HR_MBC      ((uint32_t)0x3F000000)  /* Mask byte control */
@@ -9682,11 +10076,13 @@ typedef struct
   #define ETH_MACA2HR_MBC_LBits15_8    ((uint32_t)0x02000000)  /* Mask MAC Address low reg bits [15:8] */
   #define ETH_MACA2HR_MBC_LBits7_0     ((uint32_t)0x01000000)  /* Mask MAC Address low reg bits [70] */
 #define ETH_MACA2HR_MACA2H   ((uint32_t)0x0000FFFF)  /* MAC address1 high */
-
+```
 /* Bit definition for Ethernet MAC Address2 Low Register */
+```
 #define ETH_MACA2LR_MACA2L   ((uint32_t)0xFFFFFFFF)  /* MAC address2 low */
-
+```
 /* Bit definition for Ethernet MAC Address3 High Register */
+```
 #define ETH_MACA3HR_AE       ((uint32_t)0x80000000)  /* Address enable */
 #define ETH_MACA3HR_SA       ((uint32_t)0x40000000)  /* Source address */
 #define ETH_MACA3HR_MBC      ((uint32_t)0x3F000000)  /* Mask byte control */
@@ -9697,65 +10093,78 @@ typedef struct
   #define ETH_MACA3HR_MBC_LBits15_8    ((uint32_t)0x02000000)  /* Mask MAC Address low reg bits [15:8] */
   #define ETH_MACA3HR_MBC_LBits7_0     ((uint32_t)0x01000000)  /* Mask MAC Address low reg bits [70] */
 #define ETH_MACA3HR_MACA3H   ((uint32_t)0x0000FFFF)  /* MAC address3 high */
-
+```
 /* Bit definition for Ethernet MAC Address3 Low Register */
+```
 #define ETH_MACA3LR_MACA3L   ((uint32_t)0xFFFFFFFF)  /* MAC address3 low */
-
+```
 /******************************************************************************/
 /*                Ethernet MMC Registers bits definition                      */
 /******************************************************************************/
 
 /* Bit definition for Ethernet MMC Contol Register */
+```
 #define ETH_MMCCR_MCFHP      ((uint32_t)0x00000020)  /* MMC counter Full-Half preset */
 #define ETH_MMCCR_MCP        ((uint32_t)0x00000010)  /* MMC counter preset */
 #define ETH_MMCCR_MCF        ((uint32_t)0x00000008)  /* MMC Counter Freeze */
 #define ETH_MMCCR_ROR        ((uint32_t)0x00000004)  /* Reset on Read */
 #define ETH_MMCCR_CSR        ((uint32_t)0x00000002)  /* Counter Stop Rollover */
 #define ETH_MMCCR_CR         ((uint32_t)0x00000001)  /* Counters Reset */
-
+```
 /* Bit definition for Ethernet MMC Receive Interrupt Register */
+```
 #define ETH_MMCRIR_RGUFS     ((uint32_t)0x00020000)  /* Set when Rx good unicast frames counter reaches half the maximum value */
 #define ETH_MMCRIR_RFAES     ((uint32_t)0x00000040)  /* Set when Rx alignment error counter reaches half the maximum value */
 #define ETH_MMCRIR_RFCES     ((uint32_t)0x00000020)  /* Set when Rx crc error counter reaches half the maximum value */
-
+```
 /* Bit definition for Ethernet MMC Transmit Interrupt Register */
+```
 #define ETH_MMCTIR_TGFS      ((uint32_t)0x00200000)  /* Set when Tx good frame count counter reaches half the maximum value */
 #define ETH_MMCTIR_TGFMSCS   ((uint32_t)0x00008000)  /* Set when Tx good multi col counter reaches half the maximum value */
 #define ETH_MMCTIR_TGFSCS    ((uint32_t)0x00004000)  /* Set when Tx good single col counter reaches half the maximum value */
-
+```
 /* Bit definition for Ethernet MMC Receive Interrupt Mask Register */
+```
 #define ETH_MMCRIMR_RGUFM    ((uint32_t)0x00020000)  /* Mask the interrupt when Rx good unicast frames counter reaches half the maximum value */
 #define ETH_MMCRIMR_RFAEM    ((uint32_t)0x00000040)  /* Mask the interrupt when when Rx alignment error counter reaches half the maximum value */
 #define ETH_MMCRIMR_RFCEM    ((uint32_t)0x00000020)  /* Mask the interrupt when Rx crc error counter reaches half the maximum value */
-
+```
 /* Bit definition for Ethernet MMC Transmit Interrupt Mask Register */
+```
 #define ETH_MMCTIMR_TGFM     ((uint32_t)0x00200000)  /* Mask the interrupt when Tx good frame count counter reaches half the maximum value */
 #define ETH_MMCTIMR_TGFMSCM  ((uint32_t)0x00008000)  /* Mask the interrupt when Tx good multi col counter reaches half the maximum value */
 #define ETH_MMCTIMR_TGFSCM   ((uint32_t)0x00004000)  /* Mask the interrupt when Tx good single col counter reaches half the maximum value */
-
+```
 /* Bit definition for Ethernet MMC Transmitted Good Frames after Single Collision Counter Register */
+```
 #define ETH_MMCTGFSCCR_TGFSCC     ((uint32_t)0xFFFFFFFF)  /* Number of successfully transmitted frames after a single collision in Half-duplex mode. */
-
+```
 /* Bit definition for Ethernet MMC Transmitted Good Frames after More than a Single Collision Counter Register */
+```
 #define ETH_MMCTGFMSCCR_TGFMSCC   ((uint32_t)0xFFFFFFFF)  /* Number of successfully transmitted frames after more than a single collision in Half-duplex mode. */
-
+```
 /* Bit definition for Ethernet MMC Transmitted Good Frames Counter Register */
+```
 #define ETH_MMCTGFCR_TGFC    ((uint32_t)0xFFFFFFFF)  /* Number of good frames transmitted. */
-
+```
 /* Bit definition for Ethernet MMC Received Frames with CRC Error Counter Register */
+```
 #define ETH_MMCRFCECR_RFCEC  ((uint32_t)0xFFFFFFFF)  /* Number of frames received with CRC error. */
-
+```
 /* Bit definition for Ethernet MMC Received Frames with Alignement Error Counter Register */
+```
 #define ETH_MMCRFAECR_RFAEC  ((uint32_t)0xFFFFFFFF)  /* Number of frames received with alignment (dribble) error */
-
+```
 /* Bit definition for Ethernet MMC Received Good Unicast Frames Counter Register */
+```
 #define ETH_MMCRGUFCR_RGUFC  ((uint32_t)0xFFFFFFFF)  /* Number of good unicast frames received. */
-
+```
 /******************************************************************************/
 /*               Ethernet PTP Registers bits definition                       */
 /******************************************************************************/
 
 /* Bit definition for Ethernet PTP Time Stamp Contol Register */
+```
 #define ETH_PTPTSCR_TSCNT       ((uint32_t)0x00030000)  /* Time stamp clock node type */
 #define ETH_PTPTSSR_TSSMRME     ((uint32_t)0x00008000)  /* Time stamp snapshot for message relevant to master enable */
 #define ETH_PTPTSSR_TSSEME      ((uint32_t)0x00004000)  /* Time stamp snapshot for event message enable */
@@ -9772,42 +10181,52 @@ typedef struct
 #define ETH_PTPTSCR_TSSTI    ((uint32_t)0x00000004)  /* Time stamp initialize */
 #define ETH_PTPTSCR_TSFCU    ((uint32_t)0x00000002)  /* Time stamp fine or coarse update */
 #define ETH_PTPTSCR_TSE      ((uint32_t)0x00000001)  /* Time stamp enable */
-
+```
 /* Bit definition for Ethernet PTP Sub-Second Increment Register */
+```
 #define ETH_PTPSSIR_STSSI    ((uint32_t)0x000000FF)  /* System time Sub-second increment value */
-
+```
 /* Bit definition for Ethernet PTP Time Stamp High Register */
+```
 #define ETH_PTPTSHR_STS      ((uint32_t)0xFFFFFFFF)  /* System Time second */
-
+```
 /* Bit definition for Ethernet PTP Time Stamp Low Register */
+```
 #define ETH_PTPTSLR_STPNS    ((uint32_t)0x80000000)  /* System Time Positive or negative time */
 #define ETH_PTPTSLR_STSS     ((uint32_t)0x7FFFFFFF)  /* System Time sub-seconds */
-
+```
 /* Bit definition for Ethernet PTP Time Stamp High Update Register */
+```
 #define ETH_PTPTSHUR_TSUS    ((uint32_t)0xFFFFFFFF)  /* Time stamp update seconds */
-
+```
 /* Bit definition for Ethernet PTP Time Stamp Low Update Register */
+```
 #define ETH_PTPTSLUR_TSUPNS  ((uint32_t)0x80000000)  /* Time stamp update Positive or negative time */
 #define ETH_PTPTSLUR_TSUSS   ((uint32_t)0x7FFFFFFF)  /* Time stamp update sub-seconds */
-
+```
 /* Bit definition for Ethernet PTP Time Stamp Addend Register */
+```
 #define ETH_PTPTSAR_TSA      ((uint32_t)0xFFFFFFFF)  /* Time stamp addend */
-
+```
 /* Bit definition for Ethernet PTP Target Time High Register */
+```
 #define ETH_PTPTTHR_TTSH     ((uint32_t)0xFFFFFFFF)  /* Target time stamp high */
-
+```
 /* Bit definition for Ethernet PTP Target Time Low Register */
+```
 #define ETH_PTPTTLR_TTSL     ((uint32_t)0xFFFFFFFF)  /* Target time stamp low */
-
+```
 /* Bit definition for Ethernet PTP Time Stamp Status Register */
+```
 #define ETH_PTPTSSR_TSTTR    ((uint32_t)0x00000020)  /* Time stamp target time reached */
 #define ETH_PTPTSSR_TSSO     ((uint32_t)0x00000010)  /* Time stamp seconds overflow */
-
+```
 /******************************************************************************/
 /*                 Ethernet DMA Registers bits definition                     */
 /******************************************************************************/
 
 /* Bit definition for Ethernet DMA Bus Mode Register */
+```
 #define ETH_DMABMR_AAB       ((uint32_t)0x02000000)  /* Address-Aligned beats */
 #define ETH_DMABMR_FPM        ((uint32_t)0x01000000)  /* 4xPBL mode */
 #define ETH_DMABMR_USP       ((uint32_t)0x00800000)  /* Use separate PBL */
@@ -9847,20 +10266,25 @@ typedef struct
 #define ETH_DMABMR_DSL       ((uint32_t)0x0000007C)  /* Descriptor Skip Length */
 #define ETH_DMABMR_DA        ((uint32_t)0x00000002)  /* DMA arbitration scheme */
 #define ETH_DMABMR_SR        ((uint32_t)0x00000001)  /* Software reset */
-
+```
 /* Bit definition for Ethernet DMA Transmit Poll Demand Register */
+```
 #define ETH_DMATPDR_TPD      ((uint32_t)0xFFFFFFFF)  /* Transmit poll demand */
-
+```
 /* Bit definition for Ethernet DMA Receive Poll Demand Register */
+```
 #define ETH_DMARPDR_RPD      ((uint32_t)0xFFFFFFFF)  /* Receive poll demand  */
-
+```
 /* Bit definition for Ethernet DMA Receive Descriptor List Address Register */
+```
 #define ETH_DMARDLAR_SRL     ((uint32_t)0xFFFFFFFF)  /* Start of receive list */
-
+```
 /* Bit definition for Ethernet DMA Transmit Descriptor List Address Register */
+```
 #define ETH_DMATDLAR_STL     ((uint32_t)0xFFFFFFFF)  /* Start of transmit list */
-
+```
 /* Bit definition for Ethernet DMA Status Register */
+```
 #define ETH_DMASR_TSTS       ((uint32_t)0x20000000)  /* Time-stamp trigger status */
 #define ETH_DMASR_PMTS       ((uint32_t)0x10000000)  /* PMT status */
 #define ETH_DMASR_MMCS       ((uint32_t)0x08000000)  /* MMC status */
@@ -9898,8 +10322,9 @@ typedef struct
 #define ETH_DMASR_TBUS       ((uint32_t)0x00000004)  /* Transmit buffer unavailable status */
 #define ETH_DMASR_TPSS       ((uint32_t)0x00000002)  /* Transmit process stopped status */
 #define ETH_DMASR_TS         ((uint32_t)0x00000001)  /* Transmit status */
-
+```
 /* Bit definition for Ethernet DMA Operation Mode Register */
+```
 #define ETH_DMAOMR_DTCEFD    ((uint32_t)0x04000000)  /* Disable Dropping of TCP/IP checksum error frames */
 #define ETH_DMAOMR_RSF       ((uint32_t)0x02000000)  /* Receive store and forward */
 #define ETH_DMAOMR_DFRF      ((uint32_t)0x01000000)  /* Disable flushing of received frames */
@@ -9924,8 +10349,9 @@ typedef struct
   #define ETH_DMAOMR_RTC_128Bytes      ((uint32_t)0x00000018)  /* threshold level of the MTL Receive FIFO is 128 Bytes */
 #define ETH_DMAOMR_OSF       ((uint32_t)0x00000004)  /* operate on second frame */
 #define ETH_DMAOMR_SR        ((uint32_t)0x00000002)  /* Start/stop receive */
-
+```
 /* Bit definition for Ethernet DMA Interrupt Enable Register */
+```
 #define ETH_DMAIER_NISE      ((uint32_t)0x00010000)  /* Normal interrupt summary enable */
 #define ETH_DMAIER_AISE      ((uint32_t)0x00008000)  /* Abnormal interrupt summary enable */
 #define ETH_DMAIER_ERIE      ((uint32_t)0x00004000)  /* Early receive interrupt enable */
@@ -9941,41 +10367,37 @@ typedef struct
 #define ETH_DMAIER_TBUIE     ((uint32_t)0x00000004)  /* Transmit buffer unavailable interrupt enable */
 #define ETH_DMAIER_TPSIE     ((uint32_t)0x00000002)  /* Transmit process stopped interrupt enable */
 #define ETH_DMAIER_TIE       ((uint32_t)0x00000001)  /* Transmit interrupt enable */
-
+```
 /* Bit definition for Ethernet DMA Missed Frame and Buffer Overflow Counter Register */
+```
 #define ETH_DMAMFBOCR_OFOC   ((uint32_t)0x10000000)  /* Overflow bit for FIFO overflow counter */
 #define ETH_DMAMFBOCR_MFA    ((uint32_t)0x0FFE0000)  /* Number of frames missed by the application */
 #define ETH_DMAMFBOCR_OMFC   ((uint32_t)0x00010000)  /* Overflow bit for missed frame counter */
 #define ETH_DMAMFBOCR_MFC    ((uint32_t)0x0000FFFF)  /* Number of frames missed by the controller */
-
+```
 /* Bit definition for Ethernet DMA Current Host Transmit Descriptor Register */
+```
 #define ETH_DMACHTDR_HTDAP   ((uint32_t)0xFFFFFFFF)  /* Host transmit descriptor address pointer */
-
+```
 /* Bit definition for Ethernet DMA Current Host Receive Descriptor Register */
+```
 #define ETH_DMACHRDR_HRDAP   ((uint32_t)0xFFFFFFFF)  /* Host receive descriptor address pointer */
-
+```
 /* Bit definition for Ethernet DMA Current Host Transmit Buffer Address Register */
+```
 #define ETH_DMACHTBAR_HTBAP  ((uint32_t)0xFFFFFFFF)  /* Host transmit buffer address pointer */
-
+```
 /* Bit definition for Ethernet DMA Current Host Receive Buffer Address Register */
+```
 #define ETH_DMACHRBAR_HRBAP  ((uint32_t)0xFFFFFFFF)  /* Host receive buffer address pointer */
-
-/**
-  *
-  */
-
- /**
-  * @}
-  */ 
-
+```
+```
 #ifdef USE_STDPERIPH_DRIVER
   #include "stm32f4xx_conf.h"
 #endif /* USE_STDPERIPH_DRIVER */
+```
 
-/** @addtogroup Exported_macro
-  * @{
-  */
-
+```
 #define SET_BIT(REG, BIT)     ((REG) |= (BIT))
 
 #define CLEAR_BIT(REG, BIT)   ((REG) &= ~(BIT))
@@ -9989,23 +10411,12 @@ typedef struct
 #define READ_REG(REG)         ((REG))
 
 #define MODIFY_REG(REG, CLEARMASK, SETMASK)  WRITE_REG((REG), (((READ_REG(REG)) & (~(CLEARMASK))) | (SETMASK)))
-
-/**
-  * @}
-  */
-
+```
+```
 #ifdef __cplusplus
 }
 #endif /* __cplusplus */
 
 #endif /* __STM32F4xx_H */
+```
 
-/**
-  * @}
-  */
-
-  /**
-  * @}
-  */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
