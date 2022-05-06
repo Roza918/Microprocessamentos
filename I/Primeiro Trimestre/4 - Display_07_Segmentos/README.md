@@ -10,7 +10,8 @@
 
 > O código já mostra o que alterar para mudar a programação de catodo para anodo, então é bem intuitivo.
 
-# ESQUEMÁTICO DO ARM
+# ESQUEMÁTICO DO ARM (SMT34 - NÚCLEO 64)
 ![ARM](https://i.imgur.com/W6CxsfE.png)
 
 # PROGRAMAÇÃO
+> Toda a programação foi feita usando a biblioteca stm32f4xx.h
