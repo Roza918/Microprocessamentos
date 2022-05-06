@@ -6,6 +6,7 @@
 
 # ESQUEMÁTICO
 ![Esquemático](https://i.imgur.com/xaW56bj.png)
-> Caso o Display for anodo, você devera conectar o ultimo pino no gnd, como mostrado na imagem; caso for catado, ele irá no +3,3v, como as chaves. 
+> Caso o Display for anodo, deve-se conectar o ultimo pino no gnd, como mostrado na imagem; caso for catado, ele irá no +3,3v, como as chaves.
+> O código já mostra o que alterar para mudar a programação de catodo para anodo, então é bem intuitivo.
 
 # PROGRAMAÇÃO
