@@ -10,7 +10,8 @@
 > Pull up e Pull down
 > 
 ![REGISTRADORES 2](https://i.imgur.com/JDlmNwp.png)
-
+### IDR
+### ODR
 > Saída
 > 
 ![REGISTRADORES 3](https://i.imgur.com/UtHuepU.png)
