@@ -4,12 +4,15 @@
 # REGISTRADORES
 
 > Configuração Básica
+> 
 ![REGISTRADORES](https://i.imgur.com/H3WdcPj.png)
 
 > Pull up e Pull down
+> 
 ![REGISTRADORES 2](https://i.imgur.com/JDlmNwp.png)
 
 > Saída
+> 
 ![REGISTRADORES 3](https://i.imgur.com/UtHuepU.png)
 
 # PINAGEM
