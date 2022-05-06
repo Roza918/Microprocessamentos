@@ -1,4 +1,8 @@
 # O QUE FOI PROPOSTO
+- Conecte ao STM32F4xx quatro chaves (ou botões) e um display de 7 segmentos. Os 4 bits correspondentes às chaves formam um dígito hexadecimal;
+- Identifique a posição (peso) de cada uma das chaves na formação deste número;
+- Elabore um programa que exiba no display o valor numérico do dígito hexadecimal correspondente ao valor expresso pelas chaves;
+- O valor deve ser expresso na notação hexadecimal.
 
 # ESQUEMÁTICO
 ![Esquemático](https://i.imgur.com/xaW56bj.png)
