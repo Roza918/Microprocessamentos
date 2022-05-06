@@ -2,9 +2,9 @@
 
 #include "stm32f4xx.h"
 
-const uint8_t Mascara = 0b011;
-
 uint8_t contador;
+
+const uint8_t Mascara = 0b011;
 
 const uint8_t BinarioLed[4]=
 {
