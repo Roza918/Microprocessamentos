@@ -1,8 +1,18 @@
-//Rafael.V.Volkmer (4324); N° 21
+//Rafael.V.Volkmer (4324); N° 21 - 05/03
 
 #include "stm32f4xx.h"
 
+const uint8_t Mascara = 0b011;
+
 uint8_t contador;
+
+const uint8_t BinarioLed[4]
+{
+      0b000,
+      0b001,
+      0b011,
+      0b111
+}
 
 int main(void)
 {
@@ -11,41 +21,23 @@ int main(void)
   RCC->AHB1ENR|=RCC_AHB1ENR_GPIOBEN | RCC_AHB1ENR_GPIOCEN;
   
   //Zerando os pinos de C
-  GPIOC->MODER&=~(GPIO_MODER_MODER1 | GPIO_MODER_MODER2 | GPIO_MODER_MODER3);
-  //Saídas PC1 PC2 e PC3
-  GPIOC->MODER|=GPIO_MODER_MODER1_0 | GPIO_MODER_MODER2_0 |  GPIO_MODER_MODER3_0;
+  GPIOC->MODER&=~(GPIO_MODER_MODER0 | GPIO_MODER_MODER1 | GPIO_MODER_MODER2);
+  //Saídas PC0 PC1 e PC2
+  GPIOC->MODER|=GPIO_MODER_MODER0_0 | GPIO_MODER_MODER1_0 |  GPIO_MODER_MODER2_0;
   
-  //Entradas PB1 e PB2
-  GPIOB->MODER&=~(GPIO_MODER_MODER1 | GPIO_MODER_MODER2);
+  //Entradas PB0 e PB1
+  GPIOB->MODER&=~(GPIO_MODER_MODER0 | GPIO_MODER_MODER1);
   
   //Zerando PULL-DOWNS
-  GPIOB->PUPDR&=~(GPIO_PUPDR_PUPDR1 | GPIO_PUPDR_PUPDR2);
-  //PB1 e PB2 são PULL-DOWNS
-  GPIOB->PUPDR|=GPIO_PUPDR_PUPDR1_1 | GPIO_PUPDR_PUPDR2_1;
+  GPIOB->PUPDR&=~(GPIO_PUPDR_PUPDR0 | GPIO_PUPDR_PUPDR1);
+  //PB0 e PB1 são PULL-DOWNS
+  GPIOB->PUPDR|=GPIO_PUPDR_PUPDR0_1 | GPIO_PUPDR_PUPDR1_1;
 
     while (1)
    {
-      contador=GPIOB->IDR & 0b0110;
-      contador = contador >>1;
-
-         switch(contador)
-           {
-
-              case 1:
-                GPIOC->ODR=0b010;
-                    break;
-
-              case 2:
-                GPIOC->ODR=0b110;
-                    break;
-
-              case 3:
-                 GPIOC->ODR=0b1110;
-                    break;
-                    
-             default:
-                  GPIOC->ODR=0b0;
-
-           }
+      contador=GPIOB->IDR & mascara;
+      
+      GPIOC->ODR=BinarioLed[contador];
+         
   }
 }
