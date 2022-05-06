@@ -6,11 +6,11 @@ const uint8_t Mascara = 0b01;
 
 uint16_t contador;
 
-const uint8_t LigaOuDesliga[2]
+const uint8_t LigaOuDesliga[2]=
 {
 	0b00 //desliga
 	0b01 //Liga
-}
+};
 
 int main(void)
 {
