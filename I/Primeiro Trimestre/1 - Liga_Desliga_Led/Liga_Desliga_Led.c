@@ -1,4 +1,4 @@
-//Rafael.V.Volkmer (4324); N°21 - 06/05/2022.
+///Rafael.V.Volkmer (4324); N°21 - 06/05/2022.
 
 #include "stm32f4xx.h"
 
@@ -43,3 +43,6 @@ int main(void)
 		//GPIOC->ODR=~LigaOuDesliga[contador];
 
        }
+}
+
+
