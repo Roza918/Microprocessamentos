@@ -121,8 +121,8 @@ int main(void)
 	 	 	 	GPIOC->ODR=Display.O;
 	 	 	}
 	 	 		else{
-	 	 			GPIOB->ODR=0b00;
-	 	 			GPIOC->ODR=0b00;
+	 	 			GPIOB->ODR=Display.Apaga;
+	 	 			GPIOC->ODR=Display.Apaga;
 	 	 		}
   }
 
