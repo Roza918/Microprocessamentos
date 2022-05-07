@@ -1,7 +1,7 @@
 //Rafael.V.Volkmer (4324); Nº21. - 06/05/2022.
 
 #include "stm32f4xx.h"
-	
+
 uint8_t contador;
 
 const uint8_t mascara = 0b0111;
@@ -22,7 +22,7 @@ int main(void)
 {
 
 	// Habilita clock dos registradores B e C
-	RCC->AHBE1NR|=RCC_AHB1ENR_GPIOBEN | RCC_AHB1ENR_GPIOCEN;
+	RCC->AHB1ENR|=RCC_AHB1ENR_GPIOBEN | RCC_AHB1ENR_GPIOCEN;
 
 	//Zerando os pinos B
 	GPIOB->MODER&=~(GPIO_MODER_MODER0 | GPIO_MODER_MODER1 | GPIO_MODER_MODER2);
@@ -37,16 +37,16 @@ int main(void)
 	//Entradas - PC0, PC1, PC2 são PULL DOWN
 	GPIOC->PUPDR|=GPIO_PUPDR_PUPDR0_1 | GPIO_PUPDR_PUPDR1_1 | GPIO_PUPDR_PUPDR2_1;
 
-	
+
 
 		while (1)
   	  {
 
 		contador=GPIOC->IDR & mascara; //Mascara IDR com as entradas PC0, PC1, PC2
 
-		GPIOB->ODR=CorDoLed[contador];			  	  	  	 
+		GPIOB->ODR=CorDoLed[contador];
 
   	  }
-
 }
+
 
