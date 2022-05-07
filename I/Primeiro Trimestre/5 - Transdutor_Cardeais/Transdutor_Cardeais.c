@@ -59,7 +59,7 @@ int main(void)
 	Display.Apaga = 0b00000000;
 	Display.N = 0b00110111;
 	Display.S = 0b01101101;
-	Display.E = 0b00111000;
+	Display.E = 0b01111001;
 	Display.O = 0b00111111;
 
 	//Declarando variáveis de entrada.
@@ -127,3 +127,4 @@ int main(void)
   }
 
 }
+
