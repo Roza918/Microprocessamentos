@@ -4,7 +4,7 @@
 
 uint8_t contador;
 
-#define mascara = 0b011;
+#define mascara = 0b011
 
 const uint8_t BinarioLed[4]=
 {
