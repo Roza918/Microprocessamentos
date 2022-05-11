@@ -4,7 +4,7 @@
 
 uint16_t contador;
 
-const uint8_t Mascara = 0b01;
+#define mascara = 0b01;
 
 const uint8_t LigaOuDesliga[2]=
 {
@@ -34,7 +34,7 @@ int main(void)
 
         while (1)
        {
-          	contador=GPIOB->IDR & Mascara; //Mascara com PB0
+          	contador=GPIOB->IDR & mascara; //Mascara com PB0
 
 		//Se quiser que o led ligue quando for apertado o botão.
 		GPIOC->ODR=LigaOuDesliga[contador];
