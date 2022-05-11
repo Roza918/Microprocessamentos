@@ -78,7 +78,7 @@ int main(void)
    	   	   	   		   	   break;
    	   	   	   	   case ENE:
    	   	   	   		   GPIOB->ODR=e;
-   	   	   	   		   GPIOC->ODR=n| (e<<DisplayC2);
+   	   	   	   		   GPIOC->ODR=n | (e<<DisplayC2);
    	   	   	   		   	   break;
    	   	   	   	   case NE:
    	   	   	   		   GPIOB->ODR=n;
