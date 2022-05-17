@@ -4,7 +4,7 @@
 
 uint16_t contador;
 
-const uint8_t = 0b01
+const uint8_t = 0b01;
 
 const uint8_t LigaOuDesliga[2]=
 {
