@@ -4,7 +4,7 @@
 
 uint8_t contador;
 
-#define mascara = 0b0111
+const uint8_t = 0b0111
 
 const uint8_t CorDoLed[8]=
 		{
