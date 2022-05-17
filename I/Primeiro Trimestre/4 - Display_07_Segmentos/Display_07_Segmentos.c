@@ -4,7 +4,7 @@
 
 uint16_t contador;
 
-#define mascara = 0b00001111
+const uint8_t mascara = 0b00001111;
 
 const uint16_t DisplayHexa[16]=
  {
