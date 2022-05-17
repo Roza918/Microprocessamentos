@@ -4,7 +4,7 @@
 
 uint8_t contador;
 
-#define mascara 0b11110000;
+const uint8_t = mascara 0b11110000;
 
 //     0   1   2  3   4  5  6  7   9  10 11 12 13 14 15  16
 enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
