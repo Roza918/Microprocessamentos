@@ -29,6 +29,7 @@ enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
 //Variável para bifshift de controle do DisplayC2
 #define DisplayC2 7
 
+```
 int main(void)
 {
 
@@ -136,6 +137,7 @@ int main(void)
    	   	  }
   	  }
 }
+```
 
 # Circuito Funcionando:
 [Link para um vídeo com o circuito funcionando](https://youtu.be/4P4yPC849So) — na falta do transdutor, foi utilizado um dipswitch de 4 chaves, para simular as 4 entradas.
