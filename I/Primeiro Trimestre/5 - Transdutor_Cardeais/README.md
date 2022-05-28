@@ -8,6 +8,7 @@
 ![Esquemático](https://i.imgur.com/UaYZl3P.png)
 # EXPLICANDO O CÓDIGO
 
+### Inplementação de variáveis globais:
 ```
 uint8_t contador;
 ```
@@ -28,7 +29,7 @@ enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
 ```
 #define DisplayC2 7
 ```
-
+### Ativação de clock e definição de pinos:
 ```
 		RCC->AHB1ENR|=RCC_AHB1ENR_GPIOAEN | RCC_AHB1ENR_GPIOBEN | RCC_AHB1ENR_GPIOCEN;
 ```
@@ -59,6 +60,7 @@ enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
 		
 		GPIOA->PUPDR|=GPIO_PUPDR_PUPDR4_1 | GPIO_PUPDR_PUPDR5_1 | GPIO_PUPDR_PUPDR6_1 | GPIO_PUPDR_PUPDR7_1;
 ```
+### Laço de repetição principal:
 ```
   	  while (1)
   {
@@ -70,6 +72,7 @@ enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
   		  	  GPIOB->ODR=apaga;
   		  	  GPIOC->ODR=apaga;
 ```
+### Controle de saídas em função de entradas:
 ```
    	   switch(contador)
    	   {
