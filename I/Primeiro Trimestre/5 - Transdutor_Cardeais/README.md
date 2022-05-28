@@ -6,3 +6,6 @@
 > A carcaça do transdutor está conectado ao Terra, portanto, cuidado para não curtocircuitar a fonte.
 # ESQUEMÁTICO DO CIRCUITO
 ![Esquemático](https://i.imgur.com/UaYZl3P.png)
+
+### Circuito Funcionado:
+https://youtu.be/4P4yPC849So
