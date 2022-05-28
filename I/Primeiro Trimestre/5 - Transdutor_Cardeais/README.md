@@ -9,3 +9,5 @@
 # EXPLICANDO O CÓDIGO
 # Circuito Funcionando:
 [Link para um vídeo com o circuito funcionando](https://youtu.be/4P4yPC849So)
+
+> @Rafael.V.Volkmer | @ImZadoc | 10/05/2022 |
