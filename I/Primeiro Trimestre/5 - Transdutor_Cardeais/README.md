@@ -8,6 +8,7 @@
 ![Esquemático](https://i.imgur.com/UaYZl3P.png)
 # EXPLICANDO O CÓDIGO
 
+```
 #include "stm32f4xx.h"
 
 uint8_t contador;
@@ -29,7 +30,6 @@ enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
 //Variável para bifshift de controle do DisplayC2
 #define DisplayC2 7
 
-```
 int main(void)
 {
 
