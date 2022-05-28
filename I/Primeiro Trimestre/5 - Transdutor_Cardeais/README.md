@@ -7,5 +7,5 @@
 # ESQUEMÁTICO DO CIRCUITO
 ![Esquemático](https://i.imgur.com/UaYZl3P.png)
 
-###### Circuito Funcionado:
+# Circuito Funcionado:
 [Link para um vídeo com o circuito funcionando](https://youtu.be/4P4yPC849So)
