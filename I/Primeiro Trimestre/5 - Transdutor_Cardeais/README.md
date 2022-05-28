@@ -8,7 +8,7 @@
 ![Esquemático](https://i.imgur.com/UaYZl3P.png)
 # EXPLICANDO O CÓDIGO
 # Circuito Funcionando:
-[Link para um vídeo com o circuito funcionando](https://youtu.be/4P4yPC849So) — na falta do transdutor, foi utilizado um dipswitch de 4 chaves, para simular as 4 entradas).
+[Link para um vídeo com o circuito funcionando](https://youtu.be/4P4yPC849So) — na falta do transdutor, foi utilizado um dipswitch de 4 chaves, para simular as 4 entradas.
 
 
 
