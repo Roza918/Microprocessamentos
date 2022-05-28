@@ -9,5 +9,6 @@
 # EXPLICANDO O CÓDIGO
 # Circuito Funcionando:
 [Link para um vídeo com o circuito funcionando](https://youtu.be/4P4yPC849So)
+- Na falta do transdutor, foi utilizado um dipswitch de 4 chaves, para simular as 4 entradas.
 
 > @Rafael.V.Volkmer | @ImZadoc | 10/05/2022 |
