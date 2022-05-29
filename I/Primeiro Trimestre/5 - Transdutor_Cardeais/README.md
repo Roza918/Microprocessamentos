@@ -74,8 +74,6 @@ enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
 ```
 ### Controle de saídas em função de entradas:
 ```
-   	   switch(contador)
-   	   {
    	   	   	   	   case N:
    	   	   	   		   GPIOB->ODR=n;
    	   	   	   		   	   break;
@@ -83,66 +81,10 @@ enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
    	   	   	   		   GPIOB->ODR=n;
    	   	   	   		   GPIOC->ODR=n | (e<<DisplayC2);
    	   	   	   		   	   break;
-   	   	   	   	   case NNO:
-   	   	   	   		   GPIOB->ODR=n;
-   	   	   	   		   GPIOC->ODR=n | (o<<DisplayC2);
-   	   	   	   		   	   break;
    	   	   	   	   case NO:
    	   	   	   		   GPIOB->ODR=n;
    	   	   	   		   GPIOC->ODR=o;
-   	   	   	   		   	   break;
-   	   	   	   	   case ENE:
-   	   	   	   		   GPIOB->ODR=e;
-   	   	   	   		   GPIOC->ODR=n | (e<<DisplayC2);
-   	   	   	   		   	   break;
-   	   	   	   	   case NE:
-   	   	   	   		   GPIOB->ODR=n;
-   	   	   	   		   GPIOC->ODR=e;
-   	   	   	   		   	   break;
-   	   	   	   	   case E:
-   	   	   	   		   GPIOB->ODR=e;
-   	   	   	   		   	   break;
-   	   	   	   	   case ESE:
-   	   	   	   		   GPIOB->ODR=e;
-   	   	   	   		   GPIOC->ODR=s | (e<<DisplayC2);
-   	   	   	   		   	   break;
-   	   	   	   	   case OSO:
-   	   	   	   		   GPIOB->ODR=o;
-   	   	   	   		   GPIOC->ODR=s | (o<<DisplayC2);
-   	   	   	   		   	   break;
-   	   	   	   	   case SO:
-   	   	   	   		   GPIOB->ODR=s;
-   	   	   	   		   GPIOC->ODR=o;
-   	   	   	   		   	   break;
-   	   	   	   	   case O:
-   	   	   	   		   GPIOB->ODR=o;
-   	   	   	   		   	   break;
-   	   	   	   	   case ONO:
-   	   	   	   		   GPIOB->ODR=o;
-   	   	   	   		   GPIOC->ODR=n | (o<<DisplayC2);
-   	   	   	   		   	   break;
-   	   	   	   	   case S:
-   	   	   	   		   GPIOB->ODR=s;
-   	   	   	   		   	   break;
-   	   	   	   	   case SSO:
-   	   	   	   		   GPIOB->ODR=s;
-   	   	   	   		   GPIOC->ODR=s | (o<<DisplayC2);
-   	   	   	   		   	   break;
-   	   	   	   	   case SSE:
-   	   	   	   		   GPIOB->ODR=s;
-   	   	   	   		   GPIOC->ODR=s | (e<<DisplayC2);
-   	   	   	   		   	   break;
-   	   	   	   	   case SE:
-   	   	   	   		   GPIOB->ODR=s;
-   	   	   	   		   GPIOC->ODR=e;
-   	   	   	   		   	   break;
-   	   	   	   	  default:
-   	   	   	   		  GPIOB->ODR=apaga;
-				  	  GPIOC->ODR=apaga;
-				  	  	 	break;
-   	   	  }
-  	  }
-}
+   	   	   	   		   	   break;	   	   	   
 ```
 
 # Circuito Funcionando:
