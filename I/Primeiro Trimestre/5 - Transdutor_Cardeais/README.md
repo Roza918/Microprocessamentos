@@ -1,5 +1,5 @@
 # O QUE FOI PROPOSTO:
-- Criar um código que exiba os as letras dos pontos cardeais, em 3 displays de 7 segmentos, de acordo com as saídas do transdutor.
+- Criar um código que exiba as letras dos pontos cardeais, em 3 displays de 7 segmentos, de acordo com as saídas do transdutor.
 
 ### Transdutor:
 ![Transdutor](https://i.imgur.com/MxGbQ1l.png)
