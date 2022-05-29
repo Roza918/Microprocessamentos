@@ -77,14 +77,16 @@ enum {N=0,NNE,NNO,NO,ENE,NE,E,ESE,OSO,SO,O,ONO,S,SSO,SSE,SE};
    	   	   	   	   case N:
    	   	   	   		   GPIOB->ODR=n;
    	   	   	   		   	   break;
-						   ```
-						   ```
+```
+
+```
    	   	   	   	   case NNE:
    	   	   	   		   GPIOB->ODR=n;
    	   	   	   		   GPIOC->ODR=n | (e<<DisplayC2);
    	   	   	   		   	   break;
-						   ```
-						   ```
+```
+
+```
    	   	   	   	   case NO:
    	   	   	   		   GPIOB->ODR=n;
    	   	   	   		   GPIOC->ODR=o;
