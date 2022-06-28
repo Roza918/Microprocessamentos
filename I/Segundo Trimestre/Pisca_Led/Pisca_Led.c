@@ -40,6 +40,6 @@ int main(void)
 	  GPIOA->ODR = EstadoDoLed[tempo];
 	  
 	  //Zerando o bit de estouro do TIMER10
-	  TIM10->SR &=~ falg;
+	  TIM10->SR &=~ flag;
   }
 }
