@@ -1,6 +1,8 @@
 #include "stm32f4xx.h"
 
 uint8_t tempo;
+uint8_t flag = TIM_SR_UIF;
+uint8_t habilitado = TIM_CR1_CEN;
 
 //Definindo 4hz como frequência do CNT
 //Tr = Tck_int * (PSC+1) * (ARR+1) | Tck_int = 16khz
@@ -28,16 +30,16 @@ int main(void)
 	TIM10->ARR = FrequenciaARR;
 	
 	//Habilitando contagem do TIMER10
-	TIM10->CR1 = TIM_CR1_CEN;
+	TIM10->CR1 = habilitado;
 
   while (1)
   {
 	  //Mascara com o bit de estouro do TIMER10
-	  tempo = TIM10->SR & TIM_SR_UIF;
+	  tempo = TIM10->SR & flag;
 
 	  GPIOA->ODR = EstadoDoLed[tempo];
 	  
 	  //Zerando o bit de estouro do TIMER10
-	  TIM10->SR &=~ TIM_SR_UIF;
+	  TIM10->SR &=~ falg;
   }
 }
