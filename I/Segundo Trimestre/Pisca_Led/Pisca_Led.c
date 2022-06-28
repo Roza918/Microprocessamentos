@@ -7,10 +7,10 @@ uint8_t tempo;
 #define FrequenciaPSC (4000-1)
 #define FrequenciaARR (1000-1)
 
-const int vet[2]=
+const int EstadoDoLed[2]=
 {
-		0b00000000,
-		0b01000000
+		0b00000000, //Desligado
+		0b01000000  //Ligado
 };
 
 int main(void)
@@ -35,7 +35,7 @@ int main(void)
 	  //Mascara com o bit de estouro do TIMER10
 	  tempo = TIM10->SR & TIM_SR_UIF;
 
-	  GPIOA->ODR = vet[tempo];
+	  GPIOA->ODR = EstadoDoLed[tempo];
 	  
 	  //Zerando o bit de estouro do TIMER10
 	  TIM10->SR &=~ TIM_SR_UIF;
