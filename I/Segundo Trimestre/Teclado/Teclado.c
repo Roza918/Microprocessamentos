@@ -9,6 +9,8 @@ uint8_t teclas;
 uint8_t teclas_sustenidas;
 uint8_t nota;
 
+enum {DO=1,RE=2,MI=4,FA=8,SOL=16,LA=32,SI=64};
+
 void chaveamento()
 {
 	if (teclas)
@@ -94,31 +96,31 @@ int main(void)
 
 		 switch(teclas)
 		 {
-		  	  case 1:
+		  	  case DO:
 		  		nota=1;
 		  		    break;
 
-		  	 case 2:
+		  	 case RE:
 		  		nota=1;
 		  			break;
 
-		  	 case 4:
+		  	 case MI:
 		  		nota=1;
 		  			break;
 
-		  	 case 8:
+		  	 case FA:
 		  		nota=1;
 		  			break;
 
-		  	 case 16:
+		  	 case SOL:
 		  		nota=1;
 		  			break;
 
-		  	 case 32:
+		  	 case LA:
 		  		nota=1;
 		  			break;
 
-		  	 case 64:
+		  	 case SI:
 		  		nota=1;
 		  			break;
 
