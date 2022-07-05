@@ -11,6 +11,7 @@ uint8_t teclas_sustenidas;
 uint8_t nota;
 
 enum {DO=1,RE,MI=4,FA=8,SOL=16,LA=32,SI=64};
+enum {DOs=1,REs,MIs=4,FAs=8,SOLs=16,LAs=32,SIs=64};
 
 //Função para ativar saída com o botão pressionado
 void chaveamento()
@@ -101,7 +102,7 @@ int main(void)
 		 switch(teclas)
 		 {
 		  	  case DO:
-		  		nota=1;
+		  		nota=1; //*calcular frequências em ARR para chegar nas notas
 		  		    break;
 
 		  	 case RE:
@@ -135,31 +136,31 @@ int main(void)
 
 		 switch(teclas_sustenidas)
 		 {
-		 		  	 case DO:
+		 		  	 case DOs:
 		 		  		nota=1;
 		 		  		    break;
 
-		 		  	 case RE:
+		 		  	 case REs:
 		 		  		nota=1;
 		 		  			break;
 
-		 		  	 case MI:
+		 		  	 case MIs:
 		 		  		nota=1;
 		 		  			break;
 
-		 		  	 case FA:
+		 		  	 case FAs:
 		 		  		nota=1;
 		 		  			break;
 
-		 		  	 case SOL:
+		 		  	 case SOLs:
 		 		  		nota=1;
 		 		  			break;
 
-		 		  	 case LA:
+		 		  	 case LAs:
 		 		  		nota=1;
 		 		  			break;
 
-		 		  	 case SI:
+		 		  	 case SIs:
 		 		  		nota=1;
 		 		  			break;
 
