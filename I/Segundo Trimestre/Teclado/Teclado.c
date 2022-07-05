@@ -1,3 +1,4 @@
+//Rafael V. Volkmer - 4324 / N°21 | Teclado Musical
 #include "stm32f4xx.h"
 
 #define FrequenciaPSC (4000-1)
@@ -9,8 +10,9 @@ uint8_t teclas;
 uint8_t teclas_sustenidas;
 uint8_t nota;
 
-enum {DO=1,RE=2,MI=4,FA=8,SOL=16,LA=32,SI=64};
+enum {DO=1,RE,MI=4,FA=8,SOL=16,LA=32,SI=64};
 
+//Função para ativar saída com o botão pressionado
 void chaveamento()
 {
 	if (teclas)
@@ -87,9 +89,11 @@ int main(void)
 
   while (1)
   {
+	  //Mascaramentos
 	  teclas = GPIOC->IDR & mascara;
 	  teclas_sustenidas = GPIOB->IDR & mascara;
 	  tempo = TIM10->SR & TIM_SR_UIF;
+	  
 	  nota = TIM10->ARR;
 
 	  chaveamento();
@@ -129,6 +133,40 @@ int main(void)
 		  		  	break;
 		 }
 
+		 switch(teclas_sustenidas)
+		 {
+		 		  	 case DO:
+		 		  		nota=1;
+		 		  		    break;
+
+		 		  	 case RE:
+		 		  		nota=1;
+		 		  			break;
+
+		 		  	 case MI:
+		 		  		nota=1;
+		 		  			break;
+
+		 		  	 case FA:
+		 		  		nota=1;
+		 		  			break;
+
+		 		  	 case SOL:
+		 		  		nota=1;
+		 		  			break;
+
+		 		  	 case LA:
+		 		  		nota=1;
+		 		  			break;
+
+		 		  	 case SI:
+		 		  		nota=1;
+		 		  			break;
+
+		 		  	  default:
+		 		  		  nota=0;
+		 		  		  	break;
+		 }
 
   }
 }
