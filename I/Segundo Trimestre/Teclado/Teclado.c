@@ -2,10 +2,12 @@
 
 #define FrequenciaPSC (4000-1)
 #define FrequenciaARR (1000-1)
+#define mascara 0b11111111
 
 uint8_t tempo;
-uint16_t teclas;
-uint16_t nota;
+uint8_t teclas;
+uint8_t teclas_sustenidas;
+uint8_t nota;
 
 void chaveamento()
 {
@@ -22,13 +24,57 @@ void chaveamento()
 
 int main(void)
 {
+
 	//Ativando clock GPIOA e TIMER10
 	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN;
 	RCC->APB2ENR |= RCC_APB2ENR_TIM10EN;
 
-	//Zerando e definindo PA6 como saída
-	GPIOA->MODER &=~ GPIO_MODER_MODER6 | GPIO_MODER_MODER7;
-	GPIOA->MODER |= GPIO_MODER_MODER6_0 | GPIO_MODER_MODER7_0;
+	//PINOS GPIOC - ENTRADAS DAS NOTAS NORMAIS.
+	GPIOC->MODER &=~
+		(
+			GPIO_MODER_MODER0 |
+			GPIO_MODER_MODER1 |
+			GPIO_MODER_MODER2 |
+			GPIO_MODER_MODER3 |
+			GPIO_MODER_MODER4 |
+			GPIO_MODER_MODER5 |
+			GPIO_MODER_MODER6
+		);
+
+	GPIOC->MODER |=
+
+			GPIO_MODER_MODER1_0 |
+			GPIO_MODER_MODER2_0 |
+			GPIO_MODER_MODER3_0 |
+			GPIO_MODER_MODER4_0 |
+			GPIO_MODER_MODER5_0 |
+			GPIO_MODER_MODER6_0 |
+			GPIO_MODER_MODER7_0;
+
+	//PINOS GPIO=B - ENTRADAS DAS NOTAS SUSTENIDAS.
+	GPIOB->MODER &=~
+		(
+			GPIO_MODER_MODER0 |
+			GPIO_MODER_MODER1 |
+			GPIO_MODER_MODER2 |
+			GPIO_MODER_MODER3 |
+			GPIO_MODER_MODER4 |
+			GPIO_MODER_MODER5 |
+			GPIO_MODER_MODER6
+		);
+
+		GPIOB->MODER |=
+
+			GPIO_MODER_MODER1_0 |
+			GPIO_MODER_MODER2_0 |
+			GPIO_MODER_MODER3_0 |
+			GPIO_MODER_MODER4_0 |
+			GPIO_MODER_MODER5_0 |
+			GPIO_MODER_MODER6_0 |
+			GPIO_MODER_MODER7_0;
+
+	//SAÍDA DO SOM - PA7.
+	GPIOA->MODER &=~ GPIO_MODER_MODER7;
 
 	//Definindo frequências para o TIMER10
 	TIM10->PSC = FrequenciaPSC;
@@ -39,7 +85,8 @@ int main(void)
 
   while (1)
   {
-	  teclas = GPIOA->IDR & GPIO_IDR_IDR_6;
+	  teclas = GPIOC->IDR & mascara;
+	  teclas_sustenidas = GPIOB->IDR & mascara;
 	  tempo = TIM10->SR & TIM_SR_UIF;
 	  nota = TIM10->ARR;
 
@@ -47,10 +94,39 @@ int main(void)
 
 		 switch(teclas)
 		 {
-		  case 1:
-			  nota=1;
-			  break;
+		  	  case 1:
+		  		nota=1;
+		  		    break;
+
+		  	 case 2:
+		  		nota=1;
+		  			break;
+
+		  	 case 4:
+		  		nota=1;
+		  			break;
+
+		  	 case 8:
+		  		nota=1;
+		  			break;
+
+		  	 case 16:
+		  		nota=1;
+		  			break;
+
+		  	 case 32:
+		  		nota=1;
+		  			break;
+
+		  	 case 64:
+		  		nota=1;
+		  			break;
+
+		  	  default:
+		  		  nota=0;
+		  		  	break;
 		 }
 
 
   }
+}
