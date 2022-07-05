@@ -1,13 +1,24 @@
 #include "stm32f4xx.h"
 
+#define FrequenciaPSC (4000-1)
+#define FrequenciaARR (1000-1)
+
 uint8_t tempo;
 uint16_t teclas;
 uint16_t nota;
 
-//Definindo 4hz como frequência do CNT
-//Tr = Tck_int * (PSC+1) * (ARR+1) | Tr = 16khz
-#define FrequenciaPSC (4000-1)
-#define FrequenciaARR (1000-1)
+void chaveamento()
+{
+	if (teclas)
+			 {
+				 if (TIM10->SR & TIM_SR_UIF)
+				 {
+					GPIOA->ODR^=GPIO_ODR_ODR_7;
+				 }
+			 }
+			 else
+					GPIOA->ODR&=~GPIO_ODR_ODR_7;
+}
 
 int main(void)
 {
@@ -32,6 +43,8 @@ int main(void)
 	  tempo = TIM10->SR & TIM_SR_UIF;
 	  nota = TIM10->ARR;
 
+	  chaveamento();
+
 		 switch(teclas)
 		 {
 		  case 1:
@@ -39,14 +52,5 @@ int main(void)
 			  break;
 		 }
 
-		 if (teclas)
-		 {
-			 if (TIM10->SR & TIM_SR_UIF)
-			 {
-				GPIOA->ODR^=GPIO_ODR_ODR_7;
-			 }
-		 }
-		 else
-				GPIOA->ODR&=~GPIO_ODR_ODR_7;
+
   }
-}
