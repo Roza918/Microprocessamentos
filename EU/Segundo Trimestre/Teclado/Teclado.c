@@ -1,4 +1,5 @@
 //Rafael V. Volkmer - 4324 / N°21 | Teclado Musical
+//Fork com pequenas modificações por Gabriel Roza 
 #include "stm32f4xx.h"
 #include <math.h>
 
